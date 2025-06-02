@@ -1,72 +1,94 @@
 ## 🛡️ SentinelIT – Military-Grade AI Cybersecurity Suite
+# 🛡️ SentinelIT – The Future of Autonomous Cybersecurity Defense
 
-**SentinelIT** is not just software. It’s a fully automated, military-grade cybersecurity ecosystem that detects, reacts, and defeats the most advanced threats — before a human even blinks.
+**SentinelIT** is a proprietary, military-grade cybersecurity framework engineered to deliver unmatched protection, automation, and intelligence across enterprise environments.
 
----
-
-## 🚀 Why SentinelIT Is Unmatched
-
-✅ **Triple OTP Access Approval**  
-Access requires 3 real-time executive approvals. Even root/admin is locked down.
-
-✅ **PowerShell & CMD Lockdown with Webcam Trap**  
-Auto-denies terminals, triggers stealth webcam if tampered.
-
-✅ **Real-Time USB & Insider Threat Detection**  
-Every insert triggers live alerts and can isolate the device.
-
-✅ **Honeypot + Lookup Decoys**  
-Fools hackers with fake credentials while tracing them live.
-
-✅ **AI Threat DNA & Code Similarity Scan**  
-Zero-day or copycat? We detect malicious patterns instantly.
-
-✅ **Self-Quarantine & Backup Engine**  
-Detected risks are backed up, then sealed off instantly.
-
-✅ **Live Email, Clipboard & URL Surveillance**  
-Detects phishing links, captures copy-paste abuse in real time.
-
-✅ **Stealth Camera Login + Print Monitoring**  
-Everything is watched, nothing escapes SentinelIT.
-
-✅ **Modular Engine Inspired by Grok, Tines, Torq, Elastic SIEM, Intezer... then pushed further.**
+Designed for critical infrastructure, government systems, and high-risk networks, SentinelIT redefines defense with unmatched modular depth, stealth analytics, and zero-trust enforcement.
 
 ---
 
-## 🧠 Built For:
+## 🔐 Key Capabilities
 
-- Governments  
-- Enterprises  
-- Digital Forensics  
-- Cybersecurity Hunters  
-- Secure R&D Labs
+- **Triple OTP Remote Access Authorization**  
+  ➤ Requires secure input from 3 executives before access is granted (with duress code traps)
 
----
+- **PowerShell & CMD Lockdown**  
+  ➤ Disabled by default for all users; only admin can access with verified triple-OTP authorization
 
-## 📦 Modules
+- **Stealth Camera Capture**  
+  ➤ Automatically captures photo/video when unauthorized access or CMD/PowerShell is attempted
 
-| Module | Description |
-|--------|-------------|
-| `main.py` | Central orchestrator |
-| `authlock.py` | Triple OTP engine |
-| `stealthcam.py` | Webcam trap |
-| `dnswatch.py` | DNS tampering guard |
-| `mailwatch.py` | Email/clipboard spy |
-| `patternengine.py` | AI pattern detection |
-| `policyengine.py` | Adaptive enforcement |
-| `patchcheck_v2.py` | CVE/vulnerability scan |
-| `quarantine_engine.py` | Auto backup + isolation |
-| ... | + 15 more modules |
+- **Malicious Behavior Quarantine Engine**  
+  ➤ AI-based detection of code patterns triggers isolation before damage occurs
 
----
+- **User ID Obfuscation**  
+  ➤ Prevents predictable user ID enumeration and internal privilege escalation
 
-## 💬 Contact
-For licensing, demos or partnerships:
+- **Fake Data Trap & Lookup Decoys**  
+  ➤ Deceives intruders with believable, false targets and logs attacker behavior
 
-📧 `james.zulu@diakriszuluinvestmentsprojects.co.za`  
-🌐 [Coming Soon] SentinelIT Official Site
+- **Live Notifications**  
+  ➤ Alerts routed instantly to security personnel via email/SMS
+
+- **Auto Backup + Quarantine Mode**  
+  ➤ If triggered, SentinelIT locks data and transfers to secure isolated storage
+
+- **System-Wide Monitoring**  
+  ➤ Tracks logins, print activity, clipboard usage, emails, links, insider behavior, USB insertions, and more
 
 ---
 
-> “If SentinelIT is watching, nothing escapes.”  
+## 📦 Modules Included
+
+- `main.py` – Orchestrator and execution logic
+- `policyengine.py` – Protection rules and logic enforcement
+- `patchcheck_v2.py` – Offline CVE/patch vulnerability scanner
+- `dnswatch.py` – Detects DNS spoofing and anomaly manipulation
+- `mailwatch.py` – Clipboard + email phishing link detector
+- `quarantine_engine.py` – Auto-isolates affected systems or files
+- `honeypot.py` – Fake environment for threat redirection
+- `siemcore.py` – Central intelligence + correlation analysis
+- `pluginloader.py` – Load external logic and future updates
+- `flowtrap.py` – Network flow manipulation monitoring
+- `casewatch.py` – Tracks potential compromise cases
+- `access_auth.py` – Triple OTP and executive validation
+- `usercloak.py` – Obfuscates user identifiers
+
+...and more.
+
+---
+
+## 🚀 Platform Support
+
+- ✅ **Windows 10/11 (64-bit)**
+- ✅ **Linux (Ubuntu, Debian-based)**
+- ✅ **macOS** (via Python 3.x environment)
+- ✅ Future GUI versions coming
+
+---
+
+## 🔒 Licensing
+
+**SentinelIT** is not open source. All rights reserved by:
+
+**Diakris Zulu Investments Projects**  
+📧 james.zulu@diakriszuluinvestmentsprojects.co.za  
+📧 hr@diakriszuluinvestmentsprojects.co.za  
+
+Use, duplication, distribution, or modification is strictly prohibited without formal agreement.
+
+---
+
+## 🧪 Status
+
+> ✅ Phase 1–5 Complete  
+> 🛠️ Phase 6 Underway – AI-driven orchestration and adaptive pattern matching modules in progress
+
+---
+
+## 🧠 Vision
+
+SentinelIT was built to protect systems **before they can be attacked**, using real-time visibility, deception, and multi-factor control in ways no other software can match.
+
+---
+
