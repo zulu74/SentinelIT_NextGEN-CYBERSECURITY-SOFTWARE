@@ -1,94 +1,115 @@
-## 🛡️ SentinelIT – Military-Grade AI Cybersecurity Suite
-# 🛡️ SentinelIT – The Future of Autonomous Cybersecurity Defense
+🛡️ SentinelIT – AI-Driven Cyber Defense Suite
 
-**SentinelIT** is a proprietary, military-grade cybersecurity framework engineered to deliver unmatched protection, automation, and intelligence across enterprise environments.
+SentinelIT is a next-generation cybersecurity defense system built to detect, prevent, and respond to modern cyber threats using real-time analytics, AI automation, and enterprise-grade protection modules.
 
-Designed for critical infrastructure, government systems, and high-risk networks, SentinelIT redefines defense with unmatched modular depth, stealth analytics, and zero-trust enforcement.
+🔍 Key Features
+
+🔐 Security & Detection
+
+ScanTrap – Detects active reconnaissance (Nmap, Unicorn, ZMap)
+
+BannerTrap – Identifies unauthorized banner grabbing attempts
+
+DNSWatch – Detects spoofing, tunneling, and DNS anomalies
+
+XSSWatch – Stops blind, reflected, and stored XSS injections
+
+TravelTrap – Traps phishing redirect attacks (e.g. Google /travel/clk)
+
+PatchEngine – Offline CVE scanner and patching guide
+
+PolicyEngine – Security policy compliance enforcer
+
+
+🧠 AI & Automation
+
+AI Helpdesk (GUI + CLI) – Resolves login issues, automates password resets (Active Directory-aware)
+
+ThreatDNA – Malware behavior and signature correlation
+
+PatternEngine – Analyzes behavioral anomalies and attack patterns
+
+FlowTrap & HoneyPing – Deploys honeypots and network deception
+
+CaseWatch – Incident monitoring and escalation engine
+
+
+📊 Interface & Reports
+
+Custom GUI Dashboard – Shield watermark, watermark branding, visual threat status
+
+PDF Reporting – Auto-generated SentinelIT Risk Intelligence Reports
+
+Email Alerts – For phishing, login failures, policy violations
+
+
+🏗️ Architecture
+
+SentinelIT is modular and includes over 20 Python scripts that communicate through a central orchestrator (main.py). The system is designed for:
+
+Windows and Linux environments
+
+Corporate networks and hybrid cloud setups
+
+OT/ICS protection support
+
+
+💡 Innovation Highlights
+
+Triple OTP security (executive approval-based remote access)
+
+AI-powered IT front desk automation (via ID + name match)
+
+GUI with stylized branding and auto-start support
+
+Stealth traps for common hacking tools
+
+
+🛠 Technologies Used
+
+Purpose	Tools / Libraries
+
+GUI	tkinter, Pillow
+PDF Reports	fpdf
+Email/Phishing Alerts	smtplib, ssl, email.mime
+DNS & Network Traps	socket, scapy, dnspython
+AD Password Reset	subprocess, pywin32 (Windows)
+Logging & Parsing	json, os, datetime, platform
+AI Pattern Detection	Custom logic, regex, entropy
+
+
+🚀 How to Run
+
+python main.py
+
+To run specific modules:
+
+python aihelpdesk_gui.py  # For GUI helpdesk interface
+python reportgen.py        # To generate SentinelIT Risk Intelligence PDF
+
+> ⚠️ Requires Python 3.11+ and appropriate OS-level permissions
+
+
+
 
 ---
 
-## 🔐 Key Capabilities
+🧪 Demo Video (Optional)
 
-- **Triple OTP Remote Access Authorization**  
-  ➤ Requires secure input from 3 executives before access is granted (with duress code traps)
+📺 [Upload or link here – e.g. YouTube or Loom]
 
-- **PowerShell & CMD Lockdown**  
-  ➤ Disabled by default for all users; only admin can access with verified triple-OTP authorization
+🧑‍💻 Created By
 
-- **Stealth Camera Capture**  
-  ➤ Automatically captures photo/video when unauthorized access or CMD/PowerShell is attempted
+James Zulu – System Engineer & Infrastructure Lead
+💼 https://diakriszuluinvestmentsprojects.co.za
+📧 james.zulu@diakriszuluinvestmentsprojects.co.za
 
-- **Malicious Behavior Quarantine Engine**  
-  ➤ AI-based detection of code patterns triggers isolation before damage occurs
+🔒 License
 
-- **User ID Obfuscation**  
-  ➤ Prevents predictable user ID enumeration and internal privilege escalation
+This is a confidential proprietary solution under the Diakris Zulu Cyberdefense umbrella. Unauthorized use, distribution, or reproduction is strictly prohibited.
 
-- **Fake Data Trap & Lookup Decoys**  
-  ➤ Deceives intruders with believable, false targets and logs attacker behavior
-
-- **Live Notifications**  
-  ➤ Alerts routed instantly to security personnel via email/SMS
-
-- **Auto Backup + Quarantine Mode**  
-  ➤ If triggered, SentinelIT locks data and transfers to secure isolated storage
-
-- **System-Wide Monitoring**  
-  ➤ Tracks logins, print activity, clipboard usage, emails, links, insider behavior, USB insertions, and more
 
 ---
 
-## 📦 Modules Included
-
-- `main.py` – Orchestrator and execution logic
-- `policyengine.py` – Protection rules and logic enforcement
-- `patchcheck_v2.py` – Offline CVE/patch vulnerability scanner
-- `dnswatch.py` – Detects DNS spoofing and anomaly manipulation
-- `mailwatch.py` – Clipboard + email phishing link detector
-- `quarantine_engine.py` – Auto-isolates affected systems or files
-- `honeypot.py` – Fake environment for threat redirection
-- `siemcore.py` – Central intelligence + correlation analysis
-- `pluginloader.py` – Load external logic and future updates
-- `flowtrap.py` – Network flow manipulation monitoring
-- `casewatch.py` – Tracks potential compromise cases
-- `access_auth.py` – Triple OTP and executive validation
-- `usercloak.py` – Obfuscates user identifiers
-
-...and more.
-
----
-
-## 🚀 Platform Support
-
-- ✅ **Windows 10/11 (64-bit)**
-- ✅ **Linux (Ubuntu, Debian-based)**
-- ✅ **macOS** (via Python 3.x environment)
-- ✅ Future GUI versions coming
-
----
-
-## 🔒 Licensing
-
-**SentinelIT** is not open source. All rights reserved by:
-
-**Diakris Zulu Investments Projects**  
-📧 james.zulu@diakriszuluinvestmentsprojects.co.za  
-📧 hr@diakriszuluinvestmentsprojects.co.za  
-
-Use, duplication, distribution, or modification is strictly prohibited without formal agreement.
-
----
-
-## 🧪 Status
-
-> ✅ Phase 1–5 Complete  
-> 🛠️ Phase 6 Underway – AI-driven orchestration and adaptive pattern matching modules in progress
-
----
-
-## 🧠 Vision
-
-SentinelIT was built to protect systems **before they can be attacked**, using real-time visibility, deception, and multi-factor control in ways no other software can match.
-
----
+SentinelIT – Because tomorrow’s attacks need today’s intelligence.
 
