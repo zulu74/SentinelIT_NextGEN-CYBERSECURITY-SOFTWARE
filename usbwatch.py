@@ -1,73 +1,72 @@
-
 import os
-import psutil
 import time
 import getpass
-import re
-from datetime import datetime
+import ctypes
+from win10toast import ToastNotifier
 
-# Suspicious code patterns
-suspicious_patterns = [
-    r'<script>.*?</script>',           # XSS scripts
-    r'powershell.*-enc',               # Encoded PowerShell
-    r'(Invoke-WebRequest|IEX)',        # PowerShell downloaders
-    r'cmd\.exe',                      # Direct CMD calls
-    r'(net user|net localgroup)',      # User/group enumeration
-    r'(Base64|base64)',                # Base64 content often used in payloads
-]
+# Setup notifier
+toaster = ToastNotifier()
 
-# Config
-PASSWORD = "63978zulu"
-LOG_FILE = "usb_log.txt"
-SCAN_FOLDER = "E:/"
+# USB quarantine folder
+QUARANTINE_DIR = "C:/SentinelIT_Quarantine"
+if not os.path.exists(QUARANTINE_DIR):
+    os.makedirs(QUARANTINE_DIR)
 
-def log_event(event):
-    with open(LOG_FILE, "a") as f:
-        f.write(f"{datetime.now()} - {event}\n")
+# Simulated clearance password
+CLEARANCE_PASSWORD = "63978zulu"
 
-def scan_usb(path):
-    for root, dirs, files in os.walk(path):
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+
+def scan_usb():
+    drives = [f"{d}:\" for d in "DEFGHIJKLMNOPQRSTUVWXYZ" if os.path.exists(f"{d}:\")]
+    return drives
+
+def quarantine_drive(drive):
+    os.system("taskkill /f /im explorer.exe")
+    toaster.show_toast("USB Quarantine", f"Drive {drive} quarantined.", duration=5)
+    suspicious_files = ["autorun.inf", "bootmgr.efi"]
+    for root, _, files in os.walk(drive):
         for file in files:
-            try:
-                full_path = os.path.join(root, file)
-                with open(full_path, 'r', errors='ignore') as f:
-                    content = f.read()
-                    for pattern in suspicious_patterns:
-                        if re.search(pattern, content, re.IGNORECASE):
-                            log_event(f"Suspicious pattern '{pattern}' detected in file: {full_path}")
-                            print(f"Suspicious file detected: {file}")
-            except Exception as e:
-                continue
+            if file.lower() in suspicious_files:
+                src = os.path.join(root, file)
+                dst = os.path.join(QUARANTINE_DIR, file)
+                try:
+                    os.rename(src, dst)
+                except:
+                    pass
 
-def request_password():
-    for attempt in range(3):
-        user_input = getpass.getpass("Enter password to unlock USB: ")
-        if user_input == PASSWORD:
-            print("Access granted.")
-            return True
+def unlock_drive():
+    try:
+        pwd = getpass.getpass("[USBWATCH] Enter clearance password to unlock USB: ")
+        if pwd == CLEARANCE_PASSWORD:
+            print("[USBWATCH] Access granted. Drive unlocked for use.")
+            os.system("start explorer.exe")
         else:
-            print("Incorrect password.")
-    print("Too many failed attempts. USB access denied.")
-    return False
+            print("[USBWATCH] Access denied. Wrong password.")
+    except Exception as e:
+        print(f"[USBWATCH] Password prompt failed: {e}")
 
 def monitor_usb():
-    print("Monitoring USB ports... Press Ctrl+C to stop.")
-    known_devices = set([disk.device for disk in psutil.disk_partitions()])
+    known = set(scan_usb())
+    print("[USBWATCH] Monitoring for new USB devices...")
     while True:
-        current_devices = set([disk.device for disk in psutil.disk_partitions()])
-        new_devices = current_devices - known_devices
-        if new_devices:
-            for dev in new_devices:
-                user = getpass.getuser()
-                log_event(f"USB inserted at {dev} by user {user}")
-                print(f"USB detected: {dev}. Quarantining and scanning...")
-                scan_usb(dev)
-                if request_password():
-                    print(f"{dev} unlocked for use.")
-                else:
-                    print(f"{dev} remains locked.")
-        known_devices = current_devices
         time.sleep(5)
+        current = set(scan_usb())
+        new_devices = current - known
+        if new_devices:
+            for drive in new_devices:
+                print(f"[USBWATCH] USB device detected: {drive} -> Quarantining...")
+                quarantine_drive(drive)
+                unlock_drive()
+        known = current
 
 if __name__ == "__main__":
-    monitor_usb()
+    if not is_admin():
+        print("Administrator privileges required.")
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", "python", __file__, None, 1)
+    else:
+        monitor_usb()
