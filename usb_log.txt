@@ -1,0 +1,2 @@
+2025-06-05 16:32:41.907498 - USB inserted at D:\ by user zxola
+2025-06-05 16:32:42.781762 - Suspicious pattern '(Invoke-WebRequest|IEX)' detected in file: D:\bootmgr.efi
