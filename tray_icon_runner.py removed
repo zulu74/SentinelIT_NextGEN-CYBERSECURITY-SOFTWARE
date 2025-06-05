@@ -1,6 +1,1 @@
 
-thread.start()
-
-# Start tray icon (this is what shows it!)
-icon.run()
-
