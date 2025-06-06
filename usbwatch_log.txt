@@ -1,0 +1,38 @@
+2025-06-06 07:43:52,744 - USB inserted: D:\
+2025-06-06 07:43:56,573 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:44:06,282 - Failed attempt on D:\
+2025-06-06 07:44:16,088 - Failed attempt on D:\
+2025-06-06 07:45:23,758 - Access granted to USB: D:\
+2025-06-06 07:45:27,295 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:45:33,336 - USB removed: D:\
+2025-06-06 07:45:43,360 - USB inserted: D:\
+2025-06-06 07:45:46,931 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:46:07,153 - Access granted to USB: D:\
+2025-06-06 07:46:10,814 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:48:22,492 - Monitoring stopped by user.
+2025-06-06 07:51:51,123 - USB removed: D:\
+2025-06-06 07:51:53,125 - USB inserted: D:\
+2025-06-06 07:51:56,719 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:52:13,706 - Access granted to USB: D:\
+2025-06-06 07:52:17,199 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:52:31,205 - USB removed: D:\
+2025-06-06 07:52:33,214 - USB inserted: D:\
+2025-06-06 07:52:36,757 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:52:40,150 - Monitoring stopped by user.
+2025-06-06 07:56:02,512 - USB removed: D:\
+2025-06-06 07:56:08,592 - USB inserted: D:\
+2025-06-06 07:56:12,102 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:56:29,119 - Failed attempt on D:\
+2025-06-06 07:56:47,514 - Failed attempt on D:\
+2025-06-06 07:57:08,753 - Failed attempt on D:\
+2025-06-06 07:57:12,314 - Email send failed: Connection unexpectedly closed
+2025-06-06 07:57:12,314 - Drive remains quarantined: D:\
+2025-06-06 07:57:17,483 - VIP Armor Zone activated for USB lockdown.
+2025-06-06 07:57:19,056 - Stealth photo taken.
+2025-06-06 08:02:13,423 - Monitoring stopped by user.
+2025-06-06 08:02:40,337 - USB removed: D:\
+2025-06-06 08:02:44,339 - USB inserted: D:\
+2025-06-06 08:02:47,978 - Email send failed: Connection unexpectedly closed
+2025-06-06 08:03:13,585 - Stealth photo taken.
+2025-06-06 08:03:16,804 - Windows Explorer refreshed.
+2025-06-06 08:03:32,007 - Monitoring stopped by user.
