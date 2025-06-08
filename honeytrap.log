@@ -411,3 +411,70 @@
 2025-06-05 16:02:52,471 - Honeypot active on RDP port.
 2025-06-05 16:02:53,522 - Honeypot active on Telnet port.
 2025-06-05 16:02:54,562 - Honeypot active on SMB port.
+2025-06-05 21:07:03,385 - Honeypot listening on port 21
+2025-06-05 21:07:03,400 - Honeypot listening on port 22
+2025-06-05 21:07:03,410 - Honeypot listening on port 23
+2025-06-05 21:07:03,420 - Honeypot listening on port 80
+2025-06-05 21:07:03,434 - Honeypot listening on port 443
+2025-06-05 21:07:03,547 - Honeypot listening on port 8080
+2025-06-05 21:13:22,997 - Honeypot shutting down.
+2025-06-05 21:21:14,946 - Honeypot listening on port 21
+2025-06-05 21:21:14,963 - Honeypot listening on port 22
+2025-06-05 21:21:14,969 - Honeypot listening on port 23
+2025-06-05 21:21:14,973 - Honeypot listening on port 80
+2025-06-05 21:21:14,977 - Honeypot listening on port 443
+2025-06-05 21:21:15,026 - Honeypot listening on port 8080
+2025-06-06 08:03:57,494 - Honeypot listening on port 22
+2025-06-06 08:03:57,495 - Honeypot listening on port 21
+2025-06-06 08:03:57,495 - Honeypot listening on port 23
+2025-06-06 08:03:57,495 - Honeypot listening on port 80
+2025-06-06 08:03:57,498 - Honeypot listening on port 443
+2025-06-06 08:03:57,543 - Honeypot listening on port 8080
+2025-06-06 08:04:11,370 - Honeypot shutting down.
+2025-06-06 08:04:12,275 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 08:04:12,275 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-06-06 08:06:56,937 - Honeypot listening on port 21
+2025-06-06 08:06:56,937 - Honeypot listening on port 23
+2025-06-06 08:06:56,938 - Honeypot listening on port 22
+2025-06-06 08:06:56,938 - Honeypot listening on port 80
+2025-06-06 08:06:56,939 - Honeypot listening on port 443
+2025-06-06 08:06:56,946 - Honeypot listening on port 8080
+2025-06-06 08:07:15,607 - Honeypot shutting down.
+2025-06-06 08:07:15,960 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 08:07:15,961 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-06-06 09:04:23,407 - Honeypot listening on port 23
+2025-06-06 09:04:23,408 - Honeypot listening on port 21
+2025-06-06 09:04:23,408 - Honeypot listening on port 22
+2025-06-06 09:04:23,408 - Honeypot listening on port 80
+2025-06-06 09:04:23,409 - Honeypot listening on port 443
+2025-06-06 09:04:23,447 - Honeypot listening on port 8080
+2025-06-06 09:04:38,718 - Honeypot shutting down.
+2025-06-06 09:04:39,092 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 09:04:39,093 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-06-06 09:06:21,671 - Honeypot listening on port 22
+2025-06-06 09:06:21,671 - Honeypot listening on port 21
+2025-06-06 09:06:21,672 - Honeypot listening on port 23
+2025-06-06 09:06:21,675 - Honeypot listening on port 80
+2025-06-06 09:06:21,677 - Honeypot listening on port 443
+2025-06-06 09:06:21,727 - Honeypot listening on port 8080
+2025-06-06 09:06:27,672 - Honeypot shutting down.
+2025-06-06 09:06:27,969 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 09:06:27,970 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-06-06 09:10:58,351 - Honeypot listening on port 23
+2025-06-06 09:10:58,351 - Honeypot listening on port 22
+2025-06-06 09:10:58,351 - Honeypot listening on port 21
+2025-06-06 09:10:58,351 - Honeypot listening on port 80
+2025-06-06 09:10:58,352 - Honeypot listening on port 443
+2025-06-06 09:10:58,392 - Honeypot listening on port 8080
+2025-06-06 09:11:20,368 - Honeypot shutting down.
+2025-06-06 09:11:20,624 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 09:11:20,624 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2025-06-06 22:50:25,999 - Honeypot listening on port 22
+2025-06-06 22:50:26,001 - Honeypot listening on port 21
+2025-06-06 22:50:26,007 - Honeypot listening on port 23
+2025-06-06 22:50:26,015 - Honeypot listening on port 80
+2025-06-06 22:50:26,019 - Honeypot listening on port 443
+2025-06-06 22:50:26,091 - Honeypot listening on port 8080
+2025-06-06 22:50:55,942 - Honeypot shutting down.
+2025-06-06 22:50:56,847 - Imported existing <module 'comtypes.gen' from 'C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-06-06 22:50:56,848 - Using writeable comtypes cache directory: 'C:\Users\zxola\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'

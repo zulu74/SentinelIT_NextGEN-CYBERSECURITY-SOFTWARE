@@ -1,2 +1,7 @@
 2025-06-05 16:32:41.907498 - USB inserted at D:\ by user zxola
 2025-06-05 16:32:42.781762 - Suspicious pattern '(Invoke-WebRequest|IEX)' detected in file: D:\bootmgr.efi
+[USBWATCH] Thu Jun  5 20:47:03 2025 - USB device detected: D:/
+[USBWATCH] Thu Jun  5 20:47:06 2025 - Suspicious files found on D: autorun.inf, bootmgr.efi
+Thu Jun  5 20:53:41 2025: USB Inserted: D:\
+Thu Jun  5 20:53:42 2025: Suspicious files detected on D:\: ['D:\\autorun.inf', 'D:\\bootmgr.efi']
+Thu Jun  5 20:54:01 2025: Access denied – Incorrect password.

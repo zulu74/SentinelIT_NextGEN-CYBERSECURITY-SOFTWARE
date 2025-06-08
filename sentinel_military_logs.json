@@ -1,0 +1,21 @@
+[
+    {
+        "timestamp": "2025-06-07T06:21:01.767537",
+        "entry": "\ud83d\udd30 MilitaryShield module started."
+    },
+    {
+        "timestamp": "2025-06-07T06:27:45.038424",
+        "entry": "\ud83d\udd30 MilitaryShield module started."
+    },
+    {
+        "timestamp": "2025-06-07T06:38:56.434678",
+        "entry": "\ud83d\udd30 MilitaryShield module started."
+    }
+]{"timestamp": "2025-06-07T06:45:04.030549", "entry": {"msg": "\ud83d\udea8 MilitaryShield module started."}}
+{"timestamp": "2025-06-07T06:45:04.074593", "entry": {"type": "threat_detected", "detail": "Brute force login attempt"}}
+{"timestamp": "2025-06-07T06:45:04.098947", "entry": {"type": "threat_detected", "detail": "Unusual admin login time"}}
+{"timestamp": "2025-06-07T06:45:04.116908", "entry": {"type": "threat_detected", "detail": "Process injection detected"}}
+{"timestamp": "2025-06-08T08:09:36.856781", "entry": {"msg": "\ud83d\udea8 MilitaryShield module started."}}
+{"timestamp": "2025-06-08T08:09:36.915015", "entry": {"type": "threat_detected", "detail": "Brute force login attempt"}}
+{"timestamp": "2025-06-08T08:09:36.955321", "entry": {"type": "threat_detected", "detail": "Unusual admin login time"}}
+{"timestamp": "2025-06-08T08:09:36.998860", "entry": {"type": "threat_detected", "detail": "Process injection detected"}}
