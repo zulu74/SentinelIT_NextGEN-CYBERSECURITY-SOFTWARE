@@ -1,0 +1,6 @@
+SentinelIT Risk Intelligence Report
+==================================================
+Scan Status: Completed
+Threats Detected: 2
+Quarantined Files: 1
+System Integrity: Stable

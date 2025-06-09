@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-06-06 22:50:56",
+  "vulnerability_report": [
+    {
+      "software": "Apache Struts",
+      "version": "2.3.15",
+      "cve": "CVE-2017-5638",
+      "status": "VULNERABLE",
+      "patch_required": "2.3.32"
+    },
+    {
+      "software": "OpenSSL",
+      "version": "1.0.2",
+      "cve": "CVE-2016-2107",
+      "status": "VULNERABLE",
+      "patch_required": "1.1.1"
+    },
+    {
+      "software": "Tomcat",
+      "version": "7.0.79",
+      "cve": "CVE-2017-5647",
+      "status": "VULNERABLE",
+      "patch_required": "8.5.14"
+    },
+    {
+      "software": "Ivanti EPMM",
+      "version": "11.4",
+      "cve": "CVE-2025-4427",
+      "status": "VULNERABLE",
+      "patch_required": "11.5"
+    }
+  ]
+}

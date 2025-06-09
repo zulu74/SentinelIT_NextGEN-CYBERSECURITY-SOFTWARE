@@ -1,0 +1,7 @@
+[2025-06-06 22:50:56] ⚠️ Suspicious domain keyword: login-verify-update.com contains login-verify
+[2025-06-06 22:50:56] 🚨 Malicious IP detected: 185.100.87.202 from login-verify-update.com
+[2025-06-06 22:50:56] ⚠️ Suspicious domain keyword: secure-pay.io contains secure-pay
+[2025-06-06 22:50:56] 🚨 Malicious IP detected: 172.105.15.59 from secure-pay.io
+[2025-06-06 22:50:56] 🚨 Malicious IP detected: 45.83.64.1 from cdn-update.com
+[2025-06-06 22:50:56] 🧠 Recon/Crawler trap: cdn-update.com resolved to 45.83.64.1
+[2025-06-06 22:50:56] 🚨 Malicious IP detected: 3.121.56.55 from bank.com

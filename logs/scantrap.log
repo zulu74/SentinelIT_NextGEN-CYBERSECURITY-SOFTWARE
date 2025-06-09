@@ -1,0 +1,8 @@
+[SCANTRAP] Monitoring port 22 for scan activity
+[SCANTRAP] Monitoring port 23 for scan activity
+[SCANTRAP] Monitoring port 80 for scan activity
+[SCANTRAP] Monitoring port 443 for scan activity
+[SCANTRAP] Monitoring port 445 for scan activity
+[SCANTRAP] Monitoring port 3389 for scan activity
+[2025-06-06 22:50:25] Detected suspicious scan: SYN scan
+[2025-06-06 22:50:25] Detected suspicious scan: XMAS scan

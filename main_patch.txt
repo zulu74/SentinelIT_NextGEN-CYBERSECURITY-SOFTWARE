@@ -1,0 +1,11 @@
+
+    print("\n[PHASE 4] AI Honeypot and Threat Trap Layer")
+    try:
+        import honeypot
+        import decoygen
+        import simtrap
+        honeypot.run()
+        decoygen.run()
+        simtrap.run()
+    except Exception as e:
+        print(f"[PHASE 4] ERROR: {e}")
