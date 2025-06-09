@@ -1,0 +1,19 @@
+CUSTOM LICENSE
+Copyright © 2025 Diakris Zulu Investments Projects
+
+SentinelIT – Proprietary Cybersecurity Solution
+
+All rights reserved. This software and its associated files, documentation, and concepts are the confidential intellectual property of Diakris Zulu Investments Projects.
+
+Unauthorized use, distribution, reverse-engineering, copying, or modification is strictly prohibited without written consent from:
+
+James Zulu  
+System Engineer & Infrastructure  
+📧 james.zulu@diakriszuluinvestmentsprojects.co.za  
+📧 hr@diakriszuluinvestmentsprojects.co.za  
+
+License grants, custom builds, or demos are available strictly under NDA and company verification.
+
+Use of this software implies agreement to these terms.
+
+Violations will result in legal action under international IP protection laws.
