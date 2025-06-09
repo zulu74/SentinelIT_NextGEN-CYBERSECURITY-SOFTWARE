@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-06 22:50:56",
+  "policy_assessment": {
+    "ISO 27001": {
+      "non_compliant_modules": [
+        "threatdna",
+        "risk",
+        "xsswatch"
+      ],
+      "status": "NON-COMPLIANT"
+    },
+    "NIST 800-53": {
+      "non_compliant_modules": [
+        "risk",
+        "dnswatch"
+      ],
+      "status": "NON-COMPLIANT"
+    },
+    "GDPR": {
+      "non_compliant_modules": [
+        "xsswatch",
+        "dnswatch"
+      ],
+      "status": "NON-COMPLIANT"
+    },
+    "HIPAA": {
+      "non_compliant_modules": [
+        "risk",
+        "dnswatch"
+      ],
+      "status": "NON-COMPLIANT"
+    },
+    "PCI DSS": {
+      "non_compliant_modules": [
+        "xsswatch",
+        "threatdna"
+      ],
+      "status": "NON-COMPLIANT"
+    },
+    "COBIT": {
+      "non_compliant_modules": [
+        "risk",
+        "threatdna",
+        "dnswatch"
+      ],
+      "status": "NON-COMPLIANT"
+    }
+  }
+}

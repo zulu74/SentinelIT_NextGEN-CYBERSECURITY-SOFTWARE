@@ -1,0 +1,8 @@
+[EDR-WATCH] Starting SentinelIT EDR Watchdog...
+Process: SentinelIT.exe | NOT RUNNING or BLOCKED
+Process: sentinelit_autoexec.py | NOT RUNNING or BLOCKED
+Process: militaryshield.py | NOT RUNNING or BLOCKED
+Process: usbwatch.py | NOT RUNNING or BLOCKED
+Process: clamwatch.py | NOT RUNNING or BLOCKED
+[EDR-WATCH] Watchdog scan complete.
+

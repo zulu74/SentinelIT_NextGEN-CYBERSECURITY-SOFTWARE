@@ -1,0 +1,18 @@
+{
+    "PLC-1": [
+        "HMI-1",
+        "Historian"
+    ],
+    "HMI-1": [
+        "PLC-1",
+        "Engineering Workstation"
+    ],
+    "Historian": [
+        "PLC-1",
+        "Corporate DB"
+    ],
+    "Firewall": [
+        "Engineering Workstation",
+        "Corporate DB"
+    ]
+}

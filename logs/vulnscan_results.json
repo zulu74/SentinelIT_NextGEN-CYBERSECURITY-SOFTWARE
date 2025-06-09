@@ -1,0 +1,16 @@
+{
+    "hostname": "BigZulu",
+    "os": "Windows",
+    "issues": [
+        {
+            "software": "OpenSSL",
+            "version": "1.0.2",
+            "cve": "CVE-2023-2650"
+        },
+        {
+            "software": "Apache",
+            "version": "2.4.49",
+            "cve": "CVE-2021-41773"
+        }
+    ]
+}

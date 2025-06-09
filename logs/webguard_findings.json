@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-06-08T12:57:32.569378",
+    "url": "https://phishing.site/login",
+    "reason": "Matched blocklist domain",
+    "domain": "phishing.site"
+  },
+  {
+    "timestamp": "2025-06-08T12:57:32.569485",
+    "url": "https://dropper.site/file.exe",
+    "reason": "Matched blocklist domain",
+    "domain": "dropper.site"
+  }
+]

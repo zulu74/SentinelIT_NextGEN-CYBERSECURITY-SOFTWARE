@@ -1,0 +1,17 @@
+{
+    "total_score": 95,
+    "threats_analyzed": [
+        {
+            "id": "CVE-2024-2221",
+            "severity": 30
+        },
+        {
+            "id": "CVE-2023-3374",
+            "severity": 45
+        },
+        {
+            "id": "CISA-KNOWN",
+            "severity": 20
+        }
+    ]
+}

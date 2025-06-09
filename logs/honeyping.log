@@ -1,0 +1,4 @@
+[2025-06-05 10:14:36] Bait deployed: PING sentinel-probe01.local
+[2025-06-05 10:14:36] Bait deployed: LOGIN admin:admin123
+[2025-06-05 10:14:36] Bait deployed: DNS lookup for sensitive.internal
+[2025-06-05 10:14:36] Bait deployed: FTP connection to finance-svr01
