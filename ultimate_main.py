@@ -5,6 +5,8 @@ import time
 import traceback
 
 # Actual module imports for SentinelIT Ultimate
+from revwatch import detect_reverse_tools
+import reverse_bait
 from stealthcam import stealth_camera
 from usbwatch import monitor_usb
 from phantomstaff import phantom_interface
@@ -28,6 +30,11 @@ from clamav_scanner import scan_with_clamav
 
 def main():
     try:
+        # Reverse Engineering Trap
+        if detect_reverse_tools():
+            reverse_bait.bait()
+            return
+
         print("[*] Starting SentinelIT Ultimate...")
         stealth_camera()
         monitor_usb()
