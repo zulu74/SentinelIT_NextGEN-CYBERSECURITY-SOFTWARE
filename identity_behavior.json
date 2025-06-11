@@ -1,0 +1,33 @@
+{
+    "zxola": {
+        "logins": [
+            {
+                "ip": "192.168.56.1",
+                "time": "20:59",
+                "platform": "Windows-11-10.0.26100-SP0"
+            },
+            {
+                "ip": "192.168.56.1",
+                "time": "21:20",
+                "platform": "Windows-11-10.0.26100-SP0"
+            },
+            {
+                "ip": "192.168.56.1",
+                "time": "21:24",
+                "platform": "Windows-11-10.0.26100-SP0"
+            },
+            {
+                "ip": "192.168.56.1",
+                "time": "21:26",
+                "platform": "Windows-11-10.0.26100-SP0"
+            },
+            {
+                "ip": "192.168.56.1",
+                "time": "21:28",
+                "platform": "Windows-11-10.0.26100-SP0"
+            }
+        ],
+        "anomaly_score": 0,
+        "flagged": false
+    }
+}

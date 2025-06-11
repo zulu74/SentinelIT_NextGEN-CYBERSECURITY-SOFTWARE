@@ -1,0 +1,10 @@
+[2025-06-11 20:59:03] ALERT: root - Session token replay
+[2025-06-11 21:02:03] ALERT: guest - Access from unknown device
+[2025-06-11 21:05:03] ALERT: root - Session token replay
+[2025-06-11 21:08:03] ALERT: admin - Geo-location change detected
+[2025-06-11 21:11:03] ALERT: admin - Geo-location change detected
+[2025-06-11 21:14:03] ALERT: admin - Geo-location change detected
+[2025-06-11 21:17:03] ALERT: admin - Multiple failed API calls
+[2025-06-11 21:20:42] ALERT: root - Session token replay
+[2025-06-11 21:23:59] ALERT: root - Session token replay
+[2025-06-11 21:26:59] ALERT: root - Session token replay

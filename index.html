@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SentinelIT Live Dashboard</title>
+    <style>
+        body { font-family: Arial; background-color: #111; color: #eee; padding: 20px; }
+        h2 { border-bottom: 1px solid #444; }
+        .log-box { background: #222; padding: 15px; margin: 20px 0; border-radius: 10px; }
+        pre { white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>🛡️ SentinelIT AI Live Dashboard</h1>
+    {% for title, entries in logs.items() %}
+        <div class="log-box">
+            <h2>{{ title }}</h2>
+            <pre>{{ entries | join('\n') }}</pre>
+        </div>
+    {% endfor %}
+</body>
+</html>
