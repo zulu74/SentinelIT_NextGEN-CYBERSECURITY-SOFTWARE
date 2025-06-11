@@ -1,7 +1,7 @@
 
 # SentinelIT
 
-**Powered AI. Hardened Systems. Zero Compromise.**
+**Powered AI. Hardened Systems. Zero Compromise.***
 
 SentinelIT is a fully autonomous cybersecurity defense system designed to secure enterprise and endpoint environments through advanced detection, prevention, and AI-driven remediation.
 
