@@ -1,30 +1,13 @@
 
-import os
-import platform
+# lockdown.py - SentinelIT Lockdown Module (with lockdown_protocol function)
+
+import winreg
 
 def lockdown_protocol():
-    print("[+] Initiating lockdown protocol...")
-
-    system = platform.system()
-
-    if system == "Windows":
-        try:
-            os.system("reg add HKCU\Software\Policies\Microsoft\Windows\System /v DisableCMD /t REG_DWORD /d 1 /f")
-            print("[+] CMD disabled on Windows.")
-        except Exception as e:
-            print(f"[!] Failed to disable CMD: {e}")
-
-    elif system == "Linux":
-        try:
-            bash_path = "/bin/bash"
-            if os.path.exists(bash_path):
-                os.chmod(bash_path, 0o000)
-                print("[+] Bash access disabled on Linux.")
-        except Exception as e:
-            print(f"[!] Failed to disable shell: {e}")
-    else:
-        print("[!] Unsupported OS for lockdown.")
-
-# For standalone test
-if __name__ == "__main__":
-    lockdown_protocol()
+    try:
+        reg_path = r"Software\\Policies\\Microsoft\\Windows\\System"
+        with winreg.CreateKey(winreg.HKEY_CURRENT_USER, reg_path) as key:
+            winreg.SetValueEx(key, "DisableCMD", 0, winreg.REG_DWORD, 0)
+        print("[SentinelIT] CMD lockdown lifted. Monitoring only.")
+    except Exception as e:
+        print(f"[SentinelIT] Lockdown protocol error: {e}")

@@ -1,0 +1,58 @@
+[
+    {
+        "incident_id": "SOC-2025-06-11114818-Cloud",
+        "module": "cloudwatch",
+        "event": "CloudWatch started.",
+        "risk_score": 50,
+        "timestamp": "2025-06-11 11:48:18"
+    },
+    {
+        "incident_id": "SOC-2025-06-11114818-Cloud",
+        "module": "cloudwatch",
+        "event": "Cloud sync process detected: OneDrive.exe (PID 9228)",
+        "risk_score": 70,
+        "timestamp": "2025-06-11 11:48:18"
+    },
+    {
+        "incident_id": "SOC-2025-06-11115619-Cloud",
+        "module": "cloudwatch",
+        "event": "CloudWatch started.",
+        "risk_score": 50,
+        "timestamp": "2025-06-11 11:56:19"
+    },
+    {
+        "incident_id": "SOC-2025-06-11115619-Cloud",
+        "module": "cloudwatch",
+        "event": "Cloud sync process detected: OneDrive.exe (PID 9228)",
+        "risk_score": 70,
+        "timestamp": "2025-06-11 11:56:19"
+    },
+    {
+        "incident_id": "SOC-2025-06-11124844-Cloud",
+        "module": "cloudwatch",
+        "event": "CloudWatch started.",
+        "risk_score": 50,
+        "timestamp": "2025-06-11 12:48:44"
+    },
+    {
+        "incident_id": "SOC-2025-06-11124844-Cloud",
+        "module": "cloudwatch",
+        "event": "Cloud sync process detected: OneDrive.exe (PID 9228)",
+        "risk_score": 70,
+        "timestamp": "2025-06-11 12:48:44"
+    },
+    {
+        "incident_id": "SOC-2025-06-11130839-Cloud",
+        "module": "cloudwatch",
+        "event": "CloudWatch started.",
+        "risk_score": 50,
+        "timestamp": "2025-06-11 13:08:39"
+    },
+    {
+        "incident_id": "SOC-2025-06-11130839-Cloud",
+        "module": "cloudwatch",
+        "event": "Cloud sync process detected: OneDrive.exe (PID 9228)",
+        "risk_score": 70,
+        "timestamp": "2025-06-11 13:08:39"
+    }
+]
