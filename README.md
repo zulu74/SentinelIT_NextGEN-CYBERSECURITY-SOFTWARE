@@ -77,3 +77,4 @@ LinkedIn: [https://www.linkedin.com/in/jameszulu](https://www.linkedin.com/in/ja
 ## ❗ Legal
 
 For ethical use only. Do not deploy SentinelIT in unauthorized environments.
+,
