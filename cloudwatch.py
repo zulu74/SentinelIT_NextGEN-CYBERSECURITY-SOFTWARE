@@ -1,52 +1,53 @@
 
+# cloudwatch.py – Offline + Syncable Cloud Event Logger for SentinelIT
+
+import json
+import time
 import os
-import psutil
-import socket
 from datetime import datetime
 
-LOG_FILE = "logs/cloudwatch.log"
-SOC_QUEUE = "logs/soc_queue.json"
-WATCHED_PROCESSES = ["Dropbox.exe", "GoogleDriveFS.exe", "OneDrive.exe", "Box.exe"]
-CLOUD_DOMAINS = ["dropbox.com", "drive.google.com", "onedrive.live.com", "icloud.com", "s3.amazonaws.com"]
+EVENT_LOG_PATH = "logs/cloud_events.json"
+SYNC_LOG_PATH = "logs/cloud_sync_status.txt"
+CLOUD_MIRROR = "cloud_mirror.json"  # Simulated mirror for cloud upload
 
-def log_event(event, score=50):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_entry = f"[{timestamp}] {event}\n"
-    with open(LOG_FILE, "a") as log:
-        log.write(log_entry)
-
-    # Simulate sending to SOCWatch
-    soc_event = {
-        "incident_id": f"SOC-{timestamp.replace(':', '').replace(' ', '')}-Cloud",
-        "module": "cloudwatch",
-        "event": event,
-        "risk_score": score,
-        "timestamp": timestamp
+# === Save Events Offline ===
+def log_event(event_type, detail):
+    os.makedirs("logs", exist_ok=True)
+    entry = {
+        "timestamp": datetime.now().isoformat(),
+        "event_type": event_type,
+        "detail": detail
     }
+    with open(EVENT_LOG_PATH, "a") as f:
+        f.write(json.dumps(entry) + "\n")
+    print(f"[CLOUDWATCH] Event saved: {event_type} - {detail}")
+
+# === Simulated Cloud Sync ===
+def sync_to_cloud():
+    if not os.path.exists(EVENT_LOG_PATH):
+        print("[CLOUDWATCH] No events to sync.")
+        return
 
     try:
-        import json
-        if os.path.exists(SOC_QUEUE):
-            with open(SOC_QUEUE, "r") as f:
-                data = json.load(f)
-        else:
-            data = []
+        with open(EVENT_LOG_PATH, "r") as f:
+            events = f.readlines()
 
-        data.append(soc_event)
-        with open(SOC_QUEUE, "w") as f:
-            json.dump(data, f, indent=4)
+        with open(CLOUD_MIRROR, "a") as cloudf:
+            for line in events:
+                cloudf.write(line)
 
+        os.remove(EVENT_LOG_PATH)
+        with open(SYNC_LOG_PATH, "a") as syncf:
+            syncf.write(f"Synced {len(events)} events at {datetime.now().isoformat()}\n")
+        print(f"[CLOUDWATCH] Synced {len(events)} events to cloud mirror.")
     except Exception as e:
-        log_event(f"Error updating SOC queue: {e}")
+        print(f"[CLOUDWATCH] Sync failed: {e}")
 
-def check_cloud_sync_processes():
-    for proc in psutil.process_iter(['pid', 'name']):
-        if proc.info['name'] in WATCHED_PROCESSES:
-            log_event(f"Cloud sync process detected: {proc.info['name']} (PID {proc.pid})", score=70)
-
-def run_cloudwatch():
-    log_event("CloudWatch started.")
-    check_cloud_sync_processes()
-
-if __name__ == "__main__":
-    run_cloudwatch()
+# === Scheduler ===
+def start_cloudwatch(interval_seconds=300):
+    def loop():
+        while True:
+            sync_to_cloud()
+            time.sleep(interval_seconds)
+    import threading
+    threading.Thread(target=loop, daemon=True).start()
