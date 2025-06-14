@@ -1,79 +1,69 @@
+# SentinelIT – NextGEN Cybersecurity Software
 
-# SentinelIT
+**Powered AI. Hardened Systems. Zero Compromise.**
 
-**Powered AI. Hardened Systems. Zero Compromise.***
-
-SentinelIT is a fully autonomous cybersecurity defense system designed to secure enterprise and endpoint environments through advanced detection, prevention, and AI-driven remediation.
-
----
-
-## 🧠 Core Features
-
-- ✅ AI-Powered Threat Detection & Response
-- 🔐 Triple-OTP Remote Access Control
-- 📷 StealthCam: Silent Camera Activation on Suspicious Events
-- 🧬 PatternEngine: Behavior-Based Exploit Detection
-- 🔒 CMD & PowerShell Lockdown + Logging (Now Adaptive)
-- 🛡️ Hardened Startup Tray Monitor (`sentinelit_monitor.py`)
-- 📈 AI Speed Optimizer + System Health Monitor (`ai_speed_monitor.py`)
-- ☁️ Cloud Activity Hooks (`cloudwatch.py`)
-- ⚠️ WebDAV 0-Day (CVE-2025-33053) Exploit Protection (`webdavwatch.py`)
-- 🖼️ Visual Splash Startup (`splash_screen.py`)
-- 📦 Ultimate Launcher (`ultimate_main.py`) – boots all modules in parallel
-- 🧠 PhantomStaff: AI Assistant + USB Authorization + Duress Traps
+SentinelIT is an enterprise-grade, AI-driven cybersecurity platform designed to detect, defend, and neutralize cyber threats in real-time. Built for penetration testers, red teams, and security engineers, SentinelIT simulates the capabilities of top XDR, SIEM, and EDR solutions—while going further with deception technologies, honeypots, CVE-aware defenses, and full AI threat intelligence.
 
 ---
 
-## 🔧 Setup
+## 🛡️ Key Features (Phase 8+)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/zulu74/SentinelIT.git
-   cd SentinelIT
-   ```
-
-2. Optional: Activate virtual environment
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the main launcher:
-   ```bash
-   python ultimate_main.py
-   ```
-
----
-
-## ⚙️ Auto-Startup Tray Icon
-
-- `sentinelit_monitor.py` runs from system tray and boots core modules
-- Autostarts on Windows login
+| Module | Description |
+|--------|-------------|
+| **🔐 lockdown.py** | Auto-locks CMD/PowerShell access for non-authorized users. Alerts and session logs included. |
+| **🧠 ai_core.py** | Optimizes memory + system behavior using AI. Supports learning patterns and boosting defenses. |
+| **📊 dashboard_server.py** | Local web dashboard with real-time threat analytics and visual logs (`http://localhost:8080`). |
+| **🛰️ cloudwatch.py** | Detects cloud abuse, token replay, and shadow activity on cloud-based endpoints. |
+| **🧬 siemcore_ai.py** | AI-enhanced SIEM correlation with rule triggers, log parsing, and real-time alerts. |
+| **🧑‍💼 iamwatch_ai.py** | Monitors user identity and login patterns. Detects abnormal usage and privilege escalation. |
+| **📦 packetshield.py** | Passive packet monitor for detecting suspicious traffic and sniffers. |
+| **🧲 tomcat_honeypot.py** | Simulates Tomcat brute-force portal. Logs attack IPs, headers, and brute-force behavior. |
+| **📸 camwatch.py** | Monitors open camera/video streams for corporate surveillance and spy devices. |
+| **🧠 cvewatch.py** | Weekly CVE vulnerability scanner. Auto-generates ethical hacking-style reports with CVSS ratings + remediation steps. |
+| **🧪 threatfingerprint.py** | Stores threat DNA, CVE fingerprints, exploit logic, and mimicked payload structures. |
+| **🕵️‍♂️ honeypot.py** | Includes SSH, RDP, HTTP traps. Triggers alerts, IP bans, or silent tracking. |
+| **🛑 dlpwatch.py** | Detects sensitive data exfiltration attempts via clipboard, USB, email, or browser. |
+| **🚨 policyengine.py** | Executes protection rules, lockouts, and quarantine actions in real-time. |
 
 ---
 
-## 🛑 Active Threat Mitigations
+## 🧠 AI Capabilities
 
-- CVE-2025-33053 (WebDAV RCE) – Fully disabled WebClient + monitored connections
-- USB Threat Scanning (via `usbwatch.py`)
-- Stealth Camera, Logging, and Lockdown triggers
-
----
-
-## 📷 Splash Screen
-
-- Static image (`SentinelIT_Startup.png`) shows for 3 seconds at startup
+- AI-driven threat memory
+- Behavior pattern learning
+- Brute-force attack simulation
+- CVE-aware fingerprinting
+- Autonomous weekly security audits
+- Self-healing modules & quarantines
 
 ---
 
-## 👤 Author
+## 📑 Automated Reports
 
-**James Zulu**  
-GitHub: [https://github.com/zulu74](https://github.com/zulu74)  
-LinkedIn: [https://www.linkedin.com/in/jameszulu](https://www.linkedin.com/in/jameszulu)
+SentinelIT generates:
+
+- ✅ Weekly CVE audit reports (with ethical hacking style format)
+- ✅ CVSS Ratings (v3.1)
+- ✅ Exploitability status
+- ✅ Auto-generated remediation suggestions
+- ✅ PDF-style logs (log files are saved locally)
 
 ---
 
-## ❗ Legal
+## 🖥️ System Requirements
 
-For ethical use only. Do not deploy SentinelIT in unauthorized environments.
+- OS: Windows 10/11 or Kali Linux (v2+)
+- Python 3.10+
+- Recommended: 8GB RAM minimum
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Launch SentinelIT
+cd SentinelIT_Build
+python ultimate_main.py
+
+# Dashboard opens at:
+http://127.0.0.1:8080

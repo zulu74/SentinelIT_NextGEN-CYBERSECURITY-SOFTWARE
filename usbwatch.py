@@ -1,46 +1,53 @@
+
 import os
+import psutil
 import time
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import subprocess
 
-AUTHORIZED_SENDERS = ["admin@example.com"]
-ALERT_RECEIVER = "james.zulu35@yahoo.co.uk"
-SMTP_SERVER = "smtp.mail.yahoo.com"
-SMTP_PORT = 587
-SMTP_USERNAME = "james.zulu35@yahoo.co.uk"
-SMTP_PASSWORD = "your_app_password_here"  # Replace with app password
+scanned_drives = set()
 
-def send_email_alert(drive):
-    msg = MIMEMultipart()
-    msg['From'] = SMTP_USERNAME
-    msg['To'] = ALERT_RECEIVER
-    msg['Subject'] = f"USB Alert: USB Drive {drive} Detected"
+def is_usb_drive(partition):
+    return 'removable' in partition.opts.lower()
 
-    body = f"A USB drive ({drive}) was connected to the workstation."
-    msg.attach(MIMEText(body, 'plain'))
-
+def scan_file(filepath):
     try:
-        server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
-        server.starttls()
-        server.login(SMTP_USERNAME, SMTP_PASSWORD)
-        server.send_message(msg)
-        server.quit()
-        print(f"[USBWATCH] Email alert sent for USB drive {drive}")
-    except Exception as e:
-        print(f"[USBWATCH] Failed to send email: {e}")
+        with open(filepath, 'rb') as f:
+            content = f.read()
+            if b'cmd' in content or b'powershell' in content or b'<script>' in content:
+                return True
+    except:
+        pass
+    return False
 
-def monitor_usb():
-    print("[USBWATCH] Monitoring for USB devices...")
-    initial_drives = set(os.popen("wmic logicaldisk get caption").read().split())
-    while True:
-        time.sleep(5)
-        current_drives = set(os.popen("wmic logicaldisk get caption").read().split())
-        new_drives = current_drives - initial_drives
-        if new_drives:
-            for drive in new_drives:
-                if drive.startswith("A:") or drive.startswith("B:"):
-                    continue
-                print(f"[USBWATCH] USB drive {drive} detected.")
-                send_email_alert(drive)
-            initial_drives = current_drives
+def alert_admin(message):
+    print(f"[USBWatch] ALERT: {message}")
+
+def open_explorer(drive_letter):
+    try:
+        subprocess.Popen(f'explorer {drive_letter}', shell=True)
+        print(f"[USBWatch] USB {drive_letter} opened in File Explorer.")
+    except Exception as e:
+        print(f"[USBWatch] Could not open USB {drive_letter}: {e}")
+
+print("[USBWatch] Monitoring for USB insertions...")
+
+while True:
+    current_drives = {p.device for p in psutil.disk_partitions() if is_usb_drive(p)}
+    new_drives = current_drives - scanned_drives
+    for drive in new_drives:
+        print(f"[USBWatch] New USB detected: {drive}")
+        infected = False
+        for root, dirs, files in os.walk(drive):
+            for file in files:
+                filepath = os.path.join(root, file)
+                if scan_file(filepath):
+                    infected = True
+                    alert_admin(f"Malicious file found: {filepath}")
+                    break
+            if infected:
+                break
+        if not infected:
+            print(f"[USBWatch] USB {drive} is clean and ready.")
+            open_explorer(drive)
+        scanned_drives.add(drive)
+    time.sleep(10)
