@@ -65,5 +65,22 @@ SentinelIT generates:
 cd SentinelIT_Build
 python ultimate_main.py
 
+<<<<<<< HEAD
 # Dashboard opens at:
 http://127.0.0.1:8080
+=======
+---
+
+## 👤 Author
+
+**James Zulu**  
+GitHub: [https://github.com/zulu74](https://github.com/zulu74)  
+LinkedIn: [https://www.linkedin.com/in/jameszulu](https://www.linkedin.com/in/jameszulu)
+
+---
+
+## ❗ Legal
+
+For ethical use only. Do not deploy SentinelIT in unauthorized environments.
+,
+>>>>>>> e8dd3a31b5323d4ee4d7af91a5bbce64b09e11a8
