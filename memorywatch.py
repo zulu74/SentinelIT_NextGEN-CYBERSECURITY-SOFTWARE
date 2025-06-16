@@ -1,36 +1,24 @@
 
 import psutil
 import time
-import datetime
+import logging
 
-log_file_path = "logs/memory_monitor.log"
+logging.basicConfig(filename="memory_alerts.log", level=logging.INFO,
+                    format="%(asctime)s - %(levelname)s - %(message)s")
 
-def log(message):
-    with open(log_file_path, "a") as log_file:
-        timestamp = datetime.datetime.now().isoformat()
-        log_file.write(f"[{timestamp}] {message}\n")
+MEMORY_THRESHOLD_PERCENT = 85
 
-def detect_anomalous_memory_usage(threshold_percent=85):
-    mem = psutil.virtual_memory()
-    if mem.percent >= threshold_percent:
-        log(f"High memory usage detected: {mem.percent}%")
+def monitor_memory(interval=5):
+    while True:
+        memory = psutil.virtual_memory()
+        used_percent = memory.percent
 
-def detect_suspicious_processes():
-    suspicious_keywords = ["mimikatz", "powersploit", "meterpreter", "cobalt", "empire"]
-    for proc in psutil.process_iter(['pid', 'name', 'exe', 'cmdline']):
-        try:
-            cmdline = ' '.join(proc.info['cmdline']) if proc.info['cmdline'] else ''
-            if any(keyword in cmdline.lower() for keyword in suspicious_keywords):
-                log(f"Suspicious process detected: PID={proc.info['pid']}, CMD={cmdline}")
-        except (psutil.NoSuchProcess, psutil.AccessDenied):
-            continue
+        if used_percent >= MEMORY_THRESHOLD_PERCENT:
+            logging.warning(f"[MEMORYWATCH] High memory usage detected: {used_percent}%")
+            print(f"[MEMORYWATCH] High memory usage detected: {used_percent}%")
 
-def main():
-    if not Path("logs").exists():
-        Path("logs").mkdir()
-
-    detect_anomalous_memory_usage()
-    detect_suspicious_processes()
+        time.sleep(interval)
 
 if __name__ == "__main__":
-    main()
+    print("[MEMORYWATCH] Starting memory usage monitor...")
+    monitor_memory()
