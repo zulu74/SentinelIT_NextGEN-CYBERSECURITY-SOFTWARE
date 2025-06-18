@@ -1,3 +1,767 @@
 [AIHelpDesk] Wed Jun  4 12:20:44 2025: User 'james zulu' verified successfully. Session auto-restored.
 [AIHelpDeskGUI] Wed Jun  4 12:58:45 2025: SUCCESS: James zulu verified.
 [AIHelpDeskGUI] Wed Jun  4 18:31:27 2025: SUCCESS: james zulu verified.
+2025-06-18 19:55:08,422 - WARNING - No runnable entry point in accessauth
+2025-06-18 19:55:08,426 - WARNING - No runnable entry point in aihelpdesk
+[AIHelpDeskGUI] Wed Jun 18 19:56:01 2025: SUCCESS: james zulu verified.
+2025-06-18 19:56:08,221 - WARNING - No runnable entry point in aihelpdesk_gui
+2025-06-18 19:56:08,241 - WARNING - No runnable entry point in ai_core
+2025-06-18 19:56:08,959 - WARNING - No runnable entry point in ai_monitor
+2025-06-18 19:56:09,008 - WARNING - No runnable entry point in ai_monitor_backup
+2025-06-18 19:56:09,266 - INFO - Started ai_speed_monitor \u2705
+2025-06-18 19:56:09,322 - WARNING - No runnable entry point in ai_threat_brain
+2025-06-18 19:56:09,354 - WARNING - No runnable entry point in assetmap
+2025-06-18 19:56:09,358 - WARNING - No runnable entry point in assetwatch
+2025-06-18 19:56:09,393 - INFO - Started authlock \u2705
+2025-06-18 19:56:09,614 - INFO - Started backupvault \u2705
+2025-06-18 19:56:09,657 - WARNING - No runnable entry point in backupwatch
+2025-06-18 19:56:09,659 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 19:56:09,694 - WARNING - No runnable entry point in bannertrap
+2025-06-18 19:56:09,734 - INFO - Process priority elevated for AI boost.
+2025-06-18 19:56:09,737 - WARNING - No runnable entry point in BeEF
+2025-06-18 19:56:09,740 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 19:56:10,744 - INFO - CPU: 81.4% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 19:56:11,575 - WARNING - No runnable entry point in camera_iot_exposure_monitor
+2025-06-18 19:56:11,602 - WARNING - No runnable entry point in casewatch
+2025-06-18 19:56:11,606 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 19:56:11,649 - WARNING - No runnable entry point in clamwatch
+2025-06-18 19:56:11,652 - WARNING - No runnable entry point in cloudwatch
+2025-06-18 19:56:11,710 - WARNING - No runnable entry point in counterkali
+2025-06-18 19:56:11,717 - WARNING - No runnable entry point in cve_audit
+2025-06-18 19:56:11,788 - WARNING - No runnable entry point in cve_decoy_trap
+2025-06-18 19:56:11,790 - WARNING - No runnable entry point in dashboard_server
+2025-06-18 19:56:11,814 - WARNING - No runnable entry point in decoygen
+2025-06-18 19:56:11,858 - WARNING - No runnable entry point in defensepack
+2025-06-18 19:56:11,891 - WARNING - No runnable entry point in dnswatch
+2025-06-18 19:56:11,921 - WARNING - No runnable entry point in edrwatch
+2025-06-18 19:56:11,973 - ERROR - \u274c Failed to start exploit_simulator: No module named 'threat_fingerprint_engine'
+2025-06-18 19:56:11,975 - WARNING - No runnable entry point in fingerprint
+2025-06-18 19:56:11,998 - WARNING - No runnable entry point in flowtrap
+2025-06-18 19:56:12,001 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 19:56:12,031 - WARNING - No runnable entry point in gui
+2025-06-18 19:56:12,055 - WARNING - No runnable entry point in honeyping
+2025-06-18 19:56:12,095 - WARNING - No runnable entry point in honeytrap
+2025-06-18 19:56:12,099 - WARNING - No runnable entry point in iamwatch_ai
+2025-06-18 19:56:12,101 - WARNING - No runnable entry point in iot_monitor
+2025-06-18 19:56:12,144 - INFO - Started ipwatch \u2705
+2025-06-18 19:56:12,145 - INFO - [IPWATCH] Local IP: 192.168.0.161
+2025-06-18 19:56:12,188 - WARNING - No runnable entry point in kernelwatch
+2025-06-18 19:56:12,230 - WARNING - No runnable entry point in liveboard
+2025-06-18 19:56:12,233 - WARNING - No runnable entry point in lockdown
+2025-06-18 19:56:12,236 - WARNING - No runnable entry point in mailwatch
+2025-06-18 19:56:12,239 - WARNING - No runnable entry point in memoryscan
+2025-06-18 19:56:12,241 - WARNING - No runnable entry point in memorywatch
+2025-06-18 19:56:12,264 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 19:56:12,268 - WARNING - No runnable entry point in militaryshield
+2025-06-18 19:56:12,292 - WARNING - No runnable entry point in netviz
+2025-06-18 19:56:12,315 - WARNING - No runnable entry point in otwatch
+2025-06-18 19:56:12,359 - WARNING - No runnable entry point in packetshield
+2025-06-18 19:56:12,381 - WARNING - No runnable entry point in parrotshield
+2025-06-18 19:56:12,383 - WARNING - No runnable entry point in patchcheckv2
+2025-06-18 19:56:12,412 - WARNING - No runnable entry point in patchengine
+2025-06-18 19:56:12,415 - WARNING - No runnable entry point in patternengine
+2025-06-18 19:56:12,418 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 19:56:12,442 - WARNING - No runnable entry point in pluginloader
+2025-06-18 19:56:12,445 - WARNING - No runnable entry point in policyengine
+2025-06-18 19:56:12,473 - WARNING - No runnable entry point in powerwatch
+2025-06-18 19:56:12,475 - WARNING - No runnable entry point in rdp_honeypot
+2025-06-18 19:56:12,497 - WARNING - No runnable entry point in reconblock
+2025-06-18 19:56:12,527 - ERROR - \u274c Failed to start remote_heartbeat: No module named 'cryptography'
+2025-06-18 19:56:12,566 - WARNING - No runnable entry point in reportgen
+2025-06-18 19:56:12,569 - INFO - Started resurgwatch \u2705
+2025-06-18 19:56:12,577 - WARNING - No runnable entry point in reverse_bait
+2025-06-18 19:56:12,583 - WARNING - No runnable entry point in revwatch
+2025-06-18 19:56:12,611 - WARNING - No runnable entry point in risk
+2025-06-18 19:56:12,637 - WARNING - No runnable entry point in riskscore
+2025-06-18 19:56:12,678 - WARNING - No runnable entry point in scantrap
+2025-06-18 19:56:12,944 - WARNING - No runnable entry point in self_audit_ai
+2025-06-18 19:56:13,122 - WARNING - No runnable entry point in sentinelit_monitor
+2025-06-18 19:56:13,185 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 19:56:13,189 - WARNING - No runnable entry point in siemcore_ai
+2025-06-18 19:56:13,216 - WARNING - No runnable entry point in simtrap
+2025-06-18 19:56:13,273 - WARNING - No runnable entry point in splash_screen
+2025-06-18 19:56:13,276 - WARNING - No runnable entry point in ssh_honeypot
+2025-06-18 19:56:13,278 - WARNING - No runnable entry point in startup_display
+2025-06-18 19:56:13,281 - WARNING - No runnable entry point in stealthcam
+2025-06-18 19:56:15,304 - WARNING - No runnable entry point in stealthcam_capture
+2025-06-18 19:56:15,340 - WARNING - No runnable entry point in stubs
+2025-06-18 19:56:15,364 - ERROR - \u274c Failed to start threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 19:56:15,367 - WARNING - No runnable entry point in threatdna
+2025-06-18 19:56:15,393 - ERROR - \u274c Failed to start threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 19:56:15,421 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 19:56:15,453 - WARNING - No runnable entry point in threat_fingerprint_engine[1]
+2025-06-18 19:56:15,456 - WARNING - No runnable entry point in tomcat_honeypot
+2025-06-18 19:56:15,492 - WARNING - No runnable entry point in trapengine
+2025-06-18 19:56:15,549 - INFO - Started traveltrap \u2705
+2025-06-18 19:56:15,550 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 19:56:15,598 - ERROR - \u274c Failed to start trayiconrunner: No module named 'PyQt5'
+2025-06-18 19:56:15,628 - INFO - Started uefiwatch \u2705
+2025-06-18 19:56:15,631 - WARNING - No runnable entry point in uefi_guard
+2025-06-18 19:56:15,661 - WARNING - No runnable entry point in uefi_tamperwatch
+2025-06-18 19:56:15,694 - ERROR - \u274c Failed to start unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 19:56:15,696 - WARNING - No runnable entry point in usbwatch
+2025-06-18 19:56:15,723 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 19:56:15,723 - INFO - Started usercloak \u2705
+2025-06-18 19:56:15,775 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 19:56:15,821 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 19:56:15,873 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 19:56:15,901 - WARNING - No runnable entry point in vulnscan
+2025-06-18 19:56:15,932 - INFO - Started watchdog_ai \u2705
+2025-06-18 19:56:15,980 - INFO - Started webdavwatch \u2705
+2025-06-18 19:56:15,983 - WARNING - No runnable entry point in webguard
+2025-06-18 19:56:16,012 - ERROR - \u274c Failed to start weekly_report_ai: unterminated f-string literal (detected at line 22) (weekly_report_ai.py, line 22)
+2025-06-18 19:56:16,044 - WARNING - No runnable entry point in xsswatch
+2025-06-18 19:56:16,077 - ERROR - \u274c Failed to start yara_guardian: No module named 'yara'
+2025-06-18 19:56:16,110 - ERROR - \u274c Failed to start zeusguard: (unicode error) 'unicodeescape' codec can't decode bytes in position 6-7: truncated \uXXXX escape (zeusguard.py, line 12)
+2025-06-18 19:56:16,222 - INFO - [WebDAVWATCH] WebClient service disabled.
+2025-06-18 19:56:16,223 - INFO - [WebDAVWATCH] Monitoring for suspicious UNC path activity...
+2025-06-18 19:56:21,757 - INFO - CPU: 18.3% | Memory: 67.7% | Disk: 82.1%
+2025-06-18 19:56:32,766 - INFO - CPU: 12.4% | Memory: 67.7% | Disk: 82.1%
+2025-06-18 19:56:43,775 - INFO - CPU: 12.3% | Memory: 67.8% | Disk: 82.1%
+2025-06-18 19:56:54,782 - INFO - CPU: 15.5% | Memory: 67.6% | Disk: 82.1%
+2025-06-18 19:57:05,791 - INFO - CPU: 2.3% | Memory: 67.6% | Disk: 82.1%
+2025-06-18 19:57:16,799 - INFO - CPU: 17.4% | Memory: 67.7% | Disk: 82.1%
+2025-06-18 19:57:27,807 - INFO - CPU: 49.2% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 19:57:38,818 - INFO - CPU: 18.8% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 19:57:49,826 - INFO - CPU: 8.3% | Memory: 67.6% | Disk: 82.1%
+2025-06-18 19:58:00,835 - INFO - CPU: 7.0% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 19:58:11,844 - INFO - CPU: 4.6% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 19:58:22,852 - INFO - CPU: 0.8% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 19:58:33,860 - INFO - CPU: 41.2% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 19:58:44,869 - INFO - CPU: 11.6% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 19:58:55,877 - INFO - CPU: 6.2% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 19:59:06,885 - INFO - CPU: 54.2% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 19:59:17,893 - INFO - CPU: 14.6% | Memory: 66.1% | Disk: 82.1%
+2025-06-18 19:59:28,903 - INFO - CPU: 17.7% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 19:59:39,911 - INFO - CPU: 54.5% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 19:59:50,921 - INFO - CPU: 17.3% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:00:01,928 - INFO - CPU: 100.0% | Memory: 68.2% | Disk: 82.1%
+2025-06-18 20:00:01,929 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:00:12,937 - INFO - CPU: 3.9% | Memory: 68.1% | Disk: 82.1%
+2025-06-18 20:00:23,946 - INFO - CPU: 7.7% | Memory: 68.1% | Disk: 82.1%
+2025-06-18 20:00:34,955 - INFO - CPU: 15.7% | Memory: 67.9% | Disk: 82.1%
+2025-06-18 20:00:45,964 - INFO - CPU: 100.0% | Memory: 68.2% | Disk: 82.1%
+2025-06-18 20:00:45,964 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:00:56,972 - INFO - CPU: 86.3% | Memory: 67.7% | Disk: 82.1%
+2025-06-18 20:01:07,980 - INFO - CPU: 16.3% | Memory: 67.6% | Disk: 82.1%
+2025-06-18 20:01:18,990 - INFO - CPU: 28.8% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:01:29,999 - INFO - CPU: 70.5% | Memory: 67.7% | Disk: 82.1%
+2025-06-18 20:01:41,008 - INFO - CPU: 11.6% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:01:52,016 - INFO - CPU: 50.4% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:02:03,025 - INFO - CPU: 26.3% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:02:14,034 - INFO - CPU: 15.4% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:02:25,050 - INFO - CPU: 86.4% | Memory: 67.8% | Disk: 82.1%
+2025-06-18 20:02:36,059 - INFO - CPU: 9.8% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:02:47,068 - INFO - CPU: 7.0% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:02:58,077 - INFO - CPU: 64.2% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:04:01,057 - WARNING - No runnable entry point in accessauth
+2025-06-18 20:04:01,059 - WARNING - No runnable entry point in aihelpdesk
+[AIHelpDeskGUI] Wed Jun 18 20:04:57 2025: SUCCESS: james zulu verified.
+2025-06-18 20:05:05,143 - WARNING - No runnable entry point in aihelpdesk_gui
+2025-06-18 20:05:05,154 - WARNING - No runnable entry point in ai_core
+2025-06-18 20:05:05,319 - WARNING - No runnable entry point in ai_monitor
+2025-06-18 20:05:05,321 - WARNING - No runnable entry point in ai_monitor_backup
+2025-06-18 20:05:05,375 - INFO - Started ai_speed_monitor \u2705
+2025-06-18 20:05:05,377 - WARNING - No runnable entry point in ai_threat_brain
+2025-06-18 20:05:05,380 - WARNING - No runnable entry point in assetmap
+2025-06-18 20:05:05,384 - WARNING - No runnable entry point in assetwatch
+2025-06-18 20:05:05,390 - INFO - Started authlock \u2705
+2025-06-18 20:05:05,420 - INFO - Started backupvault \u2705
+2025-06-18 20:05:05,422 - WARNING - No runnable entry point in backupwatch
+2025-06-18 20:05:05,424 - WARNING - No runnable entry point in bannertrap
+2025-06-18 20:05:05,425 - WARNING - No runnable entry point in BeEF
+2025-06-18 20:05:05,427 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 20:05:05,460 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 20:05:05,884 - INFO - Process priority elevated for AI boost.
+2025-06-18 20:05:06,893 - INFO - CPU: 56.2% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:05:07,092 - WARNING - No runnable entry point in camera_iot_exposure_monitor
+2025-06-18 20:05:07,094 - WARNING - No runnable entry point in casewatch
+2025-06-18 20:05:07,095 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 20:05:07,097 - WARNING - No runnable entry point in clamwatch
+2025-06-18 20:05:07,098 - WARNING - No runnable entry point in cloudwatch
+2025-06-18 20:05:07,099 - WARNING - No runnable entry point in counterkali
+2025-06-18 20:05:07,103 - WARNING - No runnable entry point in cve_audit
+2025-06-18 20:05:07,116 - WARNING - No runnable entry point in cve_decoy_trap
+2025-06-18 20:05:07,117 - WARNING - No runnable entry point in dashboard_server
+2025-06-18 20:05:07,118 - WARNING - No runnable entry point in decoygen
+2025-06-18 20:05:07,119 - WARNING - No runnable entry point in defensepack
+2025-06-18 20:05:07,121 - WARNING - No runnable entry point in dnswatch
+2025-06-18 20:05:07,122 - WARNING - No runnable entry point in edrwatch
+2025-06-18 20:05:07,124 - ERROR - \u274c Failed to start exploit_simulator: No module named 'threat_fingerprint_engine'
+2025-06-18 20:05:07,125 - WARNING - No runnable entry point in fingerprint
+2025-06-18 20:05:07,127 - WARNING - No runnable entry point in flowtrap
+2025-06-18 20:05:07,128 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 20:05:07,130 - WARNING - No runnable entry point in gui
+2025-06-18 20:05:07,131 - WARNING - No runnable entry point in honeyping
+2025-06-18 20:05:07,132 - WARNING - No runnable entry point in honeytrap
+2025-06-18 20:05:07,133 - WARNING - No runnable entry point in iamwatch_ai
+2025-06-18 20:05:07,134 - WARNING - No runnable entry point in iot_monitor
+2025-06-18 20:05:07,136 - INFO - Started ipwatch \u2705
+2025-06-18 20:05:07,138 - WARNING - No runnable entry point in kernelwatch
+2025-06-18 20:05:07,138 - INFO - [IPWATCH] Local IP: 192.168.0.161
+2025-06-18 20:05:07,140 - WARNING - No runnable entry point in liveboard
+2025-06-18 20:05:07,141 - WARNING - No runnable entry point in lockdown
+2025-06-18 20:05:07,143 - WARNING - No runnable entry point in mailwatch
+2025-06-18 20:05:07,145 - WARNING - No runnable entry point in memoryscan
+2025-06-18 20:05:07,146 - WARNING - No runnable entry point in memorywatch
+2025-06-18 20:05:07,147 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 20:05:07,149 - WARNING - No runnable entry point in militaryshield
+2025-06-18 20:05:07,150 - WARNING - No runnable entry point in netviz
+2025-06-18 20:05:07,152 - WARNING - No runnable entry point in otwatch
+2025-06-18 20:05:07,154 - WARNING - No runnable entry point in packetshield
+2025-06-18 20:05:07,156 - WARNING - No runnable entry point in parrotshield
+2025-06-18 20:05:07,158 - WARNING - No runnable entry point in patchcheckv2
+2025-06-18 20:05:07,160 - WARNING - No runnable entry point in patchengine
+2025-06-18 20:05:07,162 - WARNING - No runnable entry point in patternengine
+2025-06-18 20:05:07,164 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 20:05:07,165 - WARNING - No runnable entry point in pluginloader
+2025-06-18 20:05:07,167 - WARNING - No runnable entry point in policyengine
+2025-06-18 20:05:07,169 - WARNING - No runnable entry point in powerwatch
+2025-06-18 20:05:07,176 - WARNING - No runnable entry point in rdp_honeypot
+2025-06-18 20:05:07,178 - WARNING - No runnable entry point in reconblock
+2025-06-18 20:05:07,180 - ERROR - \u274c Failed to start remote_heartbeat: No module named 'cryptography'
+2025-06-18 20:05:07,182 - WARNING - No runnable entry point in reportgen
+2025-06-18 20:05:07,245 - INFO - ResurgWatch module started.
+2025-06-18 20:05:07,245 - INFO - Started resurgwatch \u2705
+2025-06-18 20:05:07,250 - WARNING - No runnable entry point in reverse_bait
+2025-06-18 20:05:07,252 - WARNING - No runnable entry point in revwatch
+2025-06-18 20:05:07,253 - WARNING - No runnable entry point in risk
+2025-06-18 20:05:07,257 - WARNING - No runnable entry point in riskscore
+2025-06-18 20:05:07,259 - WARNING - No runnable entry point in scantrap
+2025-06-18 20:05:07,346 - WARNING - No runnable entry point in self_audit_ai
+2025-06-18 20:05:07,376 - WARNING - No runnable entry point in sentinelit_monitor
+2025-06-18 20:05:07,378 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 20:05:07,379 - WARNING - No runnable entry point in siemcore_ai
+2025-06-18 20:05:07,380 - WARNING - No runnable entry point in simtrap
+2025-06-18 20:05:07,385 - WARNING - No runnable entry point in splash_screen
+2025-06-18 20:05:07,387 - WARNING - No runnable entry point in ssh_honeypot
+2025-06-18 20:05:07,388 - WARNING - No runnable entry point in startup_display
+2025-06-18 20:05:07,389 - WARNING - No runnable entry point in stealthcam
+2025-06-18 20:05:07,681 - WARNING - No runnable entry point in stealthcam_capture
+2025-06-18 20:05:07,682 - WARNING - No runnable entry point in stubs
+2025-06-18 20:05:07,684 - ERROR - \u274c Failed to start threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 20:05:07,686 - WARNING - No runnable entry point in threatdna
+2025-06-18 20:05:07,688 - ERROR - \u274c Failed to start threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 20:05:07,689 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 20:05:07,691 - WARNING - No runnable entry point in threat_fingerprint_engine[1]
+2025-06-18 20:05:07,693 - WARNING - No runnable entry point in tomcat_honeypot
+2025-06-18 20:05:07,694 - WARNING - No runnable entry point in trapengine
+2025-06-18 20:05:07,697 - INFO - Started traveltrap \u2705
+2025-06-18 20:05:07,699 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 20:05:07,702 - ERROR - \u274c Failed to start trayiconrunner: No module named 'PyQt5'
+2025-06-18 20:05:07,705 - INFO - Started uefiwatch \u2705
+2025-06-18 20:05:07,707 - WARNING - No runnable entry point in uefi_guard
+2025-06-18 20:05:07,709 - WARNING - No runnable entry point in uefi_tamperwatch
+2025-06-18 20:05:07,711 - ERROR - \u274c Failed to start unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 20:05:07,712 - WARNING - No runnable entry point in usbwatch
+2025-06-18 20:05:07,720 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 20:05:07,720 - INFO - Started usercloak \u2705
+2025-06-18 20:05:07,722 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 20:05:07,724 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 20:05:07,727 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 20:05:07,728 - WARNING - No runnable entry point in vulnscan
+2025-06-18 20:05:07,731 - INFO - Started watchdog_ai \u2705
+2025-06-18 20:05:07,734 - INFO - Started webdavwatch \u2705
+2025-06-18 20:05:07,736 - WARNING - No runnable entry point in webguard
+2025-06-18 20:05:07,738 - ERROR - \u274c Failed to start weekly_report_ai: unterminated f-string literal (detected at line 22) (weekly_report_ai.py, line 22)
+2025-06-18 20:05:07,739 - WARNING - No runnable entry point in xsswatch
+2025-06-18 20:05:07,744 - ERROR - \u274c Failed to start yara_guardian: No module named 'yara'
+2025-06-18 20:05:07,747 - ERROR - \u274c Failed to start zeusguard: (unicode error) 'unicodeescape' codec can't decode bytes in position 6-7: truncated \uXXXX escape (zeusguard.py, line 12)
+2025-06-18 20:05:08,054 - INFO - [WebDAVWATCH] WebClient service disabled.
+2025-06-18 20:05:08,054 - INFO - [WebDAVWATCH] Monitoring for suspicious UNC path activity...
+2025-06-18 20:05:17,902 - INFO - CPU: 31.8% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:05:28,911 - INFO - CPU: 3.1% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:05:39,924 - INFO - CPU: 26.5% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:05:50,937 - INFO - CPU: 7.8% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:06:01,947 - INFO - CPU: 4.7% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:06:12,956 - INFO - CPU: 8.4% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:06:23,965 - INFO - CPU: 13.2% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:06:34,975 - INFO - CPU: 8.5% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:06:45,983 - INFO - CPU: 7.7% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:06:56,992 - INFO - CPU: 13.0% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:07:08,001 - INFO - CPU: 9.3% | Memory: 66.1% | Disk: 82.1%
+2025-06-18 20:07:19,010 - INFO - CPU: 54.5% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:07:30,022 - INFO - CPU: 7.7% | Memory: 66.0% | Disk: 82.1%
+2025-06-18 20:07:41,031 - INFO - CPU: 5.5% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:07:52,040 - INFO - CPU: 4.7% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:08:03,049 - INFO - CPU: 6.2% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:08:14,058 - INFO - CPU: 9.2% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:08:25,071 - INFO - CPU: 32.8% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:08:36,080 - INFO - CPU: 0.8% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:08:47,088 - INFO - CPU: 97.0% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:08:47,089 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:08:58,100 - INFO - CPU: 61.5% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:09:09,108 - INFO - CPU: 94.7% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:09:09,108 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:09:20,118 - INFO - CPU: 47.0% | Memory: 65.9% | Disk: 82.1%
+2025-06-18 20:09:31,126 - INFO - CPU: 79.3% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:09:42,139 - INFO - CPU: 48.9% | Memory: 66.0% | Disk: 82.1%
+2025-06-18 20:09:53,149 - INFO - CPU: 55.6% | Memory: 66.1% | Disk: 82.1%
+2025-06-18 20:10:04,158 - INFO - CPU: 19.1% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:10:15,166 - INFO - CPU: 16.0% | Memory: 66.1% | Disk: 82.1%
+2025-06-18 20:10:26,174 - INFO - CPU: 91.0% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:10:26,175 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:10:37,182 - INFO - CPU: 54.7% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:10:48,191 - INFO - CPU: 82.6% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:10:59,199 - INFO - CPU: 29.2% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:11:10,208 - INFO - CPU: 24.8% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:11:21,217 - INFO - CPU: 31.1% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:11:32,226 - INFO - CPU: 27.1% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:12:10,965 - WARNING - No runnable entry point in accessauth
+2025-06-18 20:12:10,969 - WARNING - No runnable entry point in aihelpdesk
+[AIHelpDeskGUI] Wed Jun 18 20:13:02 2025: SUCCESS: james zulu verified.
+2025-06-18 20:14:39,543 - WARNING - No runnable entry point in aihelpdesk_gui
+2025-06-18 20:14:39,557 - WARNING - No runnable entry point in ai_core
+2025-06-18 20:14:39,708 - WARNING - No runnable entry point in ai_monitor
+2025-06-18 20:14:39,709 - WARNING - No runnable entry point in ai_monitor_backup
+2025-06-18 20:14:39,763 - INFO - Started ai_speed_monitor \u2705
+2025-06-18 20:14:39,765 - WARNING - No runnable entry point in ai_threat_brain
+2025-06-18 20:14:39,767 - WARNING - No runnable entry point in assetmap
+2025-06-18 20:14:39,772 - WARNING - No runnable entry point in assetwatch
+2025-06-18 20:14:39,788 - INFO - Started authlock \u2705
+2025-06-18 20:14:39,815 - INFO - Started backupvault \u2705
+2025-06-18 20:14:39,819 - WARNING - No runnable entry point in backupwatch
+2025-06-18 20:14:39,822 - WARNING - No runnable entry point in bannertrap
+2025-06-18 20:14:39,824 - WARNING - No runnable entry point in BeEF
+2025-06-18 20:14:39,826 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 20:14:39,843 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 20:14:40,128 - INFO - Process priority elevated for AI boost.
+2025-06-18 20:14:41,137 - INFO - CPU: 63.2% | Memory: 66.0% | Disk: 82.1%
+2025-06-18 20:14:41,438 - WARNING - No runnable entry point in camera_iot_exposure_monitor
+2025-06-18 20:14:41,440 - WARNING - No runnable entry point in casewatch
+2025-06-18 20:14:41,441 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 20:14:41,442 - WARNING - No runnable entry point in clamwatch
+2025-06-18 20:14:41,443 - WARNING - No runnable entry point in cloudwatch
+2025-06-18 20:14:41,444 - WARNING - No runnable entry point in counterkali
+2025-06-18 20:14:41,448 - WARNING - No runnable entry point in cve_audit
+2025-06-18 20:14:41,460 - WARNING - No runnable entry point in cve_decoy_trap
+2025-06-18 20:14:41,461 - WARNING - No runnable entry point in dashboard_server
+2025-06-18 20:14:41,462 - WARNING - No runnable entry point in decoygen
+2025-06-18 20:14:41,463 - WARNING - No runnable entry point in defensepack
+2025-06-18 20:14:41,465 - WARNING - No runnable entry point in dnswatch
+2025-06-18 20:14:41,467 - WARNING - No runnable entry point in edrwatch
+2025-06-18 20:14:41,469 - ERROR - \u274c Failed to start exploit_simulator: No module named 'threat_fingerprint_engine'
+2025-06-18 20:14:41,470 - WARNING - No runnable entry point in fingerprint
+2025-06-18 20:14:41,471 - WARNING - No runnable entry point in flowtrap
+2025-06-18 20:14:41,472 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 20:14:41,473 - WARNING - No runnable entry point in gui
+2025-06-18 20:14:41,474 - WARNING - No runnable entry point in honeyping
+2025-06-18 20:14:41,476 - WARNING - No runnable entry point in honeytrap
+2025-06-18 20:14:41,477 - WARNING - No runnable entry point in iamwatch_ai
+2025-06-18 20:14:41,478 - WARNING - No runnable entry point in iot_monitor
+2025-06-18 20:14:41,480 - INFO - Started ipwatch \u2705
+2025-06-18 20:14:41,481 - INFO - [IPWATCH] Local IP: 192.168.0.161
+2025-06-18 20:14:41,481 - WARNING - No runnable entry point in kernelwatch
+2025-06-18 20:14:41,483 - WARNING - No runnable entry point in liveboard
+2025-06-18 20:14:41,485 - WARNING - No runnable entry point in lockdown
+2025-06-18 20:14:41,487 - WARNING - No runnable entry point in mailwatch
+2025-06-18 20:14:41,489 - WARNING - No runnable entry point in memoryscan
+2025-06-18 20:14:41,491 - WARNING - No runnable entry point in memorywatch
+2025-06-18 20:14:41,492 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 20:14:41,494 - WARNING - No runnable entry point in militaryshield
+2025-06-18 20:14:41,495 - WARNING - No runnable entry point in netviz
+2025-06-18 20:14:41,497 - WARNING - No runnable entry point in otwatch
+2025-06-18 20:14:41,499 - WARNING - No runnable entry point in packetshield
+2025-06-18 20:14:41,501 - WARNING - No runnable entry point in parrotshield
+2025-06-18 20:14:41,502 - WARNING - No runnable entry point in patchcheckv2
+2025-06-18 20:14:41,504 - WARNING - No runnable entry point in patchengine
+2025-06-18 20:14:41,506 - WARNING - No runnable entry point in patternengine
+2025-06-18 20:14:41,508 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 20:14:41,510 - WARNING - No runnable entry point in pluginloader
+2025-06-18 20:14:41,511 - WARNING - No runnable entry point in policyengine
+2025-06-18 20:14:41,513 - WARNING - No runnable entry point in powerwatch
+2025-06-18 20:14:41,514 - WARNING - No runnable entry point in rdp_honeypot
+2025-06-18 20:14:41,515 - WARNING - No runnable entry point in reconblock
+2025-06-18 20:14:41,517 - ERROR - \u274c Failed to start remote_heartbeat: No module named 'cryptography'
+2025-06-18 20:14:41,518 - WARNING - No runnable entry point in reportgen
+2025-06-18 20:14:41,520 - INFO - ResurgWatch module started.
+2025-06-18 20:14:41,520 - INFO - Started resurgwatch \u2705
+2025-06-18 20:14:41,526 - WARNING - No runnable entry point in reverse_bait
+2025-06-18 20:14:41,528 - WARNING - No runnable entry point in revwatch
+2025-06-18 20:14:41,529 - WARNING - No runnable entry point in risk
+2025-06-18 20:14:41,532 - WARNING - No runnable entry point in riskscore
+2025-06-18 20:14:41,534 - WARNING - No runnable entry point in scantrap
+2025-06-18 20:14:41,613 - WARNING - No runnable entry point in self_audit_ai
+2025-06-18 20:14:41,641 - WARNING - No runnable entry point in sentinelit_monitor
+2025-06-18 20:14:41,643 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 20:14:41,644 - WARNING - No runnable entry point in siemcore_ai
+2025-06-18 20:14:41,645 - WARNING - No runnable entry point in simtrap
+2025-06-18 20:14:41,650 - WARNING - No runnable entry point in splash_screen
+2025-06-18 20:14:41,652 - WARNING - No runnable entry point in ssh_honeypot
+2025-06-18 20:14:41,653 - WARNING - No runnable entry point in startup_display
+2025-06-18 20:14:41,655 - WARNING - No runnable entry point in stealthcam
+2025-06-18 20:14:41,928 - WARNING - No runnable entry point in stealthcam_capture
+2025-06-18 20:14:41,930 - WARNING - No runnable entry point in stubs
+2025-06-18 20:14:41,931 - ERROR - \u274c Failed to start threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 20:14:41,932 - WARNING - No runnable entry point in threatdna
+2025-06-18 20:14:41,933 - ERROR - \u274c Failed to start threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 20:14:41,934 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 20:14:41,935 - WARNING - No runnable entry point in threat_fingerprint_engine[1]
+2025-06-18 20:14:41,937 - WARNING - No runnable entry point in tomcat_honeypot
+2025-06-18 20:14:41,938 - WARNING - No runnable entry point in trapengine
+2025-06-18 20:14:41,989 - INFO - Started traveltrap \u2705
+2025-06-18 20:14:41,991 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 20:14:41,995 - ERROR - \u274c Failed to start trayiconrunner: No module named 'PyQt5'
+2025-06-18 20:14:41,998 - INFO - Started uefiwatch \u2705
+2025-06-18 20:14:42,000 - WARNING - No runnable entry point in uefi_guard
+2025-06-18 20:14:42,002 - WARNING - No runnable entry point in uefi_tamperwatch
+2025-06-18 20:14:42,004 - ERROR - \u274c Failed to start unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 20:14:42,005 - WARNING - No runnable entry point in usbwatch
+2025-06-18 20:14:42,011 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 20:14:42,011 - INFO - Started usercloak \u2705
+2025-06-18 20:14:42,013 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 20:14:42,014 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 20:14:42,016 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 20:14:42,017 - WARNING - No runnable entry point in vulnscan
+2025-06-18 20:14:42,020 - INFO - Started watchdog_ai \u2705
+2025-06-18 20:14:42,023 - INFO - Started webdavwatch \u2705
+2025-06-18 20:14:42,025 - WARNING - No runnable entry point in webguard
+2025-06-18 20:14:42,027 - ERROR - \u274c Failed to start weekly_report_ai: unterminated f-string literal (detected at line 22) (weekly_report_ai.py, line 22)
+2025-06-18 20:14:42,029 - WARNING - No runnable entry point in xsswatch
+2025-06-18 20:14:42,031 - ERROR - \u274c Failed to start yara_guardian: No module named 'yara'
+2025-06-18 20:14:42,033 - ERROR - \u274c Failed to start zeusguard: (unicode error) 'unicodeescape' codec can't decode bytes in position 6-7: truncated \uXXXX escape (zeusguard.py, line 12)
+2025-06-18 20:14:42,303 - INFO - [WebDAVWATCH] WebClient service disabled.
+2025-06-18 20:14:42,303 - INFO - [WebDAVWATCH] Monitoring for suspicious UNC path activity...
+2025-06-18 20:14:52,146 - INFO - CPU: 5.4% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:15:03,154 - INFO - CPU: 47.3% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:15:14,163 - INFO - CPU: 35.9% | Memory: 66.5% | Disk: 82.1%
+2025-06-18 20:15:25,171 - INFO - CPU: 7.8% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:15:36,180 - INFO - CPU: 2.3% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:15:47,189 - INFO - CPU: 25.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:15:58,198 - INFO - CPU: 10.8% | Memory: 68.7% | Disk: 82.1%
+2025-06-18 20:16:09,206 - INFO - CPU: 58.1% | Memory: 68.4% | Disk: 82.1%
+2025-06-18 20:16:20,215 - INFO - CPU: 15.4% | Memory: 68.5% | Disk: 82.1%
+2025-06-18 20:16:31,224 - INFO - CPU: 25.9% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:16:42,237 - INFO - CPU: 38.0% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:16:53,246 - INFO - CPU: 11.3% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:17:04,259 - INFO - CPU: 16.5% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:17:15,268 - INFO - CPU: 61.1% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:17:26,276 - INFO - CPU: 10.5% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 20:17:37,286 - INFO - CPU: 12.1% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:17:48,295 - INFO - CPU: 17.9% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:17:59,304 - INFO - CPU: 31.8% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:18:10,313 - INFO - CPU: 46.6% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:18:21,321 - INFO - CPU: 50.4% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:18:32,330 - INFO - CPU: 16.8% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:18:43,343 - INFO - CPU: 11.6% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:18:54,353 - INFO - CPU: 26.7% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:19:05,361 - INFO - CPU: 66.9% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:19:16,369 - INFO - CPU: 49.2% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:19:27,382 - INFO - CPU: 66.4% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:19:38,391 - INFO - CPU: 14.2% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:19:49,399 - INFO - CPU: 100.0% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:19:49,399 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:20:00,408 - INFO - CPU: 79.5% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:20:11,421 - INFO - CPU: 24.8% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:20:22,430 - INFO - CPU: 25.4% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:20:33,439 - INFO - CPU: 51.1% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:20:44,448 - INFO - CPU: 15.0% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:20:55,457 - INFO - CPU: 25.0% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:21:06,466 - INFO - CPU: 54.5% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:21:17,479 - INFO - CPU: 19.5% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:21:28,489 - INFO - CPU: 13.6% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:21:39,501 - INFO - CPU: 20.6% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:21:50,511 - INFO - CPU: 20.0% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:22:01,525 - INFO - CPU: 17.7% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:22:12,538 - INFO - CPU: 19.1% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:22:23,552 - INFO - CPU: 10.9% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:22:34,566 - INFO - CPU: 14.0% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:22:45,579 - INFO - CPU: 10.1% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:22:56,593 - INFO - CPU: 19.2% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:23:07,606 - INFO - CPU: 12.5% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:23:18,620 - INFO - CPU: 25.2% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:23:29,635 - INFO - CPU: 9.3% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:23:40,648 - INFO - CPU: 27.7% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:24:28,719 - WARNING - No runnable entry point in accessauth
+2025-06-18 20:24:34,880 - WARNING - No runnable entry point in aihelpdesk
+2025-06-18 20:24:36,973 - WARNING - No runnable entry point in aihelpdesk_gui
+2025-06-18 20:24:37,004 - WARNING - No runnable entry point in ai_core
+2025-06-18 20:24:37,151 - WARNING - No runnable entry point in ai_monitor
+2025-06-18 20:24:37,152 - WARNING - No runnable entry point in ai_monitor_backup
+2025-06-18 20:24:37,195 - INFO - Started ai_speed_monitor \u2705
+2025-06-18 20:24:37,197 - WARNING - No runnable entry point in ai_threat_brain
+2025-06-18 20:24:37,203 - WARNING - No runnable entry point in assetmap
+2025-06-18 20:24:37,207 - WARNING - No runnable entry point in assetwatch
+2025-06-18 20:24:37,211 - INFO - Started authlock \u2705
+2025-06-18 20:24:37,241 - INFO - Started backupvault \u2705
+2025-06-18 20:24:37,243 - WARNING - No runnable entry point in backupwatch
+2025-06-18 20:24:37,245 - WARNING - No runnable entry point in bannertrap
+2025-06-18 20:24:37,247 - WARNING - No runnable entry point in BeEF
+2025-06-18 20:24:37,249 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 20:24:37,253 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 20:24:37,518 - INFO - Process priority elevated for AI boost.
+2025-06-18 20:24:38,527 - INFO - CPU: 64.8% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:24:38,818 - WARNING - No runnable entry point in camera_iot_exposure_monitor
+2025-06-18 20:24:38,820 - WARNING - No runnable entry point in casewatch
+2025-06-18 20:24:38,821 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 20:24:38,822 - WARNING - No runnable entry point in clamwatch
+2025-06-18 20:24:38,824 - WARNING - No runnable entry point in cloudwatch
+2025-06-18 20:24:38,825 - WARNING - No runnable entry point in counterkali
+2025-06-18 20:24:38,829 - WARNING - No runnable entry point in cve_audit
+2025-06-18 20:24:38,841 - WARNING - No runnable entry point in cve_decoy_trap
+2025-06-18 20:24:38,843 - WARNING - No runnable entry point in dashboard_server
+2025-06-18 20:24:38,844 - WARNING - No runnable entry point in decoygen
+2025-06-18 20:24:38,845 - WARNING - No runnable entry point in defensepack
+2025-06-18 20:24:38,847 - WARNING - No runnable entry point in dnswatch
+2025-06-18 20:24:38,848 - WARNING - No runnable entry point in edrwatch
+2025-06-18 20:24:38,850 - ERROR - \u274c Failed to start exploit_simulator: No module named 'threat_fingerprint_engine'
+2025-06-18 20:24:38,851 - WARNING - No runnable entry point in fingerprint
+2025-06-18 20:24:38,852 - WARNING - No runnable entry point in flowtrap
+2025-06-18 20:24:38,854 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 20:24:38,855 - WARNING - No runnable entry point in gui
+2025-06-18 20:24:38,856 - WARNING - No runnable entry point in honeyping
+2025-06-18 20:24:38,857 - WARNING - No runnable entry point in honeytrap
+2025-06-18 20:24:38,859 - WARNING - No runnable entry point in iamwatch_ai
+2025-06-18 20:24:38,860 - WARNING - No runnable entry point in iot_monitor
+2025-06-18 20:24:38,862 - INFO - Started ipwatch \u2705
+2025-06-18 20:24:38,863 - INFO - [IPWATCH] Local IP: 192.168.0.161
+2025-06-18 20:24:38,863 - WARNING - No runnable entry point in kernelwatch
+2025-06-18 20:24:38,865 - WARNING - No runnable entry point in liveboard
+2025-06-18 20:24:38,867 - WARNING - No runnable entry point in lockdown
+2025-06-18 20:24:38,869 - WARNING - No runnable entry point in mailwatch
+2025-06-18 20:24:38,871 - WARNING - No runnable entry point in memoryscan
+2025-06-18 20:24:38,873 - WARNING - No runnable entry point in memorywatch
+2025-06-18 20:24:38,874 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 20:24:38,876 - WARNING - No runnable entry point in militaryshield
+2025-06-18 20:24:38,877 - WARNING - No runnable entry point in netviz
+2025-06-18 20:24:38,878 - WARNING - No runnable entry point in otwatch
+2025-06-18 20:24:38,880 - WARNING - No runnable entry point in packetshield
+2025-06-18 20:24:38,882 - WARNING - No runnable entry point in parrotshield
+2025-06-18 20:24:38,883 - WARNING - No runnable entry point in patchcheckv2
+2025-06-18 20:24:38,885 - WARNING - No runnable entry point in patchengine
+2025-06-18 20:24:38,887 - WARNING - No runnable entry point in patternengine
+2025-06-18 20:24:38,889 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 20:24:38,891 - WARNING - No runnable entry point in pluginloader
+2025-06-18 20:24:38,893 - WARNING - No runnable entry point in policyengine
+2025-06-18 20:24:38,894 - WARNING - No runnable entry point in powerwatch
+2025-06-18 20:24:38,896 - WARNING - No runnable entry point in rdp_honeypot
+2025-06-18 20:24:38,897 - WARNING - No runnable entry point in reconblock
+2025-06-18 20:24:38,899 - ERROR - \u274c Failed to start remote_heartbeat: No module named 'cryptography'
+2025-06-18 20:24:38,900 - WARNING - No runnable entry point in reportgen
+2025-06-18 20:24:38,902 - INFO - ResurgWatch module started.
+2025-06-18 20:24:38,902 - INFO - Started resurgwatch \u2705
+2025-06-18 20:24:38,908 - WARNING - No runnable entry point in reverse_bait
+2025-06-18 20:24:38,910 - WARNING - No runnable entry point in revwatch
+2025-06-18 20:24:38,912 - WARNING - No runnable entry point in risk
+2025-06-18 20:24:38,914 - WARNING - No runnable entry point in riskscore
+2025-06-18 20:24:38,916 - WARNING - No runnable entry point in scantrap
+2025-06-18 20:24:38,995 - WARNING - No runnable entry point in self_audit_ai
+2025-06-18 20:24:39,022 - WARNING - No runnable entry point in sentinelit_monitor
+2025-06-18 20:24:39,023 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 20:24:39,024 - WARNING - No runnable entry point in siemcore_ai
+2025-06-18 20:24:39,025 - WARNING - No runnable entry point in simtrap
+2025-06-18 20:24:39,030 - WARNING - No runnable entry point in splash_screen
+2025-06-18 20:24:39,032 - WARNING - No runnable entry point in ssh_honeypot
+2025-06-18 20:24:39,034 - WARNING - No runnable entry point in startup_display
+2025-06-18 20:24:39,035 - WARNING - No runnable entry point in stealthcam
+2025-06-18 20:24:39,299 - WARNING - No runnable entry point in stealthcam_capture
+2025-06-18 20:24:39,300 - WARNING - No runnable entry point in stubs
+2025-06-18 20:24:39,301 - ERROR - \u274c Failed to start threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 20:24:39,302 - WARNING - No runnable entry point in threatdna
+2025-06-18 20:24:39,303 - ERROR - \u274c Failed to start threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 20:24:39,305 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 20:24:39,306 - WARNING - No runnable entry point in threat_fingerprint_engine[1]
+2025-06-18 20:24:39,308 - WARNING - No runnable entry point in tomcat_honeypot
+2025-06-18 20:24:39,309 - WARNING - No runnable entry point in trapengine
+2025-06-18 20:24:39,311 - INFO - Started traveltrap \u2705
+2025-06-18 20:24:39,313 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 20:24:39,317 - ERROR - \u274c Failed to start trayiconrunner: No module named 'PyQt5'
+2025-06-18 20:24:39,320 - INFO - Started uefiwatch \u2705
+2025-06-18 20:24:39,322 - WARNING - No runnable entry point in uefi_guard
+2025-06-18 20:24:39,323 - WARNING - No runnable entry point in uefi_tamperwatch
+2025-06-18 20:24:39,325 - ERROR - \u274c Failed to start unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 20:24:39,326 - WARNING - No runnable entry point in usbwatch
+2025-06-18 20:24:39,329 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 20:24:39,329 - INFO - Started usercloak \u2705
+2025-06-18 20:24:39,331 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 20:24:39,332 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 20:24:39,334 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 20:24:39,335 - WARNING - No runnable entry point in vulnscan
+2025-06-18 20:24:39,338 - INFO - Started watchdog_ai \u2705
+2025-06-18 20:24:39,346 - INFO - Started webdavwatch \u2705
+2025-06-18 20:24:39,348 - WARNING - No runnable entry point in webguard
+2025-06-18 20:24:39,350 - ERROR - \u274c Failed to start weekly_report_ai: unterminated f-string literal (detected at line 22) (weekly_report_ai.py, line 22)
+2025-06-18 20:24:39,351 - WARNING - No runnable entry point in xsswatch
+2025-06-18 20:24:39,353 - ERROR - \u274c Failed to start yara_guardian: No module named 'yara'
+2025-06-18 20:24:39,355 - ERROR - \u274c Failed to start zeusguard: (unicode error) 'unicodeescape' codec can't decode bytes in position 6-7: truncated \uXXXX escape (zeusguard.py, line 12)
+2025-06-18 20:24:39,586 - INFO - [WebDAVWATCH] WebClient service disabled.
+2025-06-18 20:24:39,586 - INFO - [WebDAVWATCH] Monitoring for suspicious UNC path activity...
+2025-06-18 20:24:49,541 - INFO - CPU: 16.3% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:25:00,555 - INFO - CPU: 18.6% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 20:25:11,568 - INFO - CPU: 10.9% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 20:25:22,582 - INFO - CPU: 23.8% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 20:25:33,596 - INFO - CPU: 14.7% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:25:44,606 - INFO - CPU: 33.3% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:25:55,620 - INFO - CPU: 21.7% | Memory: 67.1% | Disk: 82.1%
+2025-06-18 20:26:06,628 - INFO - CPU: 93.1% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:26:06,628 - WARNING - [AI BOOSTER] High usage detected. Optimizing processes...
+2025-06-18 20:26:17,637 - INFO - CPU: 23.0% | Memory: 67.4% | Disk: 82.1%
+2025-06-18 20:26:28,645 - INFO - CPU: 21.2% | Memory: 67.0% | Disk: 82.1%
+2025-06-18 20:26:39,654 - INFO - CPU: 55.0% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:26:50,668 - INFO - CPU: 25.6% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:27:34,696 - WARNING - No runnable entry point in accessauth
+2025-06-18 20:27:37,359 - WARNING - No runnable entry point in aihelpdesk
+2025-06-18 20:27:39,331 - WARNING - No runnable entry point in aihelpdesk_gui
+2025-06-18 20:27:39,352 - WARNING - No runnable entry point in ai_core
+2025-06-18 20:27:39,476 - WARNING - No runnable entry point in ai_monitor
+2025-06-18 20:27:39,478 - WARNING - No runnable entry point in ai_monitor_backup
+2025-06-18 20:27:39,537 - INFO - \u2705 Started ai_speed_monitor
+2025-06-18 20:27:39,538 - WARNING - No runnable entry point in ai_threat_brain
+2025-06-18 20:27:39,541 - WARNING - No runnable entry point in assetmap
+2025-06-18 20:27:39,545 - WARNING - No runnable entry point in assetwatch
+2025-06-18 20:27:39,549 - INFO - \u2705 Started authlock
+2025-06-18 20:27:39,578 - INFO - \u2705 Started backupvault
+2025-06-18 20:27:39,581 - WARNING - No runnable entry point in backupwatch
+2025-06-18 20:27:39,581 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 20:27:39,585 - WARNING - No runnable entry point in bannertrap
+2025-06-18 20:27:39,587 - WARNING - No runnable entry point in BeEF
+2025-06-18 20:27:39,591 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 20:27:39,827 - INFO - Process priority elevated for AI boost.
+2025-06-18 20:27:40,835 - INFO - CPU: 55.0% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:27:41,104 - WARNING - No runnable entry point in camera_iot_exposure_monitor
+2025-06-18 20:27:41,106 - WARNING - No runnable entry point in casewatch
+2025-06-18 20:27:41,107 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 20:27:41,108 - WARNING - No runnable entry point in clamwatch
+2025-06-18 20:27:41,109 - WARNING - No runnable entry point in cloudwatch
+2025-06-18 20:27:41,111 - WARNING - No runnable entry point in counterkali
+2025-06-18 20:27:41,114 - WARNING - No runnable entry point in cve_audit
+2025-06-18 20:27:41,126 - WARNING - No runnable entry point in cve_decoy_trap
+2025-06-18 20:27:41,128 - WARNING - No runnable entry point in dashboard_server
+2025-06-18 20:27:41,129 - WARNING - No runnable entry point in decoygen
+2025-06-18 20:27:41,131 - WARNING - No runnable entry point in defensepack
+2025-06-18 20:27:41,132 - WARNING - No runnable entry point in dnswatch
+2025-06-18 20:27:41,133 - WARNING - No runnable entry point in edrwatch
+2025-06-18 20:27:41,135 - ERROR - \u274c Failed to run exploit_simulator: No module named 'threat_fingerprint_engine'
+2025-06-18 20:27:41,136 - WARNING - No runnable entry point in fingerprint
+2025-06-18 20:27:41,137 - WARNING - No runnable entry point in flowtrap
+2025-06-18 20:27:41,138 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 20:27:41,140 - WARNING - No runnable entry point in gui
+2025-06-18 20:27:41,141 - WARNING - No runnable entry point in honeyping
+2025-06-18 20:27:41,142 - WARNING - No runnable entry point in honeytrap
+2025-06-18 20:27:41,144 - WARNING - No runnable entry point in iamwatch_ai
+2025-06-18 20:27:41,145 - WARNING - No runnable entry point in iot_monitor
+2025-06-18 20:27:41,147 - INFO - \u2705 Started ipwatch
+2025-06-18 20:27:41,149 - INFO - [IPWATCH] Local IP: 192.168.0.161
+2025-06-18 20:27:41,149 - WARNING - No runnable entry point in kernelwatch
+2025-06-18 20:27:41,151 - WARNING - No runnable entry point in liveboard
+2025-06-18 20:27:41,153 - WARNING - No runnable entry point in lockdown
+2025-06-18 20:27:41,155 - WARNING - No runnable entry point in mailwatch
+2025-06-18 20:27:41,157 - WARNING - No runnable entry point in memoryscan
+2025-06-18 20:27:41,159 - WARNING - No runnable entry point in memorywatch
+2025-06-18 20:27:41,160 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 20:27:41,162 - WARNING - No runnable entry point in militaryshield
+2025-06-18 20:27:41,163 - WARNING - No runnable entry point in netviz
+2025-06-18 20:27:41,164 - WARNING - No runnable entry point in otwatch
+2025-06-18 20:27:41,166 - WARNING - No runnable entry point in packetshield
+2025-06-18 20:27:41,168 - WARNING - No runnable entry point in parrotshield
+2025-06-18 20:27:41,170 - WARNING - No runnable entry point in patchcheckv2
+2025-06-18 20:27:41,172 - WARNING - No runnable entry point in patchengine
+2025-06-18 20:27:41,173 - WARNING - No runnable entry point in patternengine
+2025-06-18 20:27:41,175 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 20:27:41,176 - WARNING - No runnable entry point in pluginloader
+2025-06-18 20:27:41,178 - WARNING - No runnable entry point in policyengine
+2025-06-18 20:27:41,179 - WARNING - No runnable entry point in powerwatch
+2025-06-18 20:27:41,182 - WARNING - No runnable entry point in rdp_honeypot
+2025-06-18 20:27:41,183 - WARNING - No runnable entry point in reconblock
+2025-06-18 20:27:41,186 - ERROR - \u274c Failed to run remote_heartbeat: No module named 'cryptography'
+2025-06-18 20:27:41,187 - WARNING - No runnable entry point in reportgen
+2025-06-18 20:27:41,189 - INFO - ResurgWatch module started.
+2025-06-18 20:27:41,189 - INFO - \u2705 Started resurgwatch
+2025-06-18 20:27:41,194 - WARNING - No runnable entry point in reverse_bait
+2025-06-18 20:27:41,196 - WARNING - No runnable entry point in revwatch
+2025-06-18 20:27:41,199 - WARNING - No runnable entry point in risk
+2025-06-18 20:27:41,201 - WARNING - No runnable entry point in riskscore
+2025-06-18 20:27:41,202 - WARNING - No runnable entry point in scantrap
+2025-06-18 20:27:41,284 - WARNING - No runnable entry point in self_audit_ai
+2025-06-18 20:27:41,312 - WARNING - No runnable entry point in sentinelit_monitor
+2025-06-18 20:27:41,314 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 20:27:41,315 - WARNING - No runnable entry point in siemcore_ai
+2025-06-18 20:27:41,316 - WARNING - No runnable entry point in simtrap
+2025-06-18 20:27:41,321 - WARNING - No runnable entry point in splash_screen
+2025-06-18 20:27:41,324 - WARNING - No runnable entry point in ssh_honeypot
+2025-06-18 20:27:41,325 - WARNING - No runnable entry point in startup_display
+2025-06-18 20:27:41,326 - WARNING - No runnable entry point in stealthcam
+2025-06-18 20:27:41,602 - WARNING - No runnable entry point in stealthcam_capture
+2025-06-18 20:27:41,603 - WARNING - No runnable entry point in stubs
+2025-06-18 20:27:41,605 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 20:27:41,606 - WARNING - No runnable entry point in threatdna
+2025-06-18 20:27:41,608 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 20:27:41,609 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 20:27:41,610 - WARNING - No runnable entry point in threat_fingerprint_engine[1]
+2025-06-18 20:27:41,612 - WARNING - No runnable entry point in tomcat_honeypot
+2025-06-18 20:27:41,613 - WARNING - No runnable entry point in trapengine
+2025-06-18 20:27:41,616 - INFO - \u2705 Started traveltrap
+2025-06-18 20:27:41,618 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 20:27:41,620 - ERROR - \u274c Failed to run trayiconrunner: No module named 'PyQt5'
+2025-06-18 20:27:41,623 - INFO - \u2705 Started uefiwatch
+2025-06-18 20:27:41,626 - WARNING - No runnable entry point in uefi_guard
+2025-06-18 20:27:41,627 - WARNING - No runnable entry point in uefi_tamperwatch
+2025-06-18 20:27:41,629 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 20:27:41,631 - WARNING - No runnable entry point in usbwatch
+2025-06-18 20:27:41,634 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 20:27:41,634 - INFO - \u2705 Started usercloak
+2025-06-18 20:27:41,636 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 20:27:41,637 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 20:27:41,639 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 20:27:41,640 - WARNING - No runnable entry point in vulnscan
+2025-06-18 20:27:41,643 - INFO - \u2705 Started watchdog_ai
+2025-06-18 20:27:41,650 - INFO - \u2705 Started webdavwatch
+2025-06-18 20:27:41,652 - WARNING - No runnable entry point in webguard
+2025-06-18 20:27:41,653 - ERROR - \u274c Failed to run weekly_report_ai: unterminated f-string literal (detected at line 22) (weekly_report_ai.py, line 22)
+2025-06-18 20:27:41,655 - WARNING - No runnable entry point in xsswatch
+2025-06-18 20:27:41,658 - ERROR - \u274c Failed to run yara_guardian: No module named 'yara'
+2025-06-18 20:27:41,659 - ERROR - \u274c Failed to run zeusguard: (unicode error) 'unicodeescape' codec can't decode bytes in position 6-7: truncated \uXXXX escape (zeusguard.py, line 12)
+2025-06-18 20:27:41,661 - WARNING - No runnable entry point in vaultwatch
+2025-06-18 20:27:41,662 - WARNING - No runnable entry point in vaultwatch_reboot
+2025-06-18 20:27:41,666 - WARNING - No runnable entry point in vaultwatch_install
+2025-06-18 20:27:41,937 - INFO - [WebDAVWATCH] WebClient service disabled.
+2025-06-18 20:27:41,937 - INFO - [WebDAVWATCH] Monitoring for suspicious UNC path activity...
+2025-06-18 20:27:51,844 - INFO - CPU: 20.1% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:28:02,853 - INFO - CPU: 17.1% | Memory: 67.3% | Disk: 82.1%
+2025-06-18 20:28:13,862 - INFO - CPU: 39.5% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:28:24,871 - INFO - CPU: 20.2% | Memory: 67.2% | Disk: 82.1%
+2025-06-18 20:28:35,884 - INFO - CPU: 8.6% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:28:46,898 - INFO - CPU: 24.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:28:57,912 - INFO - CPU: 6.9% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:29:08,926 - INFO - CPU: 13.2% | Memory: 67.5% | Disk: 82.1%
+2025-06-18 20:29:19,939 - INFO - CPU: 10.7% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:29:30,953 - INFO - CPU: 18.3% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:29:41,968 - INFO - CPU: 10.1% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:29:52,982 - INFO - CPU: 16.9% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:30:03,996 - INFO - CPU: 11.5% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:30:15,010 - INFO - CPU: 10.9% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:30:26,024 - INFO - CPU: 18.8% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:30:37,038 - INFO - CPU: 10.9% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:30:48,047 - INFO - CPU: 11.5% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:30:59,061 - INFO - CPU: 18.2% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:31:10,074 - INFO - CPU: 11.7% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:31:21,088 - INFO - CPU: 21.1% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:31:32,102 - INFO - CPU: 11.5% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:31:43,116 - INFO - CPU: 17.1% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:31:54,129 - INFO - CPU: 20.0% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:32:05,142 - INFO - CPU: 17.1% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:32:16,156 - INFO - CPU: 9.3% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:32:27,170 - INFO - CPU: 13.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:32:38,183 - INFO - CPU: 12.3% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:32:49,192 - INFO - CPU: 46.2% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:33:00,205 - INFO - CPU: 18.2% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:33:11,217 - INFO - CPU: 16.9% | Memory: 66.9% | Disk: 82.1%
+2025-06-18 20:33:22,226 - INFO - CPU: 20.0% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:33:33,240 - INFO - CPU: 20.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:33:44,248 - INFO - CPU: 15.4% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:33:55,262 - INFO - CPU: 16.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:34:06,276 - INFO - CPU: 7.8% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:34:17,290 - INFO - CPU: 14.0% | Memory: 66.2% | Disk: 82.1%
+2025-06-18 20:34:28,299 - INFO - CPU: 14.6% | Memory: 65.6% | Disk: 82.1%
+2025-06-18 20:34:39,312 - INFO - CPU: 20.0% | Memory: 65.5% | Disk: 82.1%
+2025-06-18 20:34:50,326 - INFO - CPU: 9.5% | Memory: 65.5% | Disk: 82.1%
+2025-06-18 20:35:01,335 - INFO - CPU: 38.6% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:35:12,344 - INFO - CPU: 16.5% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:35:23,354 - INFO - CPU: 20.5% | Memory: 66.4% | Disk: 82.1%
+2025-06-18 20:35:34,363 - INFO - CPU: 43.8% | Memory: 66.3% | Disk: 82.1%
+2025-06-18 20:35:45,371 - INFO - CPU: 22.7% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:35:56,380 - INFO - CPU: 18.8% | Memory: 66.8% | Disk: 82.1%
+2025-06-18 20:36:07,389 - INFO - CPU: 17.2% | Memory: 66.7% | Disk: 82.1%
+2025-06-18 20:36:18,399 - INFO - CPU: 22.6% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:36:29,408 - INFO - CPU: 24.2% | Memory: 66.6% | Disk: 82.1%
+2025-06-18 20:36:40,417 - INFO - CPU: 20.7% | Memory: 66.7% | Disk: 82.1%
