@@ -1,4 +1,5 @@
-def run_traveltrap_email():
-    print("[EMAIL] Phishing alert email sent...")
-    with open("logs/email_alerts.log", "w") as f:
-        f.write("Phishing redirect trap alert triggered. Email sent to: James.zulu35@yahoo.co.uk\n")
+
+def send_phishing_alert(subject, body):
+    print(f"[EMAIL ALERT] Subject: {subject}")
+    print(f"Body: {body}")
+    # In production, insert SMTP logic here if needed
