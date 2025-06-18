@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SentinelIT
 # 🛡️ SentinelIT – The Future of Automated Cybersecurity Defense
 
@@ -83,3 +84,6 @@ It’s **not just antivirus.** It’s **intelligent defense.**
 
 > 🧠 *"SentinelIT was designed not just to react — but to **outsmart**, **mislead**, and **hunt** intrusions in real-time."*
 
+=======
+# SentinelIT_NextGEN-CYBERSECURITY-SOFTWARE
+>>>>>>> 29602e5 (Initial commit)
