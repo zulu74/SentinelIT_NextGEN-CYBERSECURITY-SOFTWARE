@@ -1,3 +1,348 @@
 [AIHelpDesk] Wed Jun  4 12:20:44 2025: User 'james zulu' verified successfully. Session auto-restored.
 [AIHelpDeskGUI] Wed Jun  4 12:58:45 2025: SUCCESS: James zulu verified.
 [AIHelpDeskGUI] Wed Jun  4 18:31:27 2025: SUCCESS: james zulu verified.
+2025-06-18 21:10:50,446 - WARNING - No runnable entry point in accessauth
+2025-06-18 21:10:50,449 - WARNING - No runnable entry point in aihelpdesk
+2025-06-18 21:10:50,526 - WARNING - No runnable entry point in assetmap
+2025-06-18 21:10:50,542 - WARNING - No runnable entry point in assetwatch
+2025-06-18 21:10:50,572 - INFO - \u2705 Started authlock
+2025-06-18 21:10:50,619 - INFO - \u2705 Started backupvault
+2025-06-18 21:10:50,630 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 21:10:50,648 - WARNING - No runnable entry point in backupwatch
+2025-06-18 21:10:50,675 - WARNING - No runnable entry point in bannertrap
+2025-06-18 21:10:50,676 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 21:10:50,700 - WARNING - No runnable entry point in casewatch
+2025-06-18 21:10:50,702 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 21:10:50,741 - WARNING - No runnable entry point in clamwatch
+2025-06-18 21:10:50,783 - WARNING - No runnable entry point in counterkali
+2025-06-18 21:10:50,809 - WARNING - No runnable entry point in decoygen
+2025-06-18 21:10:50,843 - WARNING - No runnable entry point in dnswatch
+2025-06-18 21:10:50,850 - WARNING - No runnable entry point in edrwatch
+2025-06-18 21:10:50,873 - WARNING - No runnable entry point in flowtrap
+2025-06-18 21:10:50,874 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 21:10:50,921 - WARNING - No runnable entry point in gui
+2025-06-18 21:10:50,948 - WARNING - No runnable entry point in honeyping
+2025-06-18 21:10:50,950 - WARNING - No runnable entry point in honeypot
+2025-06-18 21:10:50,978 - WARNING - No runnable entry point in honeytrap
+2025-06-18 21:10:50,979 - WARNING - No runnable entry point in lockdown
+2025-06-18 21:10:50,981 - WARNING - No runnable entry point in mailwatch
+2025-06-18 21:10:50,986 - WARNING - No runnable entry point in memoryscan
+2025-06-18 21:10:51,007 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 21:10:51,009 - WARNING - No runnable entry point in militaryshield
+2025-06-18 21:10:51,032 - WARNING - No runnable entry point in netviz
+2025-06-18 21:10:51,055 - WARNING - No runnable entry point in otwatch
+2025-06-18 21:10:51,083 - WARNING - No runnable entry point in parrotshield
+2025-06-18 21:10:51,085 - WARNING - No runnable entry point in patchcheck_v2
+2025-06-18 21:10:51,112 - WARNING - No runnable entry point in patchengine
+2025-06-18 21:10:51,114 - WARNING - No runnable entry point in patternengine
+2025-06-18 21:10:51,115 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 21:10:51,138 - WARNING - No runnable entry point in pluginloader
+2025-06-18 21:10:51,166 - WARNING - No runnable entry point in policyengine
+2025-06-18 21:10:51,168 - WARNING - No runnable entry point in quarantine
+2025-06-18 21:10:51,188 - WARNING - No runnable entry point in reconblock
+2025-06-18 21:10:51,217 - WARNING - No runnable entry point in reportgen
+2025-06-18 21:10:51,256 - INFO - ResurgWatch module started.
+2025-06-18 21:10:51,256 - INFO - \u2705 Started resurgwatch
+2025-06-18 21:10:51,284 - WARNING - No runnable entry point in risk
+2025-06-18 21:10:51,309 - WARNING - No runnable entry point in riskscore
+2025-06-18 21:10:51,313 - WARNING - No runnable entry point in rollbackguard
+2025-06-18 21:10:51,340 - WARNING - No runnable entry point in scantrap
+2025-06-18 21:10:51,517 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 21:10:51,555 - WARNING - No runnable entry point in siemcore
+2025-06-18 21:10:51,601 - WARNING - No runnable entry point in simtrap
+2025-06-18 21:10:51,603 - WARNING - No runnable entry point in stealthcam
+2025-06-18 21:10:51,635 - WARNING - No runnable entry point in stubs
+2025-06-18 21:10:51,639 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 21:10:51,641 - WARNING - No runnable entry point in threatdna
+2025-06-18 21:10:51,644 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 21:10:51,654 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 21:10:51,680 - WARNING - No runnable entry point in trapengine
+2025-06-18 21:10:51,751 - INFO - \u2705 Started traveltrap
+2025-06-18 21:10:51,753 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 21:10:51,799 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 21:10:51,896 - WARNING - No runnable entry point in usbwatch
+2025-06-18 21:10:51,926 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 21:10:51,926 - INFO - \u2705 Started usercloak
+2025-06-18 21:10:51,955 - WARNING - No runnable entry point in vulnscan
+2025-06-18 21:10:51,957 - WARNING - No runnable entry point in webguard
+2025-06-18 21:10:51,988 - WARNING - No runnable entry point in xsswatch
+2025-06-18 21:10:51,989 - ERROR - \u274c Failed to run vaultwatch: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch.py'
+2025-06-18 21:10:51,989 - ERROR - \u274c Failed to run vaultwatch_reboot: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_reboot.py'
+2025-06-18 21:10:51,990 - ERROR - \u274c Failed to run vaultwatch_install: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_install.py'
+2025-06-18 21:17:35,393 - WARNING - No runnable entry point in accessauth
+2025-06-18 21:17:35,396 - WARNING - No runnable entry point in aihelpdesk
+2025-06-18 21:17:35,434 - WARNING - No runnable entry point in assetmap
+2025-06-18 21:17:35,449 - WARNING - No runnable entry point in assetwatch
+2025-06-18 21:17:35,453 - INFO - \u2705 Started authlock
+2025-06-18 21:17:35,479 - INFO - \u2705 Started backupvault
+2025-06-18 21:17:35,481 - WARNING - No runnable entry point in backupwatch
+2025-06-18 21:17:35,483 - WARNING - No runnable entry point in bannertrap
+2025-06-18 21:17:35,484 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-18 21:17:35,484 - WARNING - No runnable entry point in behaviorwatch
+2025-06-18 21:17:35,488 - WARNING - No runnable entry point in casewatch
+2025-06-18 21:17:35,489 - WARNING - No runnable entry point in clamav_scanner
+2025-06-18 21:17:35,505 - WARNING - No runnable entry point in clamwatch
+2025-06-18 21:17:35,506 - WARNING - No runnable entry point in counterkali
+2025-06-18 21:17:35,507 - WARNING - No runnable entry point in decoygen
+2025-06-18 21:17:35,508 - WARNING - No runnable entry point in dnswatch
+2025-06-18 21:17:35,509 - WARNING - No runnable entry point in edrwatch
+2025-06-18 21:17:35,511 - WARNING - No runnable entry point in flowtrap
+2025-06-18 21:17:35,513 - WARNING - No runnable entry point in forensicswatch
+2025-06-18 21:17:35,554 - WARNING - No runnable entry point in gui
+2025-06-18 21:17:35,556 - WARNING - No runnable entry point in honeyping
+2025-06-18 21:17:35,557 - WARNING - No runnable entry point in honeypot
+2025-06-18 21:17:35,558 - WARNING - No runnable entry point in honeytrap
+2025-06-18 21:17:35,559 - WARNING - No runnable entry point in lockdown
+2025-06-18 21:17:35,560 - WARNING - No runnable entry point in mailwatch
+2025-06-18 21:17:35,564 - WARNING - No runnable entry point in memoryscan
+2025-06-18 21:17:35,565 - WARNING - No runnable entry point in metasploit_defender
+2025-06-18 21:17:35,566 - WARNING - No runnable entry point in militaryshield
+2025-06-18 21:17:35,567 - WARNING - No runnable entry point in netviz
+2025-06-18 21:17:35,568 - WARNING - No runnable entry point in otwatch
+2025-06-18 21:17:35,569 - WARNING - No runnable entry point in parrotshield
+2025-06-18 21:17:35,570 - WARNING - No runnable entry point in patchcheck_v2
+2025-06-18 21:17:35,571 - WARNING - No runnable entry point in patchengine
+2025-06-18 21:17:35,572 - WARNING - No runnable entry point in patternengine
+2025-06-18 21:17:35,573 - WARNING - No runnable entry point in phantomstaff
+2025-06-18 21:17:35,574 - WARNING - No runnable entry point in pluginloader
+2025-06-18 21:17:35,575 - WARNING - No runnable entry point in policyengine
+2025-06-18 21:17:35,576 - WARNING - No runnable entry point in quarantine
+2025-06-18 21:17:35,577 - WARNING - No runnable entry point in reconblock
+2025-06-18 21:17:35,578 - WARNING - No runnable entry point in reportgen
+2025-06-18 21:17:35,580 - INFO - ResurgWatch module started.
+2025-06-18 21:17:35,580 - INFO - \u2705 Started resurgwatch
+2025-06-18 21:17:35,583 - WARNING - No runnable entry point in risk
+2025-06-18 21:17:35,585 - WARNING - No runnable entry point in riskscore
+2025-06-18 21:17:35,589 - WARNING - No runnable entry point in rollbackguard
+2025-06-18 21:17:35,590 - WARNING - No runnable entry point in scantrap
+2025-06-18 21:17:35,711 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-18 21:17:35,713 - WARNING - No runnable entry point in siemcore
+2025-06-18 21:17:35,714 - WARNING - No runnable entry point in simtrap
+2025-06-18 21:17:35,715 - WARNING - No runnable entry point in stealthcam
+2025-06-18 21:17:35,716 - WARNING - No runnable entry point in stubs
+2025-06-18 21:17:35,718 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-18 21:17:35,719 - WARNING - No runnable entry point in threatdna
+2025-06-18 21:17:35,720 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-18 21:17:35,721 - WARNING - No runnable entry point in threatmodelAI
+2025-06-18 21:17:35,722 - WARNING - No runnable entry point in trapengine
+2025-06-18 21:17:35,779 - INFO - \u2705 Started traveltrap
+2025-06-18 21:17:35,780 - WARNING - No runnable entry point in traveltrap_email
+2025-06-18 21:17:35,784 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-18 21:17:35,902 - WARNING - No runnable entry point in usbwatch
+2025-06-18 21:17:35,909 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-18 21:17:35,909 - INFO - \u2705 Started usercloak
+2025-06-18 21:17:35,911 - WARNING - No runnable entry point in vulnscan
+2025-06-18 21:17:35,913 - WARNING - No runnable entry point in webguard
+2025-06-18 21:17:35,916 - WARNING - No runnable entry point in xsswatch
+2025-06-18 21:17:35,917 - ERROR - \u274c Failed to run vaultwatch: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch.py'
+2025-06-18 21:17:35,917 - ERROR - \u274c Failed to run vaultwatch_reboot: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_reboot.py'
+2025-06-18 21:17:35,918 - ERROR - \u274c Failed to run vaultwatch_install: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_install.py'
+2025-06-19 10:04:05,085 - WARNING - No runnable entry point in accessauth
+2025-06-19 10:04:05,089 - WARNING - No runnable entry point in aihelpdesk
+2025-06-19 10:04:05,422 - WARNING - No runnable entry point in assetmap
+2025-06-19 10:04:05,690 - WARNING - No runnable entry point in assetwatch
+2025-06-19 10:04:05,695 - INFO - \u2705 Started authlock
+2025-06-19 10:04:05,854 - INFO - \u2705 Started backupvault
+2025-06-19 10:04:05,856 - WARNING - No runnable entry point in backupwatch
+2025-06-19 10:04:05,861 - WARNING - No runnable entry point in bannertrap
+2025-06-19 10:04:05,862 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-19 10:04:05,866 - WARNING - No runnable entry point in behaviorwatch
+2025-06-19 10:04:05,868 - WARNING - No runnable entry point in casewatch
+2025-06-19 10:04:05,871 - WARNING - No runnable entry point in clamav_scanner
+2025-06-19 10:04:05,892 - WARNING - No runnable entry point in clamwatch
+2025-06-19 10:04:05,896 - WARNING - No runnable entry point in counterkali
+2025-06-19 10:04:05,898 - WARNING - No runnable entry point in decoygen
+2025-06-19 10:04:05,900 - WARNING - No runnable entry point in dnswatch
+2025-06-19 10:04:05,902 - WARNING - No runnable entry point in edrwatch
+2025-06-19 10:04:05,904 - WARNING - No runnable entry point in flowtrap
+2025-06-19 10:04:05,906 - WARNING - No runnable entry point in forensicswatch
+2025-06-19 10:04:06,071 - WARNING - No runnable entry point in gui
+2025-06-19 10:04:06,074 - WARNING - No runnable entry point in honeyping
+2025-06-19 10:04:06,076 - WARNING - No runnable entry point in honeypot
+2025-06-19 10:04:06,078 - WARNING - No runnable entry point in honeytrap
+2025-06-19 10:04:06,113 - WARNING - No runnable entry point in locationobfuscator
+2025-06-19 10:04:06,116 - WARNING - No runnable entry point in lockdown
+2025-06-19 10:04:06,118 - WARNING - No runnable entry point in mailwatch
+2025-06-19 10:04:06,121 - WARNING - No runnable entry point in memoryscan
+2025-06-19 10:04:06,122 - WARNING - No runnable entry point in metasploit_defender
+2025-06-19 10:04:06,124 - WARNING - No runnable entry point in militaryshield
+2025-06-19 10:04:06,126 - WARNING - No runnable entry point in netviz
+2025-06-19 10:04:06,128 - WARNING - No runnable entry point in otwatch
+2025-06-19 10:04:06,130 - WARNING - No runnable entry point in parrotshield
+2025-06-19 10:04:06,131 - WARNING - No runnable entry point in patchcheck_v2
+2025-06-19 10:04:06,134 - WARNING - No runnable entry point in patchengine
+2025-06-19 10:04:06,136 - WARNING - No runnable entry point in patternengine
+2025-06-19 10:04:06,138 - WARNING - No runnable entry point in phantomstaff
+2025-06-19 10:04:06,140 - WARNING - No runnable entry point in pluginloader
+2025-06-19 10:04:06,142 - WARNING - No runnable entry point in policyengine
+2025-06-19 10:04:06,144 - WARNING - No runnable entry point in quarantine
+2025-06-19 10:04:06,145 - WARNING - No runnable entry point in reconblock
+2025-06-19 10:04:06,147 - WARNING - No runnable entry point in reportgen
+2025-06-19 10:04:06,150 - INFO - ResurgWatch module started.
+2025-06-19 10:04:06,150 - INFO - \u2705 Started resurgwatch
+2025-06-19 10:04:06,154 - WARNING - No runnable entry point in risk
+2025-06-19 10:04:06,157 - WARNING - No runnable entry point in riskscore
+2025-06-19 10:04:06,160 - WARNING - No runnable entry point in rollbackguard
+2025-06-19 10:04:06,163 - WARNING - No runnable entry point in scantrap
+2025-06-19 10:04:06,522 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-19 10:04:06,524 - WARNING - No runnable entry point in siemcore
+2025-06-19 10:04:06,526 - WARNING - No runnable entry point in simtrap
+2025-06-19 10:04:06,529 - WARNING - No runnable entry point in stealthcam
+2025-06-19 10:04:06,531 - WARNING - No runnable entry point in stubs
+2025-06-19 10:04:06,555 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-19 10:04:06,558 - WARNING - No runnable entry point in threatdna
+2025-06-19 10:04:06,588 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-19 10:04:06,591 - WARNING - No runnable entry point in threatmodelAI
+2025-06-19 10:04:06,595 - WARNING - No runnable entry point in trapengine
+2025-06-19 10:04:06,600 - INFO - \u2705 Started traveltrap
+2025-06-19 10:04:06,603 - WARNING - No runnable entry point in traveltrap_email
+2025-06-19 10:04:06,642 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-19 10:04:06,911 - WARNING - No runnable entry point in usbwatch
+2025-06-19 10:04:06,918 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-19 10:04:06,918 - INFO - \u2705 Started usercloak
+2025-06-19 10:04:06,922 - WARNING - No runnable entry point in vulnscan
+2025-06-19 10:04:06,927 - WARNING - No runnable entry point in webguard
+2025-06-19 10:04:06,930 - WARNING - No runnable entry point in xsswatch
+2025-06-19 10:04:06,930 - ERROR - \u274c Failed to run vaultwatch: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch.py'
+2025-06-19 10:04:06,931 - ERROR - \u274c Failed to run vaultwatch_reboot: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_reboot.py'
+2025-06-19 10:04:06,931 - ERROR - \u274c Failed to run vaultwatch_install: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_install.py'
+2025-06-19 10:15:08,043 - WARNING - No runnable entry point in accessauth
+2025-06-19 10:15:08,047 - WARNING - No runnable entry point in aihelpdesk
+2025-06-19 10:15:08,088 - WARNING - No runnable entry point in assetmap
+2025-06-19 10:15:08,103 - WARNING - No runnable entry point in assetwatch
+2025-06-19 10:15:08,107 - INFO - \u2705 Started authlock
+2025-06-19 10:15:08,138 - INFO - \u2705 Started backupvault
+2025-06-19 10:15:08,140 - WARNING - No runnable entry point in backupwatch
+2025-06-19 10:15:08,142 - WARNING - No runnable entry point in bannertrap
+2025-06-19 10:15:08,144 - WARNING - No runnable entry point in behaviorwatch
+2025-06-19 10:15:08,145 - WARNING - No runnable entry point in casewatch
+2025-06-19 10:15:08,146 - WARNING - No runnable entry point in clamav_scanner
+2025-06-19 10:15:08,147 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-19 10:15:08,163 - WARNING - No runnable entry point in clamwatch
+2025-06-19 10:15:08,165 - WARNING - No runnable entry point in counterkali
+2025-06-19 10:15:08,167 - WARNING - No runnable entry point in decoygen
+2025-06-19 10:15:08,169 - WARNING - No runnable entry point in dnswatch
+2025-06-19 10:15:08,171 - WARNING - No runnable entry point in edrwatch
+2025-06-19 10:15:08,173 - WARNING - No runnable entry point in flowtrap
+2025-06-19 10:15:08,174 - WARNING - No runnable entry point in forensicswatch
+2025-06-19 10:15:08,215 - WARNING - No runnable entry point in gui
+2025-06-19 10:15:08,216 - WARNING - No runnable entry point in honeyping
+2025-06-19 10:15:08,218 - WARNING - No runnable entry point in honeypot
+2025-06-19 10:15:08,218 - WARNING - No runnable entry point in honeytrap
+2025-06-19 10:15:08,251 - ERROR - \u274c Failed to run kalitrap: unterminated f-string literal (detected at line 19) (kalitrap.py, line 19)
+2025-06-19 10:15:08,257 - WARNING - No runnable entry point in locationobfuscator
+2025-06-19 10:15:08,259 - WARNING - No runnable entry point in lockdown
+2025-06-19 10:15:08,260 - WARNING - No runnable entry point in mailwatch
+2025-06-19 10:15:08,261 - WARNING - No runnable entry point in memoryscan
+2025-06-19 10:15:08,262 - WARNING - No runnable entry point in metasploit_defender
+2025-06-19 10:15:08,263 - WARNING - No runnable entry point in militaryshield
+2025-06-19 10:15:08,264 - WARNING - No runnable entry point in netviz
+2025-06-19 10:15:08,265 - WARNING - No runnable entry point in otwatch
+2025-06-19 10:15:08,266 - WARNING - No runnable entry point in parrotshield
+2025-06-19 10:15:08,268 - WARNING - No runnable entry point in patchcheck_v2
+2025-06-19 10:15:08,269 - WARNING - No runnable entry point in patchengine
+2025-06-19 10:15:08,271 - WARNING - No runnable entry point in patternengine
+2025-06-19 10:15:08,272 - WARNING - No runnable entry point in phantomstaff
+2025-06-19 10:15:08,274 - WARNING - No runnable entry point in pluginloader
+2025-06-19 10:15:08,275 - WARNING - No runnable entry point in policyengine
+2025-06-19 10:15:08,276 - WARNING - No runnable entry point in quarantine
+2025-06-19 10:15:08,277 - WARNING - No runnable entry point in reconblock
+2025-06-19 10:15:08,279 - WARNING - No runnable entry point in reportgen
+2025-06-19 10:15:08,281 - INFO - ResurgWatch module started.
+2025-06-19 10:15:08,281 - INFO - \u2705 Started resurgwatch
+2025-06-19 10:15:08,284 - WARNING - No runnable entry point in risk
+2025-06-19 10:15:08,287 - WARNING - No runnable entry point in riskscore
+2025-06-19 10:15:08,289 - WARNING - No runnable entry point in rollbackguard
+2025-06-19 10:15:08,292 - WARNING - No runnable entry point in scantrap
+2025-06-19 10:15:08,418 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-19 10:15:08,420 - WARNING - No runnable entry point in siemcore
+2025-06-19 10:15:08,421 - WARNING - No runnable entry point in simtrap
+2025-06-19 10:15:08,422 - WARNING - No runnable entry point in stealthcam
+2025-06-19 10:15:08,423 - WARNING - No runnable entry point in stubs
+2025-06-19 10:15:08,424 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-19 10:15:08,425 - WARNING - No runnable entry point in threatdna
+2025-06-19 10:15:08,426 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-19 10:15:08,427 - WARNING - No runnable entry point in threatmodelAI
+2025-06-19 10:15:08,429 - WARNING - No runnable entry point in trapengine
+2025-06-19 10:15:08,432 - INFO - \u2705 Started traveltrap
+2025-06-19 10:15:08,435 - WARNING - No runnable entry point in traveltrap_email
+2025-06-19 10:15:08,441 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-19 10:15:08,543 - WARNING - No runnable entry point in usbwatch
+2025-06-19 10:15:08,548 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-19 10:15:08,548 - INFO - \u2705 Started usercloak
+2025-06-19 10:15:08,551 - WARNING - No runnable entry point in vulnscan
+2025-06-19 10:15:08,553 - WARNING - No runnable entry point in webguard
+2025-06-19 10:15:08,560 - WARNING - No runnable entry point in xsswatch
+2025-06-19 10:15:08,560 - ERROR - \u274c Failed to run vaultwatch: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch.py'
+2025-06-19 10:15:08,561 - ERROR - \u274c Failed to run vaultwatch_reboot: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_reboot.py'
+2025-06-19 10:15:08,561 - ERROR - \u274c Failed to run vaultwatch_install: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_install.py'
+2025-06-19 10:20:10,376 - WARNING - No runnable entry point in accessauth
+2025-06-19 10:20:10,380 - WARNING - No runnable entry point in aihelpdesk
+2025-06-19 10:20:10,418 - WARNING - No runnable entry point in assetmap
+2025-06-19 10:20:10,433 - WARNING - No runnable entry point in assetwatch
+2025-06-19 10:20:10,437 - INFO - \u2705 Started authlock
+2025-06-19 10:20:10,465 - INFO - \u2705 Started backupvault
+2025-06-19 10:20:10,467 - WARNING - No runnable entry point in backupwatch
+2025-06-19 10:20:10,468 - WARNING - No runnable entry point in bannertrap
+2025-06-19 10:20:10,470 - WARNING - No runnable entry point in behaviorwatch
+2025-06-19 10:20:10,472 - WARNING - No runnable entry point in casewatch
+2025-06-19 10:20:10,472 - WARNING - [BACKUPVAULT] Suspicious file backed up and quarantined.
+2025-06-19 10:20:10,473 - WARNING - No runnable entry point in clamav_scanner
+2025-06-19 10:20:10,493 - WARNING - No runnable entry point in clamwatch
+2025-06-19 10:20:10,494 - WARNING - No runnable entry point in counterkali
+2025-06-19 10:20:10,496 - WARNING - No runnable entry point in decoygen
+2025-06-19 10:20:10,498 - WARNING - No runnable entry point in dnswatch
+2025-06-19 10:20:10,500 - WARNING - No runnable entry point in edrwatch
+2025-06-19 10:20:10,501 - WARNING - No runnable entry point in flowtrap
+2025-06-19 10:20:10,502 - WARNING - No runnable entry point in forensicswatch
+2025-06-19 10:20:10,539 - WARNING - No runnable entry point in gui
+2025-06-19 10:20:10,540 - WARNING - No runnable entry point in honeyping
+2025-06-19 10:20:10,541 - WARNING - No runnable entry point in honeypot
+2025-06-19 10:20:10,542 - WARNING - No runnable entry point in honeytrap
+2025-06-19 10:20:10,579 - ERROR - \u274c Failed to run kalitrap: unterminated f-string literal (detected at line 20) (kalitrap.py, line 20)
+2025-06-19 10:20:10,584 - WARNING - No runnable entry point in locationobfuscator
+2025-06-19 10:20:10,585 - WARNING - No runnable entry point in lockdown
+2025-06-19 10:20:10,587 - WARNING - No runnable entry point in mailwatch
+2025-06-19 10:20:10,593 - WARNING - No runnable entry point in memoryscan
+2025-06-19 10:20:10,595 - WARNING - No runnable entry point in metasploit_defender
+2025-06-19 10:20:10,596 - WARNING - No runnable entry point in militaryshield
+2025-06-19 10:20:10,597 - WARNING - No runnable entry point in netviz
+2025-06-19 10:20:10,598 - WARNING - No runnable entry point in otwatch
+2025-06-19 10:20:10,599 - WARNING - No runnable entry point in parrotshield
+2025-06-19 10:20:10,600 - WARNING - No runnable entry point in patchcheck_v2
+2025-06-19 10:20:10,601 - WARNING - No runnable entry point in patchengine
+2025-06-19 10:20:10,602 - WARNING - No runnable entry point in patternengine
+2025-06-19 10:20:10,603 - WARNING - No runnable entry point in phantomstaff
+2025-06-19 10:20:10,604 - WARNING - No runnable entry point in pluginloader
+2025-06-19 10:20:10,605 - WARNING - No runnable entry point in policyengine
+2025-06-19 10:20:10,606 - WARNING - No runnable entry point in quarantine
+2025-06-19 10:20:10,607 - WARNING - No runnable entry point in reconblock
+2025-06-19 10:20:10,608 - WARNING - No runnable entry point in reportgen
+2025-06-19 10:20:10,609 - INFO - ResurgWatch module started.
+2025-06-19 10:20:10,609 - INFO - \u2705 Started resurgwatch
+2025-06-19 10:20:10,612 - WARNING - No runnable entry point in risk
+2025-06-19 10:20:10,614 - WARNING - No runnable entry point in riskscore
+2025-06-19 10:20:10,618 - WARNING - No runnable entry point in rollbackguard
+2025-06-19 10:20:10,620 - WARNING - No runnable entry point in scantrap
+2025-06-19 10:20:10,736 - WARNING - No runnable entry point in sentinelit_tray
+2025-06-19 10:20:10,738 - WARNING - No runnable entry point in siemcore
+2025-06-19 10:20:10,739 - WARNING - No runnable entry point in simtrap
+2025-06-19 10:20:10,740 - WARNING - No runnable entry point in stealthcam
+2025-06-19 10:20:10,741 - WARNING - No runnable entry point in stubs
+2025-06-19 10:20:10,742 - ERROR - \u274c Failed to run threatai: invalid syntax (threatai.py, line 1)
+2025-06-19 10:20:10,743 - WARNING - No runnable entry point in threatdna
+2025-06-19 10:20:10,744 - ERROR - \u274c Failed to run threatmodel: invalid syntax (threatmodel.py, line 3)
+2025-06-19 10:20:10,746 - WARNING - No runnable entry point in threatmodelAI
+2025-06-19 10:20:10,747 - WARNING - No runnable entry point in trapengine
+2025-06-19 10:20:10,751 - INFO - \u2705 Started traveltrap
+2025-06-19 10:20:10,753 - WARNING - No runnable entry point in traveltrap_email
+2025-06-19 10:20:10,759 - ERROR - \u274c Failed to run unlock_cmd_access: invalid syntax. Perhaps you forgot a comma? (unlock_cmd_access.py, line 23)
+2025-06-19 10:20:10,848 - WARNING - No runnable entry point in usbwatch
+2025-06-19 10:20:10,852 - INFO - [USERCLOAK] Real user 'zxola' masked as 'agent_487'
+2025-06-19 10:20:10,852 - INFO - \u2705 Started usercloak
+2025-06-19 10:20:10,854 - WARNING - No runnable entry point in vulnscan
+2025-06-19 10:20:10,857 - WARNING - No runnable entry point in webguard
+2025-06-19 10:20:10,858 - WARNING - No runnable entry point in xsswatch
+2025-06-19 10:20:10,859 - ERROR - \u274c Failed to run vaultwatch: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch.py'
+2025-06-19 10:20:10,860 - ERROR - \u274c Failed to run vaultwatch_reboot: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_reboot.py'
+2025-06-19 10:20:10,860 - ERROR - \u274c Failed to run vaultwatch_install: [Errno 2] No such file or directory: 'C:\\Users\\zxola\\Downloads\\SentinelIT_Build\\vaultwatch_install.py'

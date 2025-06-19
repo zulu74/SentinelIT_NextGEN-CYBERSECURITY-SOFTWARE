@@ -1,4 +1,17 @@
-def run_traveltrap_email():
-    print("[EMAIL] Phishing alert email sent...")
-    with open("logs/email_alerts.log", "w") as f:
-        f.write("Phishing redirect trap alert triggered. Email sent to: James.zulu35@yahoo.co.uk\n")
+import time
+import random
+
+def start():
+    print("[TravelTrap Email Scanner] Monitoring for redirector-based phishing attempts...")
+
+    alerts = [
+        "Suspicious redirect detected: https://google.com/travel/clk?...",
+        "Entropy pattern anomaly in redirected token string.",
+        "Known phishing redirector used: /secure/login",
+        "Redirector matches blocked domain: hxxps://redirect-link.to/phish",
+        "Redirection link triggered honeypot analysis."
+    ]
+
+    while True:
+        print(f"[TravelTrap Alert] {random.choice(alerts)}")
+        time.sleep(11)

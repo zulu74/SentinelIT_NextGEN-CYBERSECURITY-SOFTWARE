@@ -1,10 +1,19 @@
-def run_siemcore():
-    print("[SIEMCORE] Aggregating system logs...")
-    logs = [
-        "User login from 10.0.0.5",
-        "Firewall alert: port scan blocked",
-        "Service crash: nginx exited unexpectedly"
+import time
+import random
+
+def start():
+    print("[SIEMCore] Module started. Correlating events...")
+
+    patterns = [
+        "Multiple failed logins",
+        "Unusual port scan",
+        "Privilege escalation detected",
+        "Malicious executable found",
+        "Suspicious DNS query",
+        "Repeated access to sensitive file"
     ]
-    with open("logs/siemcore.log", "w") as f:
-        for entry in logs:
-            f.write(f"{entry}\n")
+
+    while True:
+        event = random.choice(patterns)
+        print(f"[SIEM ALERT] {event}")
+        time.sleep(7)
