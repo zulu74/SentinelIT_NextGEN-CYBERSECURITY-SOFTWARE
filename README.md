@@ -1,72 +1,74 @@
+# 🛡️ SentinelIT – NextGEN Cybersecurity Suite
+**Powered by AI • Hardened by Design • Unmatched in Defense**
 
-SentinelIT – NextGEN Cybersecurity Software
-Powered by AI. Hardened Systems. Zero Compromise.
+SentinelIT is an advanced AI-driven cybersecurity system engineered to detect, defend, and neutralize modern cyber threats in real-time. Designed for governments, enterprises, and high-risk sectors, SentinelIT integrates cutting-edge protection, zero-day response, deception technologies, and multi-executive access control in one powerful framework.
 
-SentinelIT-NXT is an enterprise-grade, AI-driven cybersecurity suite built to defend, deceive, and destroy modern cyber threats. Whether you're a red team operator, blue team analyst, or SOC lead, SentinelIT offers unmatched real-time protection, deception tech, and autonomous response capabilities. It rivals and outperforms traditional SIEM/XDR/EDR systems with AI automation, honeypots, fingerprinting, and CVE intelligence.
+---
 
-🔐 Core Modules (Phase 8+)
-Module	Description
-lockdown.py	Locks PowerShell/CMD access for unauthorized users with logging and session alerts.
-ai_core.py	Learns from system behavior and enhances defenses using AI logic.
-dashboard_server.py	Web dashboard with live threat analytics (http://localhost:8080).
-cloudwatch.py	Detects token replay, cloud abuse, and invisible endpoint activity.
-siemcore_ai.py	AI-enhanced SIEM with rule parsing, log correlation, and real-time triggers.
-iamwatch_ai.py	Tracks identity abuse, login anomalies, and privilege escalations.
-packetshield.py	Inspects passive traffic and flags sniffers, rogue interfaces, or odd traffic.
-tomcat_honeypot.py	Brute-force honeypot for Tomcat environments. Tracks attacker IPs + methods.
-camwatch.py	Monitors camera streams for corporate spy devices or open feeds.
-cvewatch.py	Weekly CVE audit with auto-generated reports (CVSS + remediation).
-threatfingerprint.py	Maintains exploit DNA, CVE logic templates, and attack pattern recognition.
-honeypot.py	Deploys SSH, RDP, and web honeypots to lure attackers.
-dlpwatch.py	Monitors for sensitive data leakage via USB, browser, clipboard, or email.
-policyengine.py	Enforces rules, quarantines threats, and executes lockouts in real-time.
+## 🔥 What’s New (2025 Edition)
 
-🤖 AI & Automation Features
-AI behavior modeling and fingerprint comparison
+### ✅ Core Enhancements:
+- **Modularized System Launch**: Central `ultimate_main.py` runs all modules simultaneously.
+- **New Vault Security**: `vaultwatch.py` – Requires 6 unique passcodes to access critical data, with timed lockout and Code Red triggers.
+- **Power Resilience**: `powerwatch.py` monitors power conditions with triple-source backup logic (solar, generator, grid).
+- **Dynamic Obfuscation**: Location shifts between 20,000+ randomized global proxies every 5 seconds.
 
-Autonomous weekly CVE scans + reporting
+---
 
-Auto-quarantine, self-healing modules
+## ⚙️ Modules Overview (50+ modules, and growing)
 
-Anti-brute force logic and pattern tracking
+| Module             | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| `usbwatch.py`      | Detects and logs USB insertions, runs behavioral threat scan automatically. |
+| `phantomstaff.py`  | AI-driven IT helpdesk for front-line response and silent system defense.     |
+| `vaultwatch.py`    | Multi-passcode vault access, triggers full shutdown on unauthorized access.  |
+| `stealthcam.py`    | Captures webcam images when suspicious commands are executed.                |
+| `lockdown.py`      | Locks CMD/PowerShell on unauthorized users and logs all access attempts.     |
+| `quarantine.py`    | Automatically isolates files or devices showing threat behavior.             |
+| `mailwatch.py`     | Scans clipboard and emails for malicious links or phishing redirectors.      |
+| `patchcheckv2.py`  | Detects outdated apps, cross-references CVEs, and auto-generates fix reports.|
+| `resurgwatch.py`   | AI detects re-emerging CVEs masked under modified logic.                     |
+| `traveltrap_email.py` | Detects phishing via URL redirect traps like Google /travel/clk.         |
+| `pluginloader.py`  | Dynamically loads and monitors module status and integrity.                  |
+| `threatdna.py`     | Profiles malware signatures using historical CVE patterns.                   |
+| `patternengine.py` | Detects behavioral anomalies using logic pattern analytics.                  |
+| `siemcore.py`      | Core AI-enhanced SIEM for live monitoring, logging, and alerting.            |
+| `memorywatch.py`   | Monitors system memory for injection or buffer overflow attempts.            |
+| `kernelwatch.py`   | Detects tampering at kernel level with live response logic.                  |
+| `dashboard_server.py` | Hosts a secure local dashboard for all AI logs and reports.              |
+| `trayiconrunner.py`| Background runner that shows a system tray icon confirming SentinelIT is live.|
+| `recoguard.py`     | Monitors reconnaissance techniques and logs any enumeration attempts.        |
+| `kalitrap.py`      | Detects and deflects attacks from popular Kali Linux tools.                  |
+| `iotmonitor.py`    | Monitors IoT traffic, detects spoofing or unauthorized device changes.       |
 
-Decoy traps, stealth camera alerts, session tracking
+---
 
-USB scanning, command lockdown, user ID masking
+## 🔐 Unmatched Security Features
 
-📄 Automated Ethical Hacking Reports
-SentinelIT-NXT generates weekly reports including:
+- **AI Helpdesk Automation** – Users receive real-time support, password resets, and lockdowns via PhantomStaff.
+- **Triple OTP Admin Lockdown** – No admin/root access unless approved by 3 executives in real-time.
+- **Real-time Threat Response** – Instant quarantine, alerting, and deception on suspected attacks.
+- **Reconnaissance & Enumeration Detection** – Blocks and logs active scans and Nmap attempts.
+- **CVE Watchlist with Weekly Reports** – Tracks CVE-2024/2025 and critical infrastructure threats.
+- **Zero Human Window Exploits** – No 5-second exploit windows for admins. Full system surveillance is enforced.
+- **Redundancy Design** – Solar → Generator → Grid power logic. Electricity is the last resort.
+- **Auto Update & Audit** – Weekly self-audits with full PDF reports, CVSS scoring, and fix recommendations.
 
-✅ CVE IDs and patch check summaries
+---
 
-✅ CVSS 3.1 scoring
+## 🧠 Ideal For:
+- Government & Military Defense
+- Telecom & Financial Institutions
+- Infrastructure & Energy Sectors
+- Private Security Firms
+- Red/Blue Teams
 
-✅ Exploitability and exposure rating
+---
 
-✅ Remediation guidance (automated)
+## 🧪 Testing Environment
 
-✅ Local PDF-style summaries for compliance
-
-⚙️ System Requirements
-OS: Windows 10/11, Kali Linux 2023+
-
-Python: 3.10+
-
-Memory: 8GB RAM (min), 16GB recommended
-
-Other: Admin rights for full protection coverage
-
-🚀 Quick Start
-bash
-Copy
-Edit
-cd SentinelIT_Build
+For live penetration test simulation:
+```bash
+# Termux/Kali test
+nmap -A 192.168.0.X
 python ultimate_main.py
-Dashboard: http://127.0.0.1:8080 (auto-launch)
-
-👤 Author
-James Zulu
-📧 jameszulu1574@gmail.com
-🔗 GitHub: github.com/zulu74
-🔗 LinkedIn: linkedin.com/in/jameszulu
-
