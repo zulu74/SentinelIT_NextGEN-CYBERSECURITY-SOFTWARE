@@ -71,4 +71,4 @@ For live penetration test simulation:
 ```bash
 # Termux/Kali test
 nmap -A 192.168.0.X
-python ultimate_main.py
+python ultimate_main.py.
