@@ -1,4 +1,5 @@
-
+import sys
+import os
 import threading
 import usbwatch
 import phantomstaff
@@ -20,6 +21,9 @@ import memorywatch
 import pluginloader
 import dashboard_server
 import trayiconrunner
+
+
+
 
 def launch(module, name):
     thread = threading.Thread(target=module.start, name=name)
@@ -47,5 +51,7 @@ if __name__ == "__main__":
     launch(pluginloader, "PluginLoader")
     launch(dashboard_server, "DashboardServer")
     launch(trayiconrunner, "TrayIconRunner")
+    
+    
 
     print("[SentinelIT] All modules launched successfully.")
