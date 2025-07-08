@@ -1,10 +1,6 @@
-Absolutely, Xolani — let’s give your SentinelIT project a professional, polished README.md that reflects all the powerful features you’ve built.
 
----
 
-✅ Updated README.md for SentinelIT
-
-Here’s a complete version you can copy and paste into your repo:
+✅ Updated READme
 
 `markdown
 
