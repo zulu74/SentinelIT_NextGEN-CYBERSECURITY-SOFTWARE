@@ -1,74 +1,134 @@
-# 🛡️ SentinelIT – NextGEN Cybersecurity Suite
-**Powered by AI • Hardened by Design • Unmatched in Defense**
-
-SentinelIT is an advanced AI-driven cybersecurity system engineered to detect, defend, and neutralize modern cyber threats in real-time. Designed for governments, enterprises, and high-risk sectors, SentinelIT integrates cutting-edge protection, zero-day response, deception technologies, and multi-executive access control in one powerful framework.
+Absolutely, Xolani — let’s give your SentinelIT project a professional, polished README.md that reflects all the powerful features you’ve built.
 
 ---
 
-## 🔥 What’s New (2025 Edition)
+✅ Updated README.md for SentinelIT
 
-### ✅ Core Enhancements:
-- **Modularized System Launch**: Central `ultimate_main.py` runs all modules simultaneously.
-- **New Vault Security**: `vaultwatch.py` – Requires 6 unique passcodes to access critical data, with timed lockout and Code Red triggers.
-- **Power Resilience**: `powerwatch.py` monitors power conditions with triple-source backup logic (solar, generator, grid).
-- **Dynamic Obfuscation**: Location shifts between 20,000+ randomized global proxies every 5 seconds.
+Here’s a complete version you can copy and paste into your repo:
 
----
+`markdown
 
-## ⚙️ Modules Overview (50+ modules, and growing)
+🛡️ SentinelIT – Modular Cybersecurity Command Center
 
-| Module             | Description                                                                 |
-|--------------------|-----------------------------------------------------------------------------|
-| `usbwatch.py`      | Detects and logs USB insertions, runs behavioral threat scan automatically. |
-| `phantomstaff.py`  | AI-driven IT helpdesk for front-line response and silent system defense.     |
-| `vaultwatch.py`    | Multi-passcode vault access, triggers full shutdown on unauthorized access.  |
-| `stealthcam.py`    | Captures webcam images when suspicious commands are executed.                |
-| `lockdown.py`      | Locks CMD/PowerShell on unauthorized users and logs all access attempts.     |
-| `quarantine.py`    | Automatically isolates files or devices showing threat behavior.             |
-| `mailwatch.py`     | Scans clipboard and emails for malicious links or phishing redirectors.      |
-| `patchcheckv2.py`  | Detects outdated apps, cross-references CVEs, and auto-generates fix reports.|
-| `resurgwatch.py`   | AI detects re-emerging CVEs masked under modified logic.                     |
-| `traveltrap_email.py` | Detects phishing via URL redirect traps like Google /travel/clk.         |
-| `pluginloader.py`  | Dynamically loads and monitors module status and integrity.                  |
-| `threatdna.py`     | Profiles malware signatures using historical CVE patterns.                   |
-| `patternengine.py` | Detects behavioral anomalies using logic pattern analytics.                  |
-| `siemcore.py`      | Core AI-enhanced SIEM for live monitoring, logging, and alerting.            |
-| `memorywatch.py`   | Monitors system memory for injection or buffer overflow attempts.            |
-| `kernelwatch.py`   | Detects tampering at kernel level with live response logic.                  |
-| `dashboard_server.py` | Hosts a secure local dashboard for all AI logs and reports.              |
-| `trayiconrunner.py`| Background runner that shows a system tray icon confirming SentinelIT is live.|
-| `recoguard.py`     | Monitors reconnaissance techniques and logs any enumeration attempts.        |
-| `kalitrap.py`      | Detects and deflects attacks from popular Kali Linux tools.                  |
-| `iotmonitor.py`    | Monitors IoT traffic, detects spoofing or unauthorized device changes.       |
+SentinelIT is a modular, real-time cybersecurity dashboard designed for endpoint visibility, threat analysis, and AI-powered insights. Built with Flask, Socket.IO, and OpenAI integration, it empowers security teams to monitor, respond, and manage users from a single command center.
 
 ---
 
-## 🔐 Unmatched Security Features
+🚀 Features
 
-- **AI Helpdesk Automation** – Users receive real-time support, password resets, and lockdowns via PhantomStaff.
-- **Triple OTP Admin Lockdown** – No admin/root access unless approved by 3 executives in real-time.
-- **Real-time Threat Response** – Instant quarantine, alerting, and deception on suspected attacks.
-- **Reconnaissance & Enumeration Detection** – Blocks and logs active scans and Nmap attempts.
-- **CVE Watchlist with Weekly Reports** – Tracks CVE-2024/2025 and critical infrastructure threats.
-- **Zero Human Window Exploits** – No 5-second exploit windows for admins. Full system surveillance is enforced.
-- **Redundancy Design** – Solar → Generator → Grid power logic. Electricity is the last resort.
-- **Auto Update & Audit** – Weekly self-audits with full PDF reports, CVSS scoring, and fix recommendations.
-
----
-
-## 🧠 Ideal For:
-- Government & Military Defense
-- Telecom & Financial Institutions
-- Infrastructure & Energy Sectors
-- Private Security Firms
-- Red/Blue Teams
+- 🔐 Secure Admin Login with hashed passwords and role-based access
+- 🧠 AI-Powered Module Insights using OpenAI GPT-3.5
+- 📡 Real-Time Endpoint Monitoring via Socket.IO
+- 📊 System Metrics: CPU, memory, and agent status
+- 📥 User Onboarding with email-based enrollment links
+- 🧩 Modular Design: Easily plug in new security modules
+- 🛠️ Role & Feature Management for fine-grained access control
+- 📧 Email Integration using Flask-Mail for invites and alerts
+- 🧪 Test Dashboard for module simulation and development
 
 ---
 
-## 🧪 Testing Environment
+🧰 Tech Stack
 
-For live penetration test simulation:
-```bash
-# Termux/Kali test
-nmap -A 192.168.0.X
-python ultimate_main.py.
+| Layer | Tech |
+|-------|------|
+| Backend | Flask, SQLAlchemy, Flask-Login, Flask-Mail |
+| Frontend | HTML, CSS, JavaScript, Bootstrap |
+| Realtime | Flask-SocketIO |
+| AI | OpenAI GPT-3.5 (via openai SDK v1.9.3) |
+| Database | SQLite (default) |
+| Deployment | On-premise or cloud-ready |
+
+---
+
+⚙️ Setup Instructions
+
+1. Clone the Repo
+
+`bash
+git clone https://github.com/your-username/sentinelit.git
+cd sentinelit
+`
+
+2. Install Dependencies
+
+`bash
+pip install -r requirements.txt
+`
+
+3. Create Admin User
+
+`bash
+python create_admin.py
+`
+
+This creates:
+
+- Email: admin@sentinel.com
+- Password: admin123
+
+4. Run the App
+
+`bash
+python app.py
+`
+
+Visit: http://localhost:5000
+
+---
+
+🧠 AI Module Insight
+
+Click any module (e.g. VulnWatch) to trigger an AI summary:
+
+`json
+{
+  "summary": "Detected suspicious outbound traffic from endpoint-03.",
+  "risk": "HIGH",
+  "action": "Isolate the endpoint and investigate DNS logs."
+}
+`
+
+---
+
+🧪 Testing & Development
+
+- dashboardTestor.py: Simulates agent activity
+- createServer.py: Optional test server for agent registration
+- enroll.html: Used for agent onboarding via email link
+
+---
+
+🔐 Security Notes
+
+- Passwords are hashed using werkzeug.security
+- Admin-only routes are protected with @login_required and role checks
+- Email invites use time-limited tokens (24h expiry)
+
+---
+
+📦 Deployment
+
+You can deploy SentinelIT on:
+
+- 🖥️ Localhost (for testing)
+- ☁️ Cloud VM (e.g. AWS, Azure, DigitalOcean)
+- 🐳 Docker (coming soon)
+
+---
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+---
+
+📄 License
+
+MIT License. See LICENSE file for details.
+
+---
+
+👨‍💻 Built by
+
+James Zulu
