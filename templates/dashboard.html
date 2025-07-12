@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SentinelIT Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>🛡️ SentinelIT Command Dashboard</h1>
+  </header>
+
+  <div class="dashboard-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div><strong>Logged in as:</strong><br>{{ user.email }}</div>
+      {% if user.role == 'admin' %}
+        <a href="{{ url_for('add_user') }}" class="button-link">➕ Add User</a>
+      {% endif %}
+      <a href="{{ url_for('logout') }}" class="button-link">🔒 Logout</a>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- System Metrics -->
+      <div class="panel">
+        <h2>📊 System Metrics</h2>
+        <div>🧠 CPU: {{ system_metrics['cpu'] }}%</div>
+        <div>💾 Memory: {{ system_metrics['memory'] }}%</div>
+        <div>📦 Disk: {{ system_metrics['disk'] }}%</div>
+        <div>📡 Net Sent: {{ system_metrics['net_sent'] }} bytes</div>
+        <div>📡 Net Received: {{ system_metrics['net_recv'] }} bytes</div>
+        <div>⏱ Last Update: {{ system_metrics['timestamp'] }}</div>
+      </div>
+
+      <!-- Connected Users -->
+      <div class="panel">
+        <h2>👥 Connected Users</h2>
+        <ul>
+          {% for u in users %}
+            <li>
+              {{ u.email }}
+              {% if u.role == 'admin' %}<span class="badge badge-admin">Admin</span>{% endif %}
+              {% if u.role == 'analyst' %}<span class="badge badge-analyst">Analyst</span>{% endif %}
+              {% if u.role == 'guest' %}<span class="badge badge-guest">Guest</span>{% endif %}
+              {% if u.is_connected %}<span class="connected">● Online</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Security Modules -->
+      <div class="panel">
+        <h2>🧩 Security Modules</h2>
+        <div class="module-grid">
+          {% for mod in modules %}
+            <div class="module-card">
+              {{ mod.name }}
+              <span class="{{ 'enabled' if mod.status == 'enabled' else 'disabled' }}">
+                {{ mod.status.capitalize() }}
+              </span>
+              <span>Last update: {{ mod.last_update.strftime('%H:%M:%S') }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <footer>
+    SentinelIT © {{ datetime.utcnow().year }} — Built by Xolani  
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SentinelIT Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>🔐 SentinelIT Login</h1>
+  </header>
+
+  <div class="main-content">
+    <form action="{{ url_for('login') }}" method="POST" class="panel">
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+      <button class="button-link" type="submit">Login</button>
+    </form>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="panel">
+          {% for msg in messages %}
+            <div class="flash">{{ msg }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+  </div>
+
+  <footer>
+    SentinelIT © {{ datetime.utcnow().year }}
+  </footer>
+
+</body>
+</html>
