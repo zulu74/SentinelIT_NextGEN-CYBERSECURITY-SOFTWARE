@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import json
 import time
@@ -44,3 +45,15 @@ def simulate_siem_activity():
 
 if __name__ == "__main__":
     simulate_siem_activity()
+=======
+def run_siemcore():
+    print("[SIEMCORE] Aggregating system logs...")
+    logs = [
+        "User login from 10.0.0.5",
+        "Firewall alert: port scan blocked",
+        "Service crash: nginx exited unexpectedly"
+    ]
+    with open("logs/siemcore.log", "w") as f:
+        for entry in logs:
+            f.write(f"{entry}\n")
+>>>>>>> temp-patch

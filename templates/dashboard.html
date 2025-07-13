@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SentinelIT Dashboard</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SentinelIT Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='ml.css') }}">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 </head>
 <body>
+    <header>
+        <h1>Welcome, {{ user.email }} ({{ user.role }})</h1>
+        <nav>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>🛡️ SentinelIT Command Dashboard</h1>
-  </header>
-
-  <div class="dashboard-container">
-
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <div><strong>Logged in as:</strong><br>{{ user.email }}</div>
-      {% if user.role == 'admin' %}
-        <a href="{{ url_for('add_user') }}" class="button-link">➕ Add User</a>
-      {% endif %}
-      <a href="{{ url_for('logout') }}" class="button-link">🔒 Logout</a>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-
-      <!-- System Metrics -->
-      <div class="panel">
+    <section class="metrics">
         <h2>📊 System Metrics</h2>
-        <div>🧠 CPU: {{ system_metrics['cpu'] }}%</div>
-        <div>💾 Memory: {{ system_metrics['memory'] }}%</div>
-        <div>📦 Disk: {{ system_metrics['disk'] }}%</div>
-        <div>📡 Net Sent: {{ system_metrics['net_sent'] }} bytes</div>
-        <div>📡 Net Received: {{ system_metrics['net_recv'] }} bytes</div>
-        <div>⏱ Last Update: {{ system_metrics['timestamp'] }}</div>
-      </div>
-
-      <!-- Connected Users -->
-      <div class="panel">
-        <h2>👥 Connected Users</h2>
-        <ul>
-          {% for u in users %}
-            <li>
-              {{ u.email }}
-              {% if u.role == 'admin' %}<span class="badge badge-admin">Admin</span>{% endif %}
-              {% if u.role == 'analyst' %}<span class="badge badge-analyst">Analyst</span>{% endif %}
-              {% if u.role == 'guest' %}<span class="badge badge-guest">Guest</span>{% endif %}
-              {% if u.is_connected %}<span class="connected">● Online</span>{% endif %}
-            </li>
-          {% endfor %}
+        <ul id="live-metrics">
+            <li>CPU Usage: {{ metrics['cpu'] }}%</li>
+            <li>Memory Usage: {{ metrics['memory'] }}%</li>
+            <li>Disk Usage: {{ metrics['disk'] }}%</li>
+            <li>Net Sent: {{ metrics['sent'] }} bytes</li>
+            <li>Net Received: {{ metrics['recv'] }} bytes</li>
+            <li>Timestamp: {{ metrics['timestamp'] }}</li>
         </ul>
-      </div>
+    </section>
 
-      <!-- Security Modules -->
-      <div class="panel">
-        <h2>🧩 Security Modules</h2>
-        <div class="module-grid">
-          {% for mod in modules %}
-            <div class="module-card">
-              {{ mod.name }}
-              <span class="{{ 'enabled' if mod.status == 'enabled' else 'disabled' }}">
-                {{ mod.status.capitalize() }}
-              </span>
-              <span>Last update: {{ mod.last_update.strftime('%H:%M:%S') }}</span>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
+    <section class="users">
+        <h2>👥 Connected Users</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Connected</th>
+                    <th>Created At</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for u in users %}
+                <tr>
+                    <td>{{ u.email }}</td>
+                    <td>{{ u.role }}</td>
+                    <td>{{ '✅' if u.is_connected else '❌' }}</td>
+                    <td>{{ u.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
 
-    </main>
+    <section class="modules">
+        <h2>🧩 Active Modules</h2>
+        <ul>
+            {% for m in modules %}
+            <li>{{ m.name }}: {{ m.status }} (Last update: {{ m.last_update.strftime('%Y-%m-%d %H:%M:%S') }})</li>
+            {% endfor %}
+        </ul>
+    </section>
 
-  </div>
-
-  <footer>
-    SentinelIT © {{ datetime.utcnow().year }} — Built by Xolani  
-  </footer>
-
+    <script>
+        const socket = io();
+        socket.on('metrics', data => {
+            const list = document.getElementById('live-metrics');
+            list.innerHTML = `
+                <li>CPU Usage: ${data.cpu}%</li>
+                <li>Memory Usage: ${data.memory}%</li>
+                <li>Disk Usage: ${data.disk}%</li>
+                <li>Net Sent: ${data.sent} bytes</li>
+                <li>Net Received: ${data.recv} bytes</li>
+                <li>Timestamp: ${data.timestamp}</li>
+            `;
+        });
+    </script>
 </body>
 </html>

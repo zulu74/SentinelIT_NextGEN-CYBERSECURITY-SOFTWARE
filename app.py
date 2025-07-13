@@ -1,41 +1,41 @@
-import os
-import json
-import threading
+import os, json, threading, psutil
 from datetime import datetime, UTC
-import psutil
 from flask import Flask, render_template, request, redirect, url_for, jsonify, flash
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, login_user, login_required, current_user, logout_user
+from flask_login import LoginManager, login_user, login_required, current_user, logout_user, UserMixin
 from flask_mail import Mail, Message
-from werkzeug.security import generate_password_hash, check_password_hash
-from itsdangerous import URLSafeTimedSerializer
 from flask_socketio import SocketIO, emit
+from werkzeug.security import generate_password_hash, check_password_hash
+from itsdangerous import URLSafeTimedSerializer, SignatureExpired, BadSignature
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static", template_folder="templates")
 app.secret_key = 'your-secure-secret-key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///sentinel.db'
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 587
-app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'zxolani74@gmail.com'
-app.config['MAIL_PASSWORD'] = 'your-gmail-app-password'
-app.config['MAIL_DEFAULT_SENDER'] = 'zxolani74@gmail.com'
+
+app.config.update({
+    'SQLALCHEMY_DATABASE_URI': 'sqlite:///sentinel.db',
+    'MAIL_SERVER': 'smtp.gmail.com',
+    'MAIL_PORT': 587,
+    'MAIL_USE_TLS': True,
+    'MAIL_USERNAME': 'zxolani74@gmail.com',
+    'MAIL_PASSWORD': 'your-gmail-app-password',
+    'MAIL_DEFAULT_SENDER': 'zxolani74@gmail.com'
+})
 
 db = SQLAlchemy(app)
 mail = Mail(app)
-login_manager = LoginManager(app)
-serializer = URLSafeTimedSerializer(app.secret_key)
 socketio = SocketIO(app)
+login_manager = LoginManager(app)
+login_manager.login_view = "login"
+serializer = URLSafeTimedSerializer(app.secret_key)
 system_metrics = {}
 
 # ---------- Models ----------
-class User(db.Model):
+class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(256), nullable=False)
-    role = db.Column(db.String(50), nullable=False)
+    email = db.Column(db.String(120), unique=True)
+    password = db.Column(db.String(256))
+    role = db.Column(db.String(50))
     created_at = db.Column(db.DateTime, default=datetime.now(UTC))
-    is_connected = db.Column(db.Boolean, default=False)
 
 class SystemEvent(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -44,37 +44,23 @@ class SystemEvent(db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.now(UTC))
     user_id = db.Column(db.Integer)
 
-# ---------- Security Modules ----------
-class SecurityModule:
-    def __init__(self, name):
-        self.name = name
-        self.status = 'enabled'
-        self.last_update = datetime.now(UTC)
-
-    def toggle(self):
-        self.status = 'disabled' if self.status == 'enabled' else 'enabled'
-        self.last_update = datetime.now(UTC)
-
-auth = SecurityModule('auth')
-packetcheck = SecurityModule('packetcheck')
-vaultwatch = SecurityModule('vaultwatch')
-
-# ---------- System Monitoring ----------
-def update_system_metrics():
+# ---------- Metrics Thread ----------
+def update_metrics():
     while True:
         try:
-            system_metrics['cpu'] = psutil.cpu_percent()
-            system_metrics['memory'] = psutil.virtual_memory().percent
-            system_metrics['disk'] = psutil.disk_usage('/').percent
-            net = psutil.net_io_counters()
-            system_metrics['net_sent'] = net.bytes_sent
-            system_metrics['net_recv'] = net.bytes_recv
-            system_metrics['timestamp'] = datetime.now(UTC).strftime("%H:%M:%S")
+            system_metrics.update({
+                'cpu': psutil.cpu_percent(),
+                'memory': psutil.virtual_memory().percent,
+                'disk': psutil.disk_usage('/').percent,
+                'sent': psutil.net_io_counters().bytes_sent,
+                'recv': psutil.net_io_counters().bytes_recv,
+                'timestamp': datetime.now(UTC).strftime("%H:%M:%S")
+            })
+            socketio.emit('metrics', system_metrics)
         except Exception as e:
-            print(f"[Metrics Error]: {str(e)}")
+            print("Metrics error:", e)
 
-def start_monitoring():
-    threading.Thread(target=update_system_metrics, daemon=True).start()
+threading.Thread(target=update_metrics, daemon=True).start()
 
 # ---------- Auth ----------
 @login_manager.user_loader
@@ -89,138 +75,93 @@ def home():
 def login():
     if request.method == 'POST':
         email = request.form['email']
-        raw_password = request.form['password']
+        raw = request.form['password']
         user = User.query.filter_by(email=email).first()
-        if user and check_password_hash(user.password, raw_password):
+        if user and check_password_hash(user.password, raw):
             login_user(user)
-            user.is_connected = True
-            db.session.commit()
-            event = SystemEvent(event_type='login', message=f"{email} logged in", user_id=user.id)
-            db.session.add(event)
-            db.session.commit()
             return redirect(url_for('dashboard'))
-        else:
-            flash("Invalid credentials")
+        flash("Invalid credentials")
     return render_template('login.html')
 
 @app.route('/logout')
 @login_required
 def logout():
-    event = SystemEvent(event_type='logout', message=f"{current_user.email} logged out", user_id=current_user.id)
-    db.session.add(event)
-    db.session.commit()
-    current_user.is_connected = False
-    db.session.commit()
     logout_user()
     return redirect(url_for('login'))
 
-# ---------- Dashboard & Users ----------
-@app.route('/dashboard')
+# @app.route('/dashboard')
 @login_required
 def dashboard():
-    current_user.last_seen = datetime.now(UTC)
-    db.session.commit()
-    user_list = User.query.all()
-    return render_template('dashboard.html', user=current_user, users=user_list, system_metrics=system_metrics, modules=[auth, packetcheck, vaultwatch])
+    users = User.query.all()
+    return render_template(
+        'dashboard.html',
+        user=current_user,
+        users=users,
+        system_metrics=system_metrics,
+        datetime=datetime
+    )
 
-@app.route('/add_user', methods=['GET', 'POST'])
+@app.route('/add_user', methods=['POST'])
 @login_required
 def add_user():
     if current_user.role != 'admin':
         return "Unauthorized", 403
-    if request.method == 'POST':
-        email = request.form['email']
-        raw_password = request.form['password']
-        role = request.form['role']
-        hashed = generate_password_hash(raw_password)
-        new_user = User(email=email, password=hashed, role=role)
-        db.session.add(new_user)
-        db.session.commit()
 
-        token = serializer.dumps(email, salt='enroll-token')
-        link = url_for('enroll', token=token, _external=True)
-        msg = Message("Welcome to SentinelIT", recipients=[email])
-        msg.body = f"""Hi {email},
+    username = request.form['username']
+    password = request.form['password']
 
-Welcome to SentinelIT.
-Click to complete your enrollment: {link}
-
-SentinelIT Command Team"""
-        try:
-            mail.send(msg)
-            flash("User added and email sent.")
-        except Exception as e:
-            flash(f"Mail error: {str(e)}")
-        return redirect(url_for('dashboard'))
-
-    return render_template('add_user.html')
-
-@app.route('/users')
-@login_required
-def users():
-    if current_user.role != 'admin':
+    if not username or not password:
         return "Unauthorized", 403
-    user_list = User.query.all()
-    return jsonify([
-        {
-            'email': u.email,
-            'role': u.role,
-            'connected': u.is_connected,
-            'created_at': u.created_at.strftime('%Y-%m-%d %H:%M:%S')
-        } for u in user_list
-    ])
 
-@app.route('/enroll/<token>')
-def enroll(token):
-    try:
-        email = serializer.loads(token, salt='enroll-token', max_age=3600)
-        return f"Enrollment page for {email}"
-    except:
-        return "Invalid or expired link", 403
+    hashed_password = generate_password_hash(password, method='sha256')
+    new_user = User(email=username, password=hashed_password, role='user')
+    db.session.add(new_user)
+    db.session.commit()
 
-# ---------- Metrics & Threats ----------
+    event = SystemEvent(
+        event_type='user_add',
+        message=f"New user {username} added by {current_user.email}",
+        user_id=current_user.id
+    )
+    db.session.add(event)
+    db.session.commit()
+
+    flash("✅ User added successfully!")
+    return redirect(url_for('dashboard'))
+
 @app.route('/system-metrics')
 @login_required
-def system_metrics_view():
+def metrics_view():
     return jsonify(system_metrics)
-
-@app.route('/threat-events')
-@login_required
-def threat_events():
-    path = os.path.join("threat_logs", datetime.now(UTC).strftime("%Y-%m-%d"), "events.json")
-    try:
-        with open(path, "r") as f:
-            return jsonify(json.load(f))
-    except:
-        return jsonify([])
 
 # ---------- SocketIO ----------
 @socketio.on('connect')
 def handle_connect():
-    emit('status', {'message': 'SentinelIT connection established'})
+    emit('status', {'message': 'Connected to SentinelIT'})
 
 @socketio.on('threat_detected')
 def handle_threat(data):
-    print("Threat received:", data)
+    print("🔴 Threat:", data)
     emit('new_threat', data, broadcast=True)
 
-# ---------- Database Reset ----------
+# ---------- Database Setup ----------
 with app.app_context():
     db.create_all()
     if not User.query.filter_by(email='admin@sentinel.com').first():
         admin = User(
             email='admin@sentinel.com',
             password=generate_password_hash('admin123'),
-            role='admin',
-            created_at=datetime.now(UTC)
+            role='admin'
         )
         db.session.add(admin)
         db.session.commit()
-        print("✅ Default admin created")
+        print("✅ Default admin initialized")
 
-start_monitoring()
-
-# ---------- App Launch ----------
+# ---------- Launch ----------
 if __name__ == '__main__':
-    print("🚀 SentinelIT Launching at http://localhost:5000")
+    print("🚀 SentinelIT running on http://localhost:5000")
     socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+
+
+
+

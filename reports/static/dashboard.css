@@ -1,0 +1,137 @@
+/* 🌌 Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  overflow: hidden;
+}
+
+/* 🧠 Header + Footer */
+header, footer {
+  background-color: #1e293b;
+  padding: 12px 24px;
+  color: #94a3b8;
+  text-align: center;
+  border-top: 1px solid #334155;
+  border-bottom: 1px solid #334155;
+}
+
+/* ⚙️ Layout Grid */
+.dashboard-container {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #0f172a;
+  border-right: 1px solid #334155;
+  padding: 24px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 32px;
+  overflow-y: auto;
+}
+
+/* 🔘 Buttons */
+.button-link {
+  display: inline-block;
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #0ea5e9;
+}
+
+/* 📦 Panels */
+.panel {
+  background-color: #1e293b;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.panel h2 {
+  margin-bottom: 12px;
+  color: #facc15;
+}
+
+/* 📊 System Metrics & Info */
+.panel div {
+  margin: 6px 0;
+}
+
+/* 👥 Connected Users List */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 6px 0;
+  border-bottom: 1px solid #334155;
+}
+
+/* 🎖 Role Badges */
+.badge {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.badge-admin { background-color: #f59e0b; color: #0f172a; }
+.badge-analyst { background-color: #10b981; color: #0f172a; }
+.badge-guest { background-color: #6366f1; color: #ffffff; }
+
+/* 🟢 Online Indicator */
+.connected {
+  color: #22c55e;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+/* 🧩 Security Modules Grid */
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.module-card {
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  background-color: #0f172a;
+  transition: background-color 0.3s ease;
+}
+
+.module-card:hover {
+  background-color: #1e293b;
+}
+
+/* 🔒 Status Indicators */
+.enabled { color: #10b981; font-weight: bold; }
+.disabled { color: #f87171; font-weight: bold; }
+
+/* 📢 Flash Messages */
+.flash {
+  background-color: #f87171;
+  color: #0f172a;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
