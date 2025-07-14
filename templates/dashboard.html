@@ -1,79 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SentinelIT Dashboard</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='ml.css') }}">
-    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SentinelIT Dashboard</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #1c1f26;
+      color: #fff;
+      display: flex;
+    }
+
+    aside {
+      width: 220px;
+      background: #14171d;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    aside h2 {
+      color: #00e676;
+      margin-bottom: 30px;
+    }
+
+    aside a {
+      display: block;
+      color: #ccc;
+      margin: 15px 0;
+      text-decoration: none;
+    }
+
+    aside a:hover {
+      color: #fff;
+    }
+
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #2c313c;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #2a2f3a;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #00e676;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+
+    .btn {
+      background: #00e676;
+      border: none;
+      padding: 10px 15px;
+      color: #000;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      color: #666;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+    }
+
+    .modal-content h2 {
+      margin-top: 0;
+    }
+
+    .modal-content input {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome, {{ user.email }} ({{ user.role }})</h1>
-        <nav>
-            <a href="{{ url_for('logout') }}">Logout</a>
-        </nav>
-    </header>
 
-    <section class="metrics">
-        <h2>📊 System Metrics</h2>
-        <ul id="live-metrics">
-            <li>CPU Usage: {{ metrics['cpu'] }}%</li>
-            <li>Memory Usage: {{ metrics['memory'] }}%</li>
-            <li>Disk Usage: {{ metrics['disk'] }}%</li>
-            <li>Net Sent: {{ metrics['sent'] }} bytes</li>
-            <li>Net Received: {{ metrics['recv'] }} bytes</li>
-            <li>Timestamp: {{ metrics['timestamp'] }}</li>
-        </ul>
-    </section>
+<aside>
+  <h2>SentinelIT</h2>
+  <a href="#">📊 Dashboard</a>
+  <a href="#">🧠 Monitoring</a>
+  <a href="#">👥 Users</a>
+  <a href="#">⚙️ Settings</a>
+  <a href="{{ url_for('logout') }}">🚪 Logout</a>
+</aside>
 
-    <section class="users">
-        <h2>👥 Connected Users</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Email</th>
-                    <th>Role</th>
-                    <th>Connected</th>
-                    <th>Created At</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for u in users %}
-                <tr>
-                    <td>{{ u.email }}</td>
-                    <td>{{ u.role }}</td>
-                    <td>{{ '✅' if u.is_connected else '❌' }}</td>
-                    <td>{{ u.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </section>
+<div class="main">
+  <header>
+    <div>Welcome: {{ user.email }} ({{ user.role }})</div>
+    <button class="btn" onclick="document.getElementById('addUserModal').style.display='flex'">➕ Add User</button>
+  </header>
 
-    <section class="modules">
-        <h2>🧩 Active Modules</h2>
-        <ul>
-            {% for m in modules %}
-            <li>{{ m.name }}: {{ m.status }} (Last update: {{ m.last_update.strftime('%Y-%m-%d %H:%M:%S') }})</li>
-            {% endfor %}
-        </ul>
-    </section>
+  <div class="cards" id="live-metrics">
+    <div class="card">
+      <h3>CPU</h3>
+      <p>{{ system_metrics['cpu'] }}%</p>
+    </div>
+    <div class="card">
+      <h3>Memory</h3>
+      <p>{{ system_metrics['memory'] }}%</p>
+    </div>
+    <div class="card">
+      <h3>Disk</h3>
+      <p>{{ system_metrics['disk'] }}%</p>
+    </div>
+    <div class="card">
+      <h3>Net Sent</h3>
+      <p>{{ system_metrics['sent'] }} bytes</p>
+    </div>
+    <div class="card">
+      <h3>Net Received</h3>
+      <p>{{ system_metrics['recv'] }} bytes</p>
+    </div>
+    <div class="card">
+      <h3>Timestamp</h3>
+      <p>{{ system_metrics['timestamp'] }}</p>
+    </div>
+  </div>
 
-    <script>
-        const socket = io();
-        socket.on('metrics', data => {
-            const list = document.getElementById('live-metrics');
-            list.innerHTML = `
-                <li>CPU Usage: ${data.cpu}%</li>
-                <li>Memory Usage: ${data.memory}%</li>
-                <li>Disk Usage: ${data.disk}%</li>
-                <li>Net Sent: ${data.sent} bytes</li>
-                <li>Net Received: ${data.recv} bytes</li>
-                <li>Timestamp: ${data.timestamp}</li>
-            `;
-        });
-    </script>
+  <footer>SentinelIT © {{ now().year }}</footer>
+</div>
+
+<!-- Add User Modal -->
+<div class="modal" id="addUserModal">
+  <div class="modal-content">
+    <h2>➕ Add New User</h2>
+    <form action="{{ url_for('add_user') }}" method="POST">
+      <input type="email" name="username" placeholder="User Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button class="btn" type="submit">Add</button>
+    </form>
+    <br>
+    <button class="btn" onclick="document.getElementById('addUserModal').style.display='none'">Cancel</button>
+  </div>
+</div>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script>
+  const socket = io();
+  socket.on('metrics', data => {
+    document.getElementById('live-metrics').innerHTML = `
+      <div class="card"><h3>CPU</h3><p>${data.cpu}%</p></div>
+      <div class="card"><h3>Memory</h3><p>${data.memory}%</p></div>
+      <div class="card"><h3>Disk</h3><p>${data.disk}%</p></div>
+      <div class="card"><h3>Net Sent</h3><p>${data.sent} bytes</p></div>
+      <div class="card"><h3>Net Received</h3><p>${data.recv} bytes</p></div>
+      <div class="card"><h3>Timestamp</h3><p>${data.timestamp}</p></div>
+    `;
+  });
+</script>
 </body>
 </html>
+

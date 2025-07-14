@@ -15,14 +15,17 @@
     <form action="{{ url_for('add_user') }}" method="POST" class="panel">
       <label>Email:</label><br>
       <input type="email" name="email" required><br><br>
+
       <label>Password:</label><br>
       <input type="password" name="password" required><br><br>
+
       <label>Role:</label><br>
       <select name="role" required>
         <option value="admin">Admin</option>
         <option value="analyst">Analyst</option>
         <option value="guest">Guest</option>
       </select><br><br>
+
       <button class="button-link" type="submit">Add User</button>
     </form>
 
@@ -36,11 +39,12 @@
       {% endif %}
     {% endwith %}
 
+    <br>
     <a href="{{ url_for('dashboard') }}" class="button-link">← Back to Dashboard</a>
   </div>
 
   <footer>
-    SentinelIT © {{ datetime.utcnow().year }}
+    SentinelIT © {{ now().year }}
   </footer>
 
 </body>
