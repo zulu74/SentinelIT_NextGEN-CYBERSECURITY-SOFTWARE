@@ -1,5 +1,6 @@
-
 import platform
+import time
+import random
 
 def get_installed_software():
     os_type = platform.system()
@@ -24,12 +25,30 @@ def load_vulnerability_db():
         "curl": "CVE-2024-2345"
     }
 
-import time
-import random
+def run_patch_audit():
+    print("[PatchCheckV2] Running simulated CVE patch audit...")
 
+    installed = get_installed_software()
+    cve_db = load_vulnerability_db()
+    findings = []
+
+    for software in installed:
+        if software in cve_db:
+            cve = cve_db[software]
+            print(f"[PatchCheckV2] ⚠️  {software} is vulnerable! CVE Detected: {cve}")
+            findings.append((software, cve))
+        else:
+            print(f"[PatchCheckV2] ✅ {software} is safe. No known CVEs found.")
+
+    if not findings:
+        print("[PatchCheckV2] ✅ No vulnerabilities found in installed software.")
+    else:
+        print(f"[PatchCheckV2] ⚠️ {len(findings)} vulnerable packages found.")
+    print("[PatchCheckV2] CVE scan complete.\n")
+
+# Optional continuous alert demo (used if running patchcheckv2 manually)
 def start():
-    print("[PatchCheckV2] Initiating advanced vulnerability scan for CVE-2024 and CVE-2025...")
-
+    print("[PatchCheckV2] Initiating advanced vulnerability simulation scan...")
     vulnerabilities = [
         "Critical: CVE-2024-1832 (Apache Struts RCE)",
         "Alert: CVE-2025-2783 (Chrome sandbox escape vulnerability)",
@@ -38,7 +57,10 @@ def start():
         "Zero-day under observation: CVE-2025-3156 (TLS downgrade exploit)"
     ]
 
-    while True:
-        print(f"[PatchCheckV2 Alert] {random.choice(vulnerabilities)}")
-        time.sleep(10)
+    try:
+        while True:
+            print(f"[PatchCheckV2 Alert] {random.choice(vulnerabilities)}")
+            time.sleep(10)
+    except KeyboardInterrupt:
+        print("[PatchCheckV2] Monitoring stopped.")
 
