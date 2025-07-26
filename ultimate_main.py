@@ -1,3 +1,5 @@
+# ultimate_main.py – SentinelIT Module Orchestrator
+
 import sys
 import os
 import threading
@@ -21,11 +23,15 @@ import pluginloader
 import dashboard_server
 import trayiconrunner
 import selfmaintainer  # 🔁 Auto healing and patching module
+import ftpwatch
+import snmpguard
+
 
 def launch(module, name):
     thread = threading.Thread(target=module.start, name=name)
     thread.daemon = True
     thread.start()
+
 
 def run_self_maintainer_periodically():
     while True:
@@ -33,20 +39,21 @@ def run_self_maintainer_periodically():
             selfmaintainer.self_heal_and_update()
         except Exception as e:
             print(f"[SelfMaintainer] Error: {e}")
-        # Sleep for 6 hours before next check
         threading.Event().wait(6 * 3600)
 
+
 if __name__ == "__main__":
-    # ✅ Startup self-check
+    # ✅ Startup system check
     try:
         print("[SelfMaintainer] Running startup system integrity check...")
         selfmaintainer.self_heal_and_update()
     except Exception as e:
         print(f"[SelfMaintainer] Startup check failed: {e}")
 
-    # ✅ Background periodic check
+    # ✅ Periodic self-check
     threading.Thread(target=run_self_maintainer_periodically, daemon=True).start()
 
+    # ✅ Module launches
     launch(usbwatch, "USBWatch")
     launch(phantomstaff, "PhantomStaff")
     launch(stealthcam, "StealthCam")
@@ -66,5 +73,7 @@ if __name__ == "__main__":
     launch(pluginloader, "PluginLoader")
     launch(dashboard_server, "DashboardServer")
     launch(trayiconrunner, "TrayIconRunner")
+    launch(ftpwatch, "FTPWatch")
+    launch(snmpguard, "SNMPGuard")
 
     print("[SentinelIT] All modules launched successfully.")
