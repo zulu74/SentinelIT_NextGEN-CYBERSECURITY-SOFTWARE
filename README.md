@@ -1,130 +1,98 @@
+# SentinelIT 🛡️
 
+**AI-Powered Cybersecurity Suite for Resource-Constrained Environments**
 
-✅ Updated READme
-
-`markdown
-
-🛡️ SentinelIT – Modular Cybersecurity Command Center
-
-SentinelIT is a modular, real-time cybersecurity dashboard designed for endpoint visibility, threat analysis, and AI-powered insights. Built with Flask, Socket.IO, and OpenAI integration, it empowers security teams to monitor, respond, and manage users from a single command center.
+SentinelIT is a next-generation cybersecurity system built for speed, resilience, and intelligent protection. Designed to thrive in resource-limited environments across Africa, it offers real-time threat detection, self-healing, offline-first architecture, and AI-assisted defense for decentralized, low-power machines.
 
 ---
 
-🚀 Features
+## 🚀 Key Features
 
-- 🔐 Secure Admin Login with hashed passwords and role-based access
-- 🧠 AI-Powered Module Insights using OpenAI GPT-3.5
-- 📡 Real-Time Endpoint Monitoring via Socket.IO
-- 📊 System Metrics: CPU, memory, and agent status
-- 📥 User Onboarding with email-based enrollment links
-- 🧩 Modular Design: Easily plug in new security modules
-- 🛠️ Role & Feature Management for fine-grained access control
-- 📧 Email Integration using Flask-Mail for invites and alerts
-- 🧪 Test Dashboard for module simulation and development
-
----
-
-🧰 Tech Stack
-
-| Layer | Tech |
-|-------|------|
-| Backend | Flask, SQLAlchemy, Flask-Login, Flask-Mail |
-| Frontend | HTML, CSS, JavaScript, Bootstrap |
-| Realtime | Flask-SocketIO |
-| AI | OpenAI GPT-3.5 (via openai SDK v1.9.3) |
-| Database | SQLite (default) |
-| Deployment | On-premise or cloud-ready |
+- **Modular Architecture** — Each function runs independently (USB scanning, memory watch, network inspection, CVE checks, etc.)
+- **Self-Healing** — Auto-recovers modules and maintains system integrity via `selfmaintainer.py`
+- **Offline Capabilities** — No reliance on cloud; each node (branch computer) performs its own threat detection
+- **AI-Enhanced Detection** — Uses behavioral patterns and attack fingerprints to detect advanced threats
+- **Live Dashboard** — Real-time system stats and multi-node visibility via `app.py`
+- **Multi-Node Monitoring** — Branch-based or device-based threat reporting (e.g., `Computer-1`, `Computer-2`, up to `Computer-1000`)
+- **Port & Protocol Enforcement** — Includes watchdogs for FTP, SNMP, and lockdown enforcement
+- **Customizable Threat Reporting** — Categorized by severity: High, Medium, Low
+- **PhantomStaff Integration** — Embedded voice + AI assistant for system responses
+- **Tray Icon Runner** — Light system tray presence for user visibility
+- **Encrypted Audit & SOC2 Support** — Adds continuous compliance audit logging and CVE tracking
 
 ---
 
-⚙️ Setup Instructions
+## 🔧 Technologies Used
 
-1. Clone the Repo
-
-`bash
-git clone https://github.com/your-username/sentinelit.git
-cd sentinelit
-`
-
-2. Install Dependencies
-
-`bash
-pip install -r requirements.txt
-`
-
-3. Create Admin User
-
-`bash
-python create_admin.py
-`
-
-This creates:
-
-- Email: admin@sentinel.com
-- Password: admin123
-
-4. Run the App
-
-`bash
-python app.py
-`
-
-Visit: http://localhost:5000
+- **Languages:** Python 3.11+
+- **Frameworks:** Flask, Flask-SocketIO, SQLAlchemy, Flask-Login
+- **Databases:** SQLite (default)
+- **System Monitoring:** psutil
+- **UI:** HTML/CSS (with Socket.IO updates)
+- **Security Modules:** Custom modules (siemcore, threatdna, quarantine, lockdown, patchcheckv2, etc.)
 
 ---
 
-🧠 AI Module Insight
+## 🌍 Why It Matters
 
-Click any module (e.g. VulnWatch) to trigger an AI summary:
+SentinelIT was created for **Africa Deep Tech Challenge 2025** to demonstrate that powerful, intelligent cybersecurity is achievable even without high-end servers or unlimited internet. SentinelIT proves that national-grade defense is possible in:
 
-`json
-{
-  "summary": "Detected suspicious outbound traffic from endpoint-03.",
-  "risk": "HIGH",
-  "action": "Isolate the endpoint and investigate DNS logs."
-}
-`
+- Rural clinics and schools
+- Municipal branches
+- Field offices and mobile laptops
+- Power-interrupted or air-gapped networks
 
 ---
 
-🧪 Testing & Development
+## 🧪 Modules List (Partial)
 
-- dashboardTestor.py: Simulates agent activity
-- createServer.py: Optional test server for agent registration
-- enroll.html: Used for agent onboarding via email link
-
----
-
-🔐 Security Notes
-
-- Passwords are hashed using werkzeug.security
-- Admin-only routes are protected with @login_required and role checks
-- Email invites use time-limited tokens (24h expiry)
+- `phantomstaff.py` — AI security assistant
+- `threatdna.py` — Threat pattern intelligence
+- `usbwatch.py` — Malicious USB and payload detection
+- `patchcheckv2.py` — System vulnerability audit + CVE
+- `dashboard_server.py` — Live metrics dashboard
+- `lockdown.py` — CMD/policy lock enforcement
+- `memorywatch.py`, `kernelwatch.py`, `powerwatch.py`, etc.
+- `app.py` — Main Flask app with user login + multi-node dashboard
+- `selfmaintainer.py` — Healing and auto-repair system
 
 ---
 
-📦 Deployment
+## 🧠 Inspired By
 
-You can deploy SentinelIT on:
-
-- 🖥️ Localhost (for testing)
-- ☁️ Cloud VM (e.g. AWS, Azure, DigitalOcean)
-- 🐳 Docker (coming soon)
+Built for the **Bolt Hackathon** and **Africa Deep Tech Challenge**, SentinelIT was inspired by the challenges in securing decentralized, low-resourced offices in Africa. We saw a gap in enterprise-level protection for remote, offline, or underpowered systems—and we filled it.
 
 ---
 
-🤝 Contributing
+## 🛠️ How to Run
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+```bash
+# Clone
+$ git clone https://github.com/yourusername/SentinelIT_Build.git
+$ cd SentinelIT_Build
+
+# Install dependencies (create a venv recommended)
+$ pip install -r requirements.txt
+
+# Launch full system
+$ python ultimate_main.py
+
+# Launch dashboard (in another terminal)
+$ python app.py
+```
 
 ---
 
-📄 License
-
-MIT License. See LICENSE file for details.
+## ✅ Admin Credentials
+Default login after setup:
+- **Email:** admin@sentinel.com
+- **Password:** admin123
 
 ---
 
-👨‍💻 Built by
+## 🧩 License
+This software is provided for ethical and educational use. For enterprise usage or partnership, contact the creator.
 
-James Zulu
+---
+
+> Built with ❤️ by Zulu
