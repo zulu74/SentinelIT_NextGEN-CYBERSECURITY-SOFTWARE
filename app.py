@@ -9,6 +9,7 @@ from flask_mail import Mail, Message
 from flask_socketio import SocketIO, emit
 from werkzeug.security import generate_password_hash, check_password_hash
 from itsdangerous import URLSafeTimedSerializer
+from threatreport import generate_computer_threats  # Import the updated threat simulator
 
 # ---------- Flask App Setup ----------
 app = Flask(__name__, static_folder="static", template_folder="templates")
@@ -34,6 +35,7 @@ login_manager = LoginManager(app)
 login_manager.login_view = "login"
 serializer = URLSafeTimedSerializer(app.secret_key)
 system_metrics = {}
+latest_threats = []
 
 # ---------- Models ----------
 class User(db.Model, UserMixin):
@@ -67,6 +69,19 @@ def update_metrics():
             print("⚠️ Metrics error:", e)
 
 threading.Thread(target=update_metrics, daemon=True).start()
+
+# ---------- Background Threat Simulation ----------
+def simulate_threats():
+    global latest_threats
+    while True:
+        try:
+            latest_threats = generate_computer_threats()
+            socketio.emit('threats', latest_threats)
+        except Exception as e:
+            print("⚠️ Threat simulation error:", e)
+        socketio.sleep(10)
+
+socketio.start_background_task(simulate_threats)
 
 # ---------- Auth ----------
 @login_manager.user_loader
@@ -104,6 +119,7 @@ def dashboard():
         user=current_user,
         users=users,
         system_metrics=system_metrics,
+        threats=latest_threats,
         datetime_util=datetime,
         now=datetime.utcnow
     )
@@ -149,11 +165,8 @@ def metrics_view():
 @socketio.on('connect')
 def handle_connect():
     emit('status', {'message': 'Connected to SentinelIT'})
-
-@socketio.on('threat_detected')
-def handle_threat(data):
-    print("🔴 Threat detected:", data)
-    emit('new_threat', data, broadcast=True)
+    emit('metrics', system_metrics)
+    emit('threats', latest_threats)
 
 # ---------- Favicon ----------
 @app.route('/favicon.ico')
@@ -181,4 +194,3 @@ with app.app_context():
 if __name__ == '__main__':
     print("🚀 SentinelIT running on http://localhost:5000")
     socketio.run(app, debug=True, host='0.0.0.0', port=5000)
-
