@@ -101,6 +101,7 @@
       background: rgba(0,0,0,0.7);
       justify-content: center;
       align-items: center;
+      z-index: 1000;
     }
 
     .modal-content {
@@ -134,35 +135,24 @@
 
 <div class="main">
   <header>
-    <div>Welcome: {{ user.email }} ({{ user.role }})</div>
+    <div>
+      Welcome: {{ user.email }} ({{ user.role }})
+      {% if user.role == 'admin' %}
+        | <a href="{{ url_for('download_installer') }}" class="btn">Download Installer</a>
+      {% endif %}
+    </div>
+    {% if user.role == 'admin' %}
     <button class="btn" onclick="document.getElementById('addUserModal').style.display='flex'">➕ Add User</button>
+    {% endif %}
   </header>
 
   <div class="cards" id="live-metrics">
-    <div class="card">
-      <h3>CPU</h3>
-      <p>{{ system_metrics['cpu'] }}%</p>
-    </div>
-    <div class="card">
-      <h3>Memory</h3>
-      <p>{{ system_metrics['memory'] }}%</p>
-    </div>
-    <div class="card">
-      <h3>Disk</h3>
-      <p>{{ system_metrics['disk'] }}%</p>
-    </div>
-    <div class="card">
-      <h3>Net Sent</h3>
-      <p>{{ system_metrics['sent'] }} bytes</p>
-    </div>
-    <div class="card">
-      <h3>Net Received</h3>
-      <p>{{ system_metrics['recv'] }} bytes</p>
-    </div>
-    <div class="card">
-      <h3>Timestamp</h3>
-      <p>{{ system_metrics['timestamp'] }}</p>
-    </div>
+    <div class="card"><h3>CPU</h3><p>{{ system_metrics['cpu'] }}%</p></div>
+    <div class="card"><h3>Memory</h3><p>{{ system_metrics['memory'] }}%</p></div>
+    <div class="card"><h3>Disk</h3><p>{{ system_metrics['disk'] }}%</p></div>
+    <div class="card"><h3>Net Sent</h3><p>{{ system_metrics['sent'] }} bytes</p></div>
+    <div class="card"><h3>Net Received</h3><p>{{ system_metrics['recv'] }} bytes</p></div>
+    <div class="card"><h3>Timestamp</h3><p>{{ system_metrics['timestamp'] }}</p></div>
   </div>
 
   <footer>SentinelIT © {{ now().year }}</footer>

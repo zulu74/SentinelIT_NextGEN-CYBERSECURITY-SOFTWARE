@@ -9,7 +9,7 @@ from flask_mail import Mail, Message
 from flask_socketio import SocketIO, emit
 from werkzeug.security import generate_password_hash, check_password_hash
 from itsdangerous import URLSafeTimedSerializer
-from threatreport import generate_computer_threats  # Import the updated threat simulator
+from threatreport import generate_computer_threats
 
 # ---------- Flask App Setup ----------
 app = Flask(__name__, static_folder="static", template_folder="templates")
@@ -23,7 +23,7 @@ app.config.update({
     'MAIL_PORT': 587,
     'MAIL_USE_TLS': True,
     'MAIL_USERNAME': 'zxolani74@gmail.com',
-    'MAIL_PASSWORD': 'your-gmail-app-password',  # Replace with environment variable in production
+    'MAIL_PASSWORD': 'your-gmail-app-password',
     'MAIL_DEFAULT_SENDER': 'zxolani74@gmail.com'
 })
 
@@ -161,6 +161,11 @@ def add_user():
 def metrics_view():
     return jsonify(system_metrics)
 
+@app.route('/download')
+@login_required
+def download_installer():
+    return send_from_directory(directory='installers', filename='SentinelITInstaller.exe', as_attachment=True)
+
 # ---------- Socket.IO Handlers ----------
 @socketio.on('connect')
 def handle_connect():
@@ -192,5 +197,5 @@ with app.app_context():
 
 # ---------- Run App ----------
 if __name__ == '__main__':
-    print("🚀 SentinelIT running on http://localhost:5000")
+    print("SentinelIT running on http://localhost:5000")
     socketio.run(app, debug=True, host='0.0.0.0', port=5000)
