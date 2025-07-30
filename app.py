@@ -34,6 +34,7 @@ socketio = SocketIO(app)
 login_manager = LoginManager(app)
 login_manager.login_view = "login"
 serializer = URLSafeTimedSerializer(app.secret_key)
+
 system_metrics = {}
 latest_threats = []
 
@@ -166,6 +167,32 @@ def metrics_view():
 def download_installer():
     return send_from_directory(directory='installers', filename='SentinelITInstaller.exe', as_attachment=True)
 
+@app.route('/executive')
+@login_required
+def executive_summary():
+    users = User.query.count()
+    total_events = SystemEvent.query.count()
+    latest_events = SystemEvent.query.order_by(SystemEvent.timestamp.desc()).limit(5).all()
+
+    high_threats = len([t for t in latest_threats if t['severity'] == 'High'])
+    medium_threats = len([t for t in latest_threats if t['severity'] == 'Medium'])
+    low_threats = len([t for t in latest_threats if t['severity'] == 'Low'])
+
+    risk_score = (high_threats * 3 + medium_threats * 2 + low_threats) / (users or 1)
+
+    return render_template("executive.html", **{
+        "users": users,
+        "total_events": total_events,
+        "latest_events": latest_events,
+        "high_threats": high_threats,
+        "medium_threats": medium_threats,
+        "low_threats": low_threats,
+        "risk_score": round(risk_score, 2),
+        "metrics": system_metrics,
+        "threats": latest_threats,
+        "now": datetime.utcnow
+    })
+
 # ---------- Socket.IO Handlers ----------
 @socketio.on('connect')
 def handle_connect():
@@ -197,5 +224,5 @@ with app.app_context():
 
 # ---------- Run App ----------
 if __name__ == '__main__':
-    print("SentinelIT running on http://localhost:5000")
+    print("🚀 SentinelIT running on http://localhost:5000")
     socketio.run(app, debug=True, host='0.0.0.0', port=5000)
