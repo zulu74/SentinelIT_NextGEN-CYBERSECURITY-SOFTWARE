@@ -370,10 +370,9 @@ app.config['MAIL_SERVER'] = 'mail.diakriszuluinvestmentsprojects.co.za'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = 'admin@diakriszuluinvestmentsprojects.co.za'
-app.config['MAIL_PASSWORD'] = 'QE6TkRT2ms'
+app.config['MAIL_PASSWORD'] = '0E6TkRTZms'
 app.config['MAIL_DEFAULT_SENDER'] = 'admin@diakriszuluinvestmentsprojects.co.za'
 mail = Mail(app)
-
 # === Token Serializer ===
 serializer = URLSafeTimedSerializer(app.secret_key)
 
