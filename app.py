@@ -7,6 +7,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
 from flask_mail import Mail, Message
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import time
 import psutil
@@ -53,7 +55,7 @@ mail = Mail(app)
 serializer = URLSafeTimedSerializer(app.secret_key)
 
 # === OpenAI Setup ===
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === Environment Variables ===
 DEPLOYMENT_MODE = os.getenv("SENTINEL_MODE", "on-premise")

@@ -211,3 +211,5 @@ cython_debug/
 .cursorindexingignore
 >>>>>>> 29602e5 (Initial commit)
 >>>>>>> temp-patch
+# Environment variables file
+.env
