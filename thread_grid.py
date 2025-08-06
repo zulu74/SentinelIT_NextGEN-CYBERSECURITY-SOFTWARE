@@ -373,7 +373,7 @@ app.config['MAIL_USERNAME'] = 'admin@diakriszuluinvestmentsprojects.co.za'
 app.config['MAIL_PASSWORD'] = '0E6TkRTZms'
 app.config['MAIL_DEFAULT_SENDER'] = 'admin@diakriszuluinvestmentsprojects.co.za'
 mail = Mail(app)
-# === Token Serializer ===
+
 serializer = URLSafeTimedSerializer(app.secret_key)
 
 # === OpenAI Setup ===
