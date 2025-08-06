@@ -53,7 +53,6 @@ mail = Mail(app)
 
 # === Token Serializer ===
 serializer = URLSafeTimedSerializer(app.secret_key)
-
 # === OpenAI Setup ===
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
