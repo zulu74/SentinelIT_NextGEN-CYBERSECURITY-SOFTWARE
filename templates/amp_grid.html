@@ -1,0 +1,56 @@
+<!-- templates/amp_grid.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMP Grid Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+        .container { background: #fff; padding: 20px; border-radius: 10px; }
+        h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid #ccc; text-align: left; }
+        th { background: #007BFF; color: white; }
+        tr:nth-child(even) { background: #f9f9f9; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>🚦 AMP Thread Grid Status</h2>
+
+    {% if grid_data %}
+        <h3>Metrics</h3>
+        <ul>
+            <li>Total Tasks: {{ grid_data.metrics.total_tasks }}</li>
+            <li>Completed Tasks: {{ grid_data.metrics.completed_tasks }}</li>
+            <li>Failed Tasks: {{ grid_data.metrics.failed_tasks }}</li>
+        </ul>
+
+        <h3>Active Tasks</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Task ID</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Submitted At</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for task in grid_data.active_tasks %}
+                    <tr>
+                        <td>{{ task.task_id }}</td>
+                        <td>{{ task.task_type }}</td>
+                        <td>{{ task.status }}</td>
+                        <td>{{ task.priority }}</td>
+                        <td>{{ task.submitted_at }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No AMP Grid data available.</p>
+    {% endif %}
+</div>
+</body>
+</html>
