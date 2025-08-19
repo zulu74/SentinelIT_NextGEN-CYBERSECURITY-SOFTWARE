@@ -1,0 +1,6590 @@
+{
+  "pid": 19320,
+  "name": "vlc.exe",
+  "exe": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+  "cmdline": [
+    "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+    "--started-from-file",
+    "C:\\Users\\zxola\\Videos\\Joe.Pickett.S01E10.720p.WEBRip.x264-GalaxyTV.mkv"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755628004.579451,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\MMDevAPI.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\user32.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\cversions.2.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\cversions.2.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\KernelBase.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Microsoft\\Windows\\Caches\\{AFBF9F1A-8EE8-4C77-AF34-C647E37CA0D9}.1.ver0x0000000000000036.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000025.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000009.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\ServiceProfiles\\LocalService\\AppData\\Local\\FontCache\\~FontCache-FontFace.dat",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\ariali.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arialbi.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeui.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeuib.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeuii.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeuiz.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\apppatch\\DirectXApps.sdb",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libavcodec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usp10.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\gui\\libqt_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdinfo64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdinfo64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdinfo64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdinfo64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdinfo64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd11dxva64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblibass_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\text_renderer\\libfreetype_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaom_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libsamplerate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libd3d11va_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libzvbi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\deviceaccess.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_filter\\libscaletempo_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_mixer\\libfloat_mixer_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsApi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libdirect3d11_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libschroedinger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsNativeApi.V2.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libswscale_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_output\\libwinhibit_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuvp_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d11\\libdirect3d11_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\d3d9\\libdirect3d9_filters_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i420_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libgrey_yuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libyuy2_i422_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi422_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdav1d_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_rgb_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_nv12_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmkv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libsid_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libvorbis_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\liblibbluray_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_mmx_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\video_chroma\\libi420_yuy2_sse2_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libwasapi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubsdec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlccore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaribsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\misc\\libxml_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libtaglib_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsvcdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcvdsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libkate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libmpg123_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libfaad_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte27_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libscte18_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libdvbsub_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libopus_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspudec_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libsubstx3g_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libg711_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\liblpcm_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libflac_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspeex_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libtheora_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaraw_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libaes3_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ExplorerFrame.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libpng_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libjpeg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libcdg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\meta_engine\\libfolder_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\services_discovery\\libsap_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libcaf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_extractor\\libarchive_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libwav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmpc_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DataExchange.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libflacsys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AcGenral.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\networkexplorer.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AudioSes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libmp4_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libnuv_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ninput.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libtta_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libes_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libasf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libavi_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_hotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libhotkeys_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\lua\\liblua_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\control\\libwin_msg_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\audio_output\\libmmdevice_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libdirectory_demux_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\librecord_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\demux\\libplaylist_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libinflate_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libdvdnav_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libadf_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libhds_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\libvlc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libskiptags_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbgcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libcache_read_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\stream_filter\\libprefetch_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libvdr_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\access\\libfilesystem_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\PortableDeviceTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\keystore\\libmemory_keystore_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libconsole_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\codec\\libspdif_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\TextInputFramework.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.UI.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\VideoLAN\\VLC\\plugins\\logger\\libfile_logger_plugin.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SensorsUtilsV2.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\MMDevAPI.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igc64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdgmm64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdgmm64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdgmm64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdgmm64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igdgmm64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_59082918b37ad099\\igd10iumd64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreUIComponents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\directxdatabasehelper.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\D3DCompiler_47.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dcomp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CoreMessaging.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Microsoft.Internal.WarpPal.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DXCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ResourcePolicyClient.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\setupapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

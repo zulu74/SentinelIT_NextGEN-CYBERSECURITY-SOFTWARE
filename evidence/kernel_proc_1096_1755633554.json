@@ -1,0 +1,328 @@
+{
+  "pid": 1096,
+  "name": "fontdrvhost.exe",
+  "exe": "C:\\Windows\\System32\\fontdrvhost.exe",
+  "cmdline": [
+    "fontdrvhost.exe"
+  ],
+  "username": "Font Driver Host\\UMFD-1",
+  "create_time": 1755079456.2243989,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\vgasys.fon",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\marlett.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segmdl2.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeui.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\tahoma.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\consola.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\webdings.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\micross.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\msgothic.ttc",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\simsun.ttc",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\YuGothM.ttc",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\msjh.ttc",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\msyh.ttc",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\malgun.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\seguisym.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\verdana.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\seguiemj.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeuib.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\SegoeIcons.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\segoeuii.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fontdrvhost.exe",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

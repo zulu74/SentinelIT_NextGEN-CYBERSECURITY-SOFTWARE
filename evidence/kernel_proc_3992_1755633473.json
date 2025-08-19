@@ -1,0 +1,764 @@
+{
+  "pid": 3992,
+  "name": "WsidService.exe",
+  "exe": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+  "cmdline": [
+    "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe"
+  ],
+  "username": "NT AUTHORITY\\SYSTEM",
+  "create_time": 1755079464.4169888,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\mswsock.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\mswsock.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Wondershare\\wsServices\\WsidClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64cpu.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\SysWOW64\\ntdll.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64con.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64base.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wow64win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

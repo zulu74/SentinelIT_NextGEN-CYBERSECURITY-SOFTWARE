@@ -1,0 +1,2118 @@
+{
+  "pid": 16920,
+  "name": "svchost.exe",
+  "exe": "C:\\Windows\\System32\\svchost.exe",
+  "cmdline": [
+    "C:\\WINDOWS\\System32\\svchost.exe",
+    "-k",
+    "netsvcs"
+  ],
+  "username": "NT AUTHORITY\\SYSTEM",
+  "create_time": 1755258658.4291797,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\svchost.exe.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\svchost.exe",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasmans.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rascustom.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vpnike.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasppp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\raschap.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\tapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rastapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dmenrollengine.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappcfg.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.4768_none_3e0c112ce331287c\\comctl32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\eappprxy.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwpolicyiomgr.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rtutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsrole.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wkscli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasman.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netprofm.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\fwbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FirewallAPI.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\samlib.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

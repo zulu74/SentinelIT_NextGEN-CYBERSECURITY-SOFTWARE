@@ -1,0 +1,2081 @@
+{
+  "pid": 23728,
+  "name": "FileCoAuth.exe",
+  "exe": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+  "cmdline": [
+    "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+    "-Embedding"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755427429.4352977,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuth.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\credui.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFALWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSCache.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSNtfs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSqlite3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\adal.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Telemetry.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFS.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncSessions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncHost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\UpdateRingSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncTelemetryExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncTelemetryExtensions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncTelemetryExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncTelemetryExtensions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncTelemetryExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\OneDriveTelemetryStable.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSDbfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSDbfsWB.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSDbfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSDbfsWB.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncFSDbfsWB.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\LoggingPlatform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuthLib64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuthLib64.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuthLib64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuthLib64.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileCoAuthLib64.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\FileSyncEvents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cldapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\msvcp140_atomic_wait.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\xmllite.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wscapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sxs.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}
