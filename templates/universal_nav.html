@@ -1,0 +1,364 @@
+<!-- Universal Navigation Bar - Add to ALL SentinelIT Pages -->
+<div class="universal-nav" id="universalNav">
+    <div class="nav-logo">
+        <div class="logo-icon">🛡️</div>
+        <span class="logo-text">SentinelIT</span>
+        <div class="logo-pulse"></div>
+    </div>
+    
+    <div class="nav-modules">
+        <a href="{{ url_for('dashboard') }}" class="nav-btn" data-module="dashboard">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">Main Dashboard</span>
+        </a>
+        
+        <a href="{{ url_for('network_universe') }}" class="nav-btn" data-module="3d">
+            <span class="nav-icon">🌌</span>
+            <span class="nav-text">3D Universe</span>
+        </a>
+        
+        <a href="{{ url_for('attack_visualization') }}" class="nav-btn" data-module="attacks">
+            <span class="nav-icon">🔥</span>
+            <span class="nav-text">Live Attacks</span>
+        </a>
+        
+        <a href="{{ url_for('team_collaboration') }}" class="nav-btn" data-module="team">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">Team Collab</span>
+        </a>
+        
+        <a href="{{ url_for('ar_mobile') }}" class="nav-btn" data-module="ar">
+            <span class="nav-icon">📱</span>
+            <span class="nav-text">AR Mobile</span>
+        </a>
+    </div>
+    
+    <div class="nav-status">
+        <div class="system-status">
+            <div class="status-dot active"></div>
+            <span class="status-text">All Systems Operational</span>
+        </div>
+        
+        <div class="threat-level-mini">
+            <span class="threat-icon">🚨</span>
+            <span class="threat-level-text" id="navThreatLevel">HIGH</span>
+        </div>
+        
+        <div class="nav-user">
+            <div class="user-avatar">👤</div>
+            <span class="user-name">Cyber Analyst</span>
+        </div>
+    </div>
+    
+    <div class="nav-toggle" onclick="toggleNav()">
+        <span class="toggle-icon">≡</span>
+    </div>
+</div>
+
+<style>
+.universal-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(26,26,46,0.95) 100%);
+    border-bottom: 2px solid #00ff88;
+    box-shadow: 0 0 30px rgba(0,255,136,0.3);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    backdrop-filter: blur(10px);
+    font-family: 'Courier New', monospace;
+    transition: all 0.3s ease;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+    animation: logo-glow 3s infinite ease-in-out;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88;
+    letter-spacing: 2px;
+}
+
+.logo-pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(0,255,136,0.3);
+    border-radius: 50%;
+    animation: logo-pulse 2s infinite;
+}
+
+.nav-modules {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 15px;
+    background: rgba(0,255,136,0.1);
+    border: 1px solid rgba(0,255,136,0.3);
+    border-radius: 8px;
+    color: #00ff88;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    min-width: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-btn:hover {
+    background: rgba(0,255,136,0.2);
+    border-color: #00ff88;
+    box-shadow: 0 0 15px rgba(0,255,136,0.4);
+    transform: translateY(-2px);
+}
+
+.nav-btn.active {
+    background: rgba(0,255,136,0.3);
+    border-color: #00ff88;
+    box-shadow: 0 0 20px rgba(0,255,136,0.6);
+}
+
+.nav-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.nav-btn:hover::before {
+    left: 100%;
+}
+
+.nav-icon {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.nav-text {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-status {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.system-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #00ff88;
+    animation: status-pulse 2s infinite;
+}
+
+.status-dot.warning { background: #ff8800; }
+.status-dot.critical { background: #ff0040; }
+
+.status-text {
+    font-size: 11px;
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.threat-level-mini {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    background: rgba(255,0,64,0.2);
+    border: 1px solid #ff0040;
+    border-radius: 5px;
+}
+
+.threat-icon {
+    animation: threat-blink 1s infinite;
+}
+
+.threat-level-text {
+    font-size: 11px;
+    color: #ff0040;
+    font-weight: bold;
+}
+
+.nav-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #00ff88, #00cc66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.user-name {
+    font-size: 12px;
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    color: #00ff88;
+    font-size: 24px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .nav-modules {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.95);
+        flex-direction: column;
+        padding: 20px;
+        border-bottom: 2px solid #00ff88;
+    }
+    
+    .nav-modules.show {
+        display: flex;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+    
+    .nav-status {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@keyframes logo-glow {
+    0%, 100% { filter: drop-shadow(0 0 5px #00ff88); }
+    50% { filter: drop-shadow(0 0 15px #00ff88); }
+}
+
+@keyframes logo-pulse {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+    100% { transform: translate(-50%, -50%) scale(1.5); opacity: 0; }
+}
+
+@keyframes status-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes threat-blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0.3; }
+}
+
+/* Ensure content doesn't go under nav */
+body {
+    padding-top: 70px !important;
+}
+</style>
+
+<script>
+// Universal Navigation JavaScript
+function toggleNav() {
+    const navModules = document.querySelector('.nav-modules');
+    navModules.classList.toggle('show');
+}
+
+// Mark current page as active
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPath = window.location.pathname;
+    const navBtns = document.querySelectorAll('.nav-btn');
+    
+    navBtns.forEach(btn => {
+        if (btn.getAttribute('href').includes(currentPath.split('/').pop()) || 
+            (currentPath.includes('dashboard') && btn.dataset.module === 'dashboard')) {
+            btn.classList.add('active');
+        }
+    });
+    
+    // Update threat level periodically
+    setInterval(updateNavThreatLevel, 5000);
+});
+
+function updateNavThreatLevel() {
+    const levels = ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL'];
+    const colors = ['#00ff88', '#ffff00', '#ff8800', '#ff0040'];
+    const randomLevel = Math.floor(Math.random() * levels.length);
+    
+    const threatText = document.getElementById('navThreatLevel');
+    if (threatText) {
+        threatText.textContent = levels[randomLevel];
+        threatText.style.color = colors[randomLevel];
+    }
+}
+
+// Quick navigation shortcuts
+document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.altKey) {
+        switch(e.key) {
+            case '1':
+                window.location.href = '/dashboard';
+                break;
+            case '2':
+                window.location.href = '/network_universe';
+                break;
+            case '3':
+                window.location.href = '/attack_visualization';
+                break;
+            case '4':
+                window.location.href = '/team_collaboration';
+                break;
+            case '5':
+                window.location.href = '/ar_mobile';
+                break;
+        }
+    }
+});
+</script>

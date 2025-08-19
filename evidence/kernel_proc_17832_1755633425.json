@@ -1,0 +1,2745 @@
+{
+  "pid": 17832,
+  "name": "python.exe",
+  "exe": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cmdline": [
+    "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "ultimate_main.py"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755632928.2551758,
+  "maps": [
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\KernelBase.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\kernel32.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Gui.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Widgets.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\yara.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtGui.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\QtCore.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\psutil\\_psutil_windows.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\pyexpat.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_elementtree.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_multiprocessing.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25070.5-0\\MpOAV.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\amsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\pdh.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\sip.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\sip.cp313-win_amd64.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\sip.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\sip.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\sip.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_asyncio.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libssl-3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ssl.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\charset_normalizer\\md.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_overlapped.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_uuid.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\markupsafe\\_speedups.cp313-win_amd64.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_queue.pyd",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Programs\\Python\\Python313\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\d3d11.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dxgi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dwmapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\powrprof.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

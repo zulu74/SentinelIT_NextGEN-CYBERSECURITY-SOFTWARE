@@ -1,0 +1,1603 @@
+{
+  "pid": 14756,
+  "name": "chrome.exe",
+  "exe": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "cmdline": [
+    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "--type=renderer",
+    "--no-pre-read-main-dll",
+    "--subproc-heap-profiling",
+    "--video-capture-use-gpu-memory-buffer",
+    "--lang=en-US",
+    "--device-scale-factor=1",
+    "--num-raster-threads=1",
+    "--renderer-client-id=887",
+    "--time-ticks-at-unix-epoch=-1755079315409192",
+    "--launch-time-ticks=553587346504",
+    "--metrics-shmem-handle=9104,i,8057459848575322535,4008838363632190897,2097152",
+    "--field-trial-handle=1992,i,4147365040364216899,5089209138035156276,262144",
+    "--variations-seed-version=20250817-180047.308000",
+    "--mojo-platform-channel-handle=8516",
+    "/prefetch:1"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755632874.8034415,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\Locales\\en-US.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\icudtl.dat",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\v8_context_snapshot.bin",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_100_percent.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_200_percent.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\resources.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Google\\Chrome\\User Data\\optimization_guide_model_store\\25\\E6DC4029A1E4B4C1\\B29BAF88B7F9BD4F\\visual_model_desktop.tflite",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Users\\zxola\\AppData\\Local\\Google\\Chrome\\User Data\\optimization_guide_model_store\\30\\E6DC4029A1E4B4C1\\CB241426DB91DA8D\\model.tflite",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Google\\Chrome\\Application\\139.0.7258.128\\chrome_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winspool.drv",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wintrust.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

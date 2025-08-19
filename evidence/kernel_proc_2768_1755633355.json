@@ -1,0 +1,5202 @@
+{
+  "pid": 2768,
+  "name": "SQLAGENT.EXE",
+  "exe": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+  "cmdline": [
+    "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+    "-i",
+    "MSSQLSERVER"
+  ],
+  "username": "NT SERVICE\\SQLSERVERAGENT",
+  "create_time": 1755079620.0337124,
+  "maps": [
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\sqlsvc.rll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLAGENT.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLAGENTLOG.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbcint.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\odbcint.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLOLAPSS.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLCMDSS.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLPOWERSHELLSS.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorrc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3r.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Resources\\1033\\SQLDTSSS.RLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\security.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\security.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\mswsock.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbcint.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\KernelBase.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\1033\\msodbcsqlr17.rll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.WindowsAzure.Storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAGENT.EXE",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S1450b127#\\b2704be84360da1b94ae8636fc2ffe70\\Microsoft.SqlAutoAdmin.AutoBackupAgent.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.EnterpriseServices\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.EnterpriseServices.Wrapper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Ente96d83b35#\\370eb90b70b600763ab8ab34ffb02fb7\\System.EnterpriseServices.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Ente96d83b35#\\370eb90b70b600763ab8ab34ffb02fb7\\System.EnterpriseServices.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Ente96d83b35#\\370eb90b70b600763ab8ab34ffb02fb7\\System.EnterpriseServices.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Ente96d83b35#\\370eb90b70b600763ab8ab34ffb02fb7\\System.EnterpriseServices.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Transactions\\v4.0_4.0.0.0__b77a5c561934e089\\System.Transactions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Transactions\\ac5cc94b073e40febf26cfd22cf36718\\System.Transactions.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLDTSSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLDTSSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLDTSSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLDTSSS.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLDTSSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.XE.Core\\v4.0_16.0.0.0__89845dcd8080cc91\\Microsoft.SqlServer.XE.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.XE.Core\\v4.0_16.0.0.0__89845dcd8080cc91\\Microsoft.SqlServer.XE.Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.XE.Core\\v4.0_16.0.0.0__89845dcd8080cc91\\Microsoft.SqlServer.XE.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.XE.Core\\v4.0_16.0.0.0__89845dcd8080cc91\\Microsoft.SqlServer.XE.Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.XE.Core\\v4.0_16.0.0.0__89845dcd8080cc91\\Microsoft.SqlServer.XE.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S21ee72b2#\\380f1438ce0511c3ed45bd7b0d542e8e\\Microsoft.SqlServer.XE.Core.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\xe.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.Sc0a0ae50#\\203d65f6133ab1f920ff5b80cb7ea783\\Microsoft.SqlServer.XEvent.Configuration.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\Microsoft.SqlServer.XEvent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAAMSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLPOWERSHELLSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLPOWERSHELLSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLPOWERSHELLSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLPOWERSHELLSS.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLPOWERSHELLSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLCMDSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLCMDSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLCMDSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLCMDSS.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLCMDSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLOLAPSS.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S65d361ce#\\f5242f152ff88b1e3448348259f28a0c\\Microsoft.SqlServer.XEvent.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\Microsoft.SqlServer.MgdSqlDumper\\v4.0_16.0.0.0__89845dcd8080cc91\\microsoft.sqlserver.mgdsqldumper.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Microsoft.S92d626b1#\\9ab70dc1b0df9d9fc0cba4c3714656ab\\Microsoft.SqlAutoAdmin.SqlAutoAdmin.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlscm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlscm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlscm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlscm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlscm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlsvc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\sqlsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbccp32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msodbcsql17.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\batchparser.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\batchparser.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\batchparser.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\batchparser.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\batchparser.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msxml3.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\odbc32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdsapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\160\\Shared\\instapi160.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\160\\Shared\\instapi160.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\160\\Shared\\instapi160.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\160\\Shared\\instapi160.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\160\\Shared\\instapi160.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAgentMail.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAgentMail.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAgentMail.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAgentMail.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SQLAgentMail.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SqlResourceLoader.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SqlResourceLoader.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SqlResourceLoader.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SqlResourceLoader.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\Microsoft SQL Server\\MSSQL16.MSSQLSERVER\\MSSQL\\Binn\\SqlResourceLoader.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\System.Data\\v4.0_4.0.0.0__b77a5c561934e089\\System.Data.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Data\\8929eb8d8787b5e32eed7cb0cb09e57a\\System.Data.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Runteb92aa12#\\2fb6fb234e920e0479995cf50aedbc11\\System.Runtime.Serialization.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Xml\\712338b74f96d32fc2d4d8d3c14667d5\\System.Xml.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Configuration\\5981d875c9b7bffd26ef1ecacb57079c\\System.Configuration.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Servd1dec626#\\d791af573950c4523270385f74bd77cf\\System.ServiceModel.Internals.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Core\\cf9616e40d9e7e4d682f88f6d5725156\\System.Core.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clusapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\resutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\SMDiagnostics\\769cd2645c9d8ea55badb6777a16c6da\\SMDiagnostics.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\miutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\virtdisk.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System\\fc7509f3c5d3bef48dfefcb3947d3b56\\System.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wininet.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\8967064a93c70884749ad00de74dd7a1\\mscorlib.ni.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase_clr0400.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase_clr0400.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_clr0400.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_clr0400.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1_clr0400.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1_clr0400.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1_clr0400.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "xrw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscoreei.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mscoree.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netbios.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\urlmon.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\version.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\apphelp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\secur32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntmarta.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\logoncli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dsparse.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msv1_0.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerberos.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kerb3961.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NtlmShared.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Wldap32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

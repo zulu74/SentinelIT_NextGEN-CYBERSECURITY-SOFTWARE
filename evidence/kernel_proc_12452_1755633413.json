@@ -1,0 +1,1456 @@
+{
+  "pid": 12452,
+  "name": "msedgewebview2.exe",
+  "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+  "cmdline": [
+    "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+    "--type=renderer",
+    "--noerrdialogs",
+    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.18.9.23723; 10.0.0.0.26100.4946) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.26100 IsWebView2/True (WebView2Version 138.0.3351.121)",
+    "--user-data-dir=C:\\Users\\zxola\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView",
+    "--webview-exe-name=SearchHost.exe",
+    "--webview-exe-version=2125.17400.40.0",
+    "--embedded-browser-webview=1",
+    "--video-capture-use-gpu-memory-buffer",
+    "--lang=en-US",
+    "--device-scale-factor=1",
+    "--num-raster-threads=1",
+    "--renderer-client-id=5",
+    "--js-flags=--expose-gc --ms-user-locale=",
+    "--time-ticks-at-unix-epoch=-1755079368122110",
+    "--launch-time-ticks=260542892509",
+    "--always-read-main-dll",
+    "--metrics-shmem-handle=2996,i,10788534236071561944,3249446284962116394,2097152",
+    "--field-trial-handle=1848,i,5781130531966175898,12429759565477170487,262144",
+    "--enable-features=ForceSWDCompWhenDCompFallbackRequired,msAggressiveCacheTrimming,msCustomDataPartition,msEdgeFluentOverlayScrollbar,msWebView2NoTabForScreenShare,msWebViewAppLifeCycleWorkaround",
+    "--disable-features=BackForwardCache,BackgroundTabLoadingFromPerformanceManager,CloseOmniboxPopupOnInactiveAreaClick,CollectAVProductsInfo,CollectCodeIntegrityInfo,EnableHangWatcher,FilterAdsOnAbusiveSites,GetWifiProtocol,LoginDetection,MediaFoundationCameraUsageMonitoring,PreconnectToSearch,SafetyHub,SegmentationPlatform,SpareRendererForSitePerProcess,Ukm,WebPayments,msAITrackerClassification,msAbydosForWindowlessWV2,msAffirmVirtualCard,msAllowChromeWebstore,msAllowMSAPrtSSOForNonMSAProfile,msApplicationGuard,msAskBeforeClosingMultipleTabs,msAutoToggleAADPrtSSOForNonAADProfile,msAutofillEdgeCoupons,msAutofillEdgeCouponsAutoApply,msAutofillEdgeServiceRequest,msAutofillEnableEdgeSuggestions,msAutomaticTabFreeze,msBrowserSettingsSupported,msCoarseGeolocationService,msDataProtection,msDesktopMode,msDesktopRewards,msDisableVariationsSeedFetchThrottling,msEEProactiveHistory,msETFOffstoreExtensionFileDataCollection,msETFPasswordTheftDNRActionSignals,msEdgeAdPlatformUI,msEdgeAddWebCapturetoCollections,msEdgeAutofillShowDeployedPassword,msEdgeCaptureSelectionInPDF,msEdgeCloudConfigService,msEdgeCloudConfigServiceV2,msEdgeCohorts,msEdgeCollectionsPrismExperiment1,msEdgeCollectionsPrismOverallMigration,msEdgeComposeNext,msEdgeEnableNurturingFramework,msEdgeEnclavePrefsBasic,msEdgeEnclavePrefsNotification,msEdgeFaviconService,msEdgeHJTelemetry,msEdgeHubAppSkype,msEdgeImageEditorUI,msEdgeLinkDoctor,msEdgeMouseGestureDefaultEnabled,msEdgeMouseGestureSupported,msEdgeNewDeviceFre,msEdgeOnRampFRE,msEdgeOnRampImport,msEdgePDFCMHighlightUX,msEdgePasswordIris,msEdgePasswordIrisSaveBubble,msEdgeProngPersonalization,msEdgeReadingView,msEdgeRose,msEdgeScreenshotUI,msEdgeSendTabToSelf,msEdgeSettingsImport,msEdgeSettingsImportV2,msEdgeShoppingPersistentStorage,msEdgeShoppingUI,msEdgeSmartFind,msEdgeSuperDragDefaultEnabled,msEdgeSuperDragDropSupported,msEdgeTranslate,msEdgeUseCaptivePortalService,msEdgeWebCapture,msEdgeWebCaptureUniformExperience,msEdgeWebContentFilteringFeedback,msEdgeWorkSearchBanner,msEnableCustomJobMemoryLimitsOnXbox,msEnableMIPForPDF,msEnablePdfUpsell,msEnableThirdPartyScanning,msEnableWebSignInCta,msEnableWebToBrowserSignIn,msEndpointDlp,msEntityExtraction,msExtensionTelemetryFramework,msExternalTaskManager,msFileSystemAccessDirectoryIterationBlocklistCheck,msForceBrowserSignIn,msForeignSessionsPage,msGeolocationAccessService,msGeolocationOSLocationPermissionFallback,msGeolocationSQMService,msGeolocationService,msGrowthInfraLaunchSourceLogging,msGuidedSwitchAllowed,msHubPinPersist,msImplicitSignin,msIrm,msIrmv2,msKlarnaVirtualCard,msLlmConsumerDlpPurview,msLoadStatistics,msLogIsEdgePinnedToTaskbarOnLaunch,msMIPCrossTenantPdfViewSupport,msMdatpWebSiteDlp,msNotificationPermissionForPWA,msNumberOfSitesToPin,msNurturingGlobalSitePinningOnCloseModal,msNurturingSitePinningCITopSites,msNurturingSitePinningWithWindowsConsent,msOnHoverSearchInSidebar,msOpenOfficeDocumentsInWebViewer,msPasswordBreachDetection,msPdfAnnotationsVisibility,msPdfDataRecovery,msPdfDigitalSignatureRead,msPdfFreeText,msPdfFreeTextForCJK,msPdfHighlightMode,msPdfInking,msPdfKeyphraseSupport,msPdfOOUI,msPdfPopupMarkerRenderer,msPdfShare,msPdfSharedLibrary,msPdfTextNote,msPdfTextNoteMoreMenu,msPdfThumbnailCache,msPdfUnderside,msPdfViewRestore,msPersonalizationUMA,msPriceComparison,msPrintInWebView2,msPromptDefaultHandlerForPDF,msReactiveSearch,msReadAloud,msReadAloudPdf,msRedirectToShoreline,msRevokeExtensions,msSaasDlp,msShoppingTrigger,msShorelineSearch,msShorelineSearchFindOnPageWebUI,msShowOfflineGameEntrance,msShowReadAloudIconInAddressBar,msShowUXForAADPrtSSOForNonAADProfile,msSitePinningWithoutUi,msSmartScreenProtection,msSuspendMessageForNewSessionWhenHavingPendingNavigation,msSyncEdgeCollections,msTabResourceStats,msTokenizationAutofillInlineEnabled,msTouchMode,msTriggeringSignalGenerator,msUserUnderstanding,msVideoSuperResolutionUI,msWalletBuyNow,msWalletCheckout,msWalletDiagnosticDataLogger,msWalletHubEntry,msWalletHubIntlP3,msWalletPartialCard,msWalletPasswordCategorization,msWalletPasswordCategorizationPlatformExpansion,msWalletTokenizationCardMetadata,msWalletTokenizedAutofill,msWebAssist,msWebAssistHistorySearchService,msWebOOUI,msWindowsTaskManager,msWindowsUserActivities,msZipPayVirtualCard",
+    "--variations-seed-version",
+    "--mojo-platform-channel-handle=2180",
+    "/pfhostedapp:9e74f9e8d41004fc0f9ec749f329bb5e73dc8981",
+    "/prefetch:1"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755339911.0753527,
+  "maps": [
+    {
+      "path": "C:\\Windows\\Fonts\\SegoeIcons.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\SegUIVar.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\SegUIVar.ttf",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\v8_context_snapshot.bin",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_100_percent.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\Locales\\en-US.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\icudtl.dat",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_200_percent.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\resources.pak",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedgewebview2.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\ffmpeg.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\139.0.3405.86\\msedge_elf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winmm.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DWrite.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dbghelp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

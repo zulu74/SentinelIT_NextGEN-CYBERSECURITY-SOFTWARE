@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Universe</title>
+    <!-- Tailwind CSS for styling the surrounding elements -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide scrollbars for the full-screen canvas */
+        }
+        #network-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        canvas {
+            display: block;
+            touch-action: none; /* Prevents default mobile gestures like zoom */
+        }
+        #info-box {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            background-color: rgba(22, 27, 34, 0.7);
+            border: 1px solid rgba(48, 54, 61, 0.7);
+            padding: 1rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            max-width: 300px;
+        }
+        #threat-counter {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #161b22;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px; /* Fully rounded pill shape */
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        #threat-counter .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #fca5a5; /* Red dot */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- The container for our 3D visualization -->
+    <div id="network-container" class="relative">
+        <!-- Info box to instruct the user -->
+        <div id="info-box" class="hidden sm:block">
+            <h2 class="text-xl font-semibold mb-2">3D Network View</h2>
+            <p class="text-sm text-gray-400">Click and drag with your mouse to rotate the network. Use the mouse wheel to zoom in and out.</p>
+            <p class="text-sm text-gray-400 mt-2">Threats will appear as flashing red nodes.</p>
+        </div>
+        <canvas id="network-canvas"></canvas>
+        <!-- Threat Counter UI -->
+        <div id="threat-counter">
+            <span class="dot bg-red-500 animate-pulse"></span>
+            <span id="threat-count-value">0</span> Active Threats
+        </div>
+    </div>
+
+    <!-- Three.js library import -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script>
+        window.onload = function() {
+            // --- Scene Setup ---
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            const renderer = new THREE.WebGLRenderer({
+                canvas: document.getElementById('network-canvas'),
+                antialias: true,
+                alpha: true
+            });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            scene.background = new THREE.Color(0x0d1117);
+
+            // --- Camera Position and Controls ---
+            camera.position.z = 250;
+
+            let isDragging = false;
+            let previousMousePosition = {
+                x: 0,
+                y: 0
+            };
+            const rotationSpeed = 0.005;
+
+            // Mouse interaction for rotation
+            document.addEventListener('mousedown', (e) => {
+                isDragging = true;
+                previousMousePosition.x = e.clientX;
+                previousMousePosition.y = e.clientY;
+            });
+
+            document.addEventListener('mouseup', () => {
+                isDragging = false;
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                const deltaX = e.clientX - previousMousePosition.x;
+                const deltaY = e.clientY - previousMousePosition.y;
+                scene.rotation.y += deltaX * rotationSpeed;
+                scene.rotation.x += deltaY * rotationSpeed;
+                previousMousePosition.x = e.clientX;
+                previousMousePosition.y = e.clientY;
+            });
+
+            // Touch interaction for rotation
+            document.addEventListener('touchstart', (e) => {
+                isDragging = true;
+                const touch = e.touches[0];
+                previousMousePosition.x = touch.clientX;
+                previousMousePosition.y = touch.clientY;
+            });
+
+            document.addEventListener('touchend', () => {
+                isDragging = false;
+            });
+
+            document.addEventListener('touchmove', (e) => {
+                if (!isDragging) return;
+                const touch = e.touches[0];
+                const deltaX = touch.clientX - previousMousePosition.x;
+                const deltaY = touch.clientY - previousMousePosition.y;
+                scene.rotation.y += deltaX * rotationSpeed;
+                scene.rotation.x += deltaY * rotationSpeed;
+                previousMousePosition.x = touch.clientX;
+                previousMousePosition.y = touch.clientY;
+            });
+
+            // Mouse wheel for zooming
+            document.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                camera.position.z += e.deltaY * 0.1;
+            });
+
+            // --- Network Data Generation ---
+            const nodes = [];
+            const edges = [];
+            const numNodes = 100;
+            const nodeMaterial = new THREE.MeshBasicMaterial({
+                color: 0x228B22
+            });
+            const lineMaterial = new THREE.LineBasicMaterial({
+                color: 0x4B0082,
+                transparent: true,
+                opacity: 0.5
+            });
+
+            // Create nodes and store their original color
+            const originalNodeColor = new THREE.Color(0x228B22);
+            for (let i = 0; i < numNodes; i++) {
+                const nodeGeometry = new THREE.SphereGeometry(2, 8, 8);
+                const node = new THREE.Mesh(nodeGeometry, nodeMaterial);
+                // Position nodes randomly in a cube
+                node.position.x = Math.random() * 400 - 200;
+                node.position.y = Math.random() * 400 - 200;
+                node.position.z = Math.random() * 400 - 200;
+                scene.add(node);
+                nodes.push(node);
+            }
+
+            // Create edges (lines connecting nodes)
+            for (let i = 0; i < numNodes; i++) {
+                // Connect each node to a few random neighbors
+                for (let j = 0; j < 3; j++) {
+                    const neighborIndex = Math.floor(Math.random() * numNodes);
+                    if (i !== neighborIndex) {
+                        const points = [
+                            nodes[i].position,
+                            nodes[neighborIndex].position
+                        ];
+                        const lineGeometry = new THREE.BufferGeometry().setFromPoints(points);
+                        const line = new THREE.Line(lineGeometry, lineMaterial);
+                        scene.add(line);
+                        edges.push(line);
+                    }
+                }
+            }
+
+            // --- Threat Simulation ---
+            let activeThreats = 0;
+            const threatCountElement = document.getElementById('threat-count-value');
+
+            function simulateThreats() {
+                // Chance of a new threat appearing
+                if (Math.random() < 0.5) { // 50% chance to add a new threat
+                    const randomNodeIndex = Math.floor(Math.random() * nodes.length);
+                    const threatenedNode = nodes[randomNodeIndex];
+
+                    // Change node color to red for a threat
+                    const threatColor = new THREE.Color(0xff0000);
+                    threatenedNode.material.color.set(threatColor);
+
+                    activeThreats++;
+                    threatCountElement.textContent = activeThreats;
+
+                    // Revert the color back after 1.5 seconds
+                    setTimeout(() => {
+                        threatenedNode.material.color.set(originalNodeColor);
+                        activeThreats--;
+                        threatCountElement.textContent = activeThreats;
+                    }, 1500);
+                }
+            }
+
+            // Trigger threat simulation every 2 seconds
+            setInterval(simulateThreats, 2000);
+
+            // --- Animation Loop ---
+            const animate = () => {
+                requestAnimationFrame(animate);
+
+                // Make the network slowly rotate on its own
+                scene.rotation.x += 0.0005;
+                scene.rotation.y += 0.0005;
+
+                renderer.render(scene, camera);
+            };
+
+            // Start the animation on window load
+            animate();
+
+            // Handle window resizing
+            window.addEventListener('resize', () => {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            });
+        };
+    </script>
+</body>
+</html>

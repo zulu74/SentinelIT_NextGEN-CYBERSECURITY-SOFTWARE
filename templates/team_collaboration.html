@@ -344,6 +344,7 @@
         .control-btn.danger:hover {
             background: linear-gradient(45deg, #cc0033, #ff0040);
             box-shadow: 0 0 20px rgba(255,0,64,0.5);
+            transform: translateY(-2px);
         }
 
         .connection-line {
@@ -525,3 +526,220 @@
                 </div>
                 <div class="activity-item">
                     <span>📈 Attribution assessment</span>
+                    <span>2 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>🤖 AI engine query</span>
+                    <span>5 min ago</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shared Workspace -->
+        <div class="shared-workspace" id="sharedWorkspace">
+            <div class="workspace-header">
+                <span>Threat Analysis Session</span>
+                <span style="font-size: 10px;">(Collaborative)</span>
+            </div>
+            <div class="workspace-content">
+                <pre>
+------------------------------------------------------
+[08:45:22] LOG: Suspicious file 'svchost.exe.temp' detected in %APPDATA%
+[08:45:25] ALERT: Malicious behavior pattern identified (TTPs: T1059, T1047)
+[08:45:30] ANALYST 1: Investigating process tree.
+[08:45:35] ANALYST 2: Requesting memory dump from affected endpoint.
+[08:45:40] ANALYST 4: Correlating hash with threat intel feeds.
+[08:45:45] ANALYST 3: Preparing host isolation procedures.
+------------------------------------------------------
+</pre>
+            </div>
+        </div>
+
+        <!-- Shared Cursors (dynamically created) -->
+        <div class="shared-cursor cursor-1" style="top: 0; left: 0;">&lt;cursor-1&gt;</div>
+        <div class="shared-cursor cursor-2" style="top: 0; left: 0;">&lt;cursor-2&gt;</div>
+        <div class="shared-cursor cursor-3" style="top: 0; left: 0;">&lt;cursor-3&gt;</div>
+        <div class="shared-cursor cursor-4" style="top: 0; left: 0;">&lt;cursor-4&gt;</div>
+
+        <!-- Communication Hub (Chat) -->
+        <div class="communication-hub">
+            <div class="chat-messages" id="chatMessages">
+                <!-- Chat messages will be dynamically added here -->
+                <div class="chat-message">
+                    <strong>Alex Chen:</strong> This looks like a new variant.
+                </div>
+                <div class="chat-message">
+                    <strong>Sarah Kumar:</strong> Agreed. The XOR key is custom.
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Send a message...">
+                <button class="send-btn" id="sendBtn">Send</button>
+            </div>
+        </div>
+
+        <!-- Control Buttons -->
+        <div class="control-buttons">
+            <button class="control-btn" id="showWorkspaceBtn">Show Workspace</button>
+            <button class="control-btn" id="addAnalystBtn">Add Analyst</button>
+            <button class="control-btn danger" id="endSessionBtn">End Session</button>
+        </div>
+    </div>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        // Array of analyst data
+        const analysts = [
+            { id: 1, name: 'Alex Chen', role: 'Lead SOC', emoji: '🛡️', color: '#00ff88', activities: [
+                'Investigating alerts', 'Analyzing malware hash', 'Updated risk assessment', 'Escalated to Tier 2'
+            ]},
+            { id: 2, name: 'Sarah Kumar', role: 'Forensics', emoji: '🔬', color: '#ff0088', activities: [
+                'Deep analysis mode', 'Memory dump analysis', 'Extracted IOCs', 'Decrypted payload'
+            ]},
+            { id: 3, name: 'Marcus Wolf', role: 'Response', emoji: '⚡', color: '#8800ff', activities: [
+                'Coordinating containment', 'Isolated affected systems', 'Contacted IT team', 'Deployed countermeasures'
+            ]},
+            { id: 4, name: 'Emma Torres', role: 'Threat Intel', emoji: '🎯', color: '#ff8800', activities: [
+                'Gathering intelligence', 'Threat feed analysis', 'Attribution assessment', 'AI engine query'
+            ]}
+        ];
+
+        // Get DOM elements
+        const collaborationSpace = document.getElementById('collaborationSpace');
+        const workspace = document.getElementById('sharedWorkspace');
+        const showWorkspaceBtn = document.getElementById('showWorkspaceBtn');
+        const chatInput = document.getElementById('chatInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const chatMessages = document.getElementById('chatMessages');
+        const analystPanels = document.querySelectorAll('.analyst-panel');
+        const cursor1 = document.querySelector('.cursor-1');
+        const cursor2 = document.querySelector('.cursor-2');
+
+        // Initial state
+        let isWorkspaceVisible = false;
+
+        // --- Drag-and-Drop Functionality ---
+        analystPanels.forEach(panel => {
+            let isDragging = false;
+            let currentX, currentY, initialX, initialY, xOffset = 0, yOffset = 0;
+
+            // Start dragging on mousedown
+            panel.addEventListener('mousedown', (e) => {
+                initialX = e.clientX - xOffset;
+                initialY = e.clientY - yOffset;
+                isDragging = true;
+                panel.style.zIndex = '1000'; // Bring to front
+            });
+
+            // Handle mouse movement
+            collaborationSpace.addEventListener('mousemove', (e) => {
+                if (isDragging) {
+                    e.preventDefault();
+                    currentX = e.clientX - initialX;
+                    currentY = e.clientY - initialY;
+                    xOffset = currentX;
+                    yOffset = currentY;
+                    setTranslate(currentX, currentY, panel);
+                }
+            });
+
+            // Stop dragging on mouseup
+            collaborationSpace.addEventListener('mouseup', () => {
+                initialX = currentX;
+                initialY = currentY;
+                isDragging = false;
+            });
+
+            // Helper function to set panel position
+            function setTranslate(xPos, yPos, el) {
+                el.style.transform = `translate3d(${xPos}px, ${yPos}px, 0)`;
+            }
+        });
+
+        // --- Shared Cursor Simulation ---
+        collaborationSpace.addEventListener('mousemove', (e) => {
+            // Simulate two other cursors
+            cursor1.style.transform = `translate3d(${e.clientX + 20}px, ${e.clientY - 30}px, 0)`;
+            cursor2.style.transform = `translate3d(${e.clientX - 50}px, ${e.clientY + 10}px, 0)`;
+        });
+        
+        // --- Chat Functionality ---
+        function sendMessage() {
+            const message = chatInput.value.trim();
+            if (message === '') return;
+
+            // Create a new message element
+            const messageEl = document.createElement('div');
+            messageEl.className = 'chat-message';
+            // Placeholder for the current user's name
+            messageEl.innerHTML = `<strong>You:</strong> ${message}`;
+            chatMessages.appendChild(messageEl);
+
+            // Clear input and scroll to bottom
+            chatInput.value = '';
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Send message on button click
+        sendBtn.addEventListener('click', sendMessage);
+
+        // Send message on Enter key press
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+        
+        // --- Dynamic Activity Updates ---
+        const activityData = {
+            1: ['Analyzing malware hash', 'Updated risk assessment', 'Escalated to Tier 2'],
+            2: ['Memory dump analysis', 'Extracted IOCs', 'Decrypted payload'],
+            3: ['Isolated affected systems', 'Contacted IT team', 'Deployed countermeasures'],
+            4: ['Threat feed analysis', 'Attribution assessment', 'AI engine query']
+        };
+
+        function updateActivities() {
+            Object.keys(activityData).forEach(analystId => {
+                const activityList = document.getElementById(`activity${analystId}`);
+                if (activityList) {
+                    const randomActivity = activityData[analystId][Math.floor(Math.random() * activityData[analystId].length)];
+                    const timeAgo = Math.floor(Math.random() * 10) + 1; // 1-10 minutes ago
+                    const item = document.createElement('div');
+                    item.className = 'activity-item';
+                    item.innerHTML = `<span>${randomActivity}</span><span>${timeAgo} min ago</span>`;
+                    
+                    // Add new activity and remove old one if list is full
+                    activityList.prepend(item);
+                    if (activityList.children.length > 3) {
+                        activityList.lastElementChild.remove();
+                    }
+                }
+            });
+        }
+        
+        // Update activities every 5 seconds
+        setInterval(updateActivities, 5000);
+
+        // --- Control Button Functionality ---
+        showWorkspaceBtn.addEventListener('click', () => {
+            isWorkspaceVisible = !isWorkspaceVisible;
+            if (isWorkspaceVisible) {
+                workspace.style.display = 'block';
+                showWorkspaceBtn.textContent = 'Hide Workspace';
+            } else {
+                workspace.style.display = 'none';
+                showWorkspaceBtn.textContent = 'Show Workspace';
+            }
+        });
+
+        // Add a simple confirmation for ending the session
+        document.getElementById('endSessionBtn').addEventListener('click', () => {
+             // In a real app, this would use a custom modal, not alert()
+            const confirmation = window.confirm("Are you sure you want to end the session?");
+            if (confirmation) {
+                document.body.innerHTML = '<div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 2em; color: #ff0040;">SESSION TERMINATED</div>';
+            }
+        });
+    </script>
+</body>
+</html>

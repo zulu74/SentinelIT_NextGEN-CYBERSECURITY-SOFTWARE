@@ -1,367 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SentinelIT - Revolutionary 3D Network Universe</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelIT - Revolutionary 3D Network Universe</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        body {
-            background: radial-gradient(ellipse at center, #0a0a0a 0%, #000 70%);
-            overflow: hidden;
-            font-family: 'Courier New', monospace;
-            color: #00ff41;
-            cursor: none;
-        }
+        body {
+            background: radial-gradient(ellipse at center, #0a0a0a 0%, #000 70%);
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+            color: #00ff41;
+            cursor: none;
+        }
 
-        #canvas-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-        }
+        #canvas-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
 
-        .hud {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.8);
-            border: 2px solid #00ff41;
-            border-radius: 15px;
-            padding: 20px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 0 30px rgba(0, 255, 65, 0.4);
-            animation: hologram-shimmer 3s ease-in-out infinite;
-        }
+        .hud {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #00ff41;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.4);
+            animation: hologram-shimmer 3s ease-in-out infinite;
+        }
 
-        @keyframes hologram-shimmer {
-            0%, 100% { box-shadow: 0 0 30px rgba(0, 255, 65, 0.4); }
-            50% { box-shadow: 0 0 50px rgba(0, 255, 65, 0.8); }
-        }
+        @keyframes hologram-shimmer {
+            0%, 100% { box-shadow: 0 0 30px rgba(0, 255, 65, 0.4); }
+            50% { box-shadow: 0 0 50px rgba(0, 255, 65, 0.8); }
+        }
 
-        .hud h1 {
-            color: #00ff41;
-            font-size: 28px;
-            margin-bottom: 15px;
-            text-shadow: 0 0 15px rgba(0, 255, 65, 0.8);
-            animation: text-glow 2s ease-in-out infinite alternate;
-        }
+        .hud h1 {
+            color: #00ff41;
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 15px rgba(0, 255, 65, 0.8);
+            animation: text-glow 2s ease-in-out infinite alternate;
+        }
 
-        @keyframes text-glow {
-            from { text-shadow: 0 0 15px rgba(0, 255, 65, 0.8); }
-            to { text-shadow: 0 0 25px rgba(0, 255, 65, 1), 0 0 35px rgba(0, 255, 65, 0.6); }
-        }
+        @keyframes text-glow {
+            from { text-shadow: 0 0 15px rgba(0, 255, 65, 0.8); }
+            to { text-shadow: 0 0 25px rgba(0, 255, 65, 1), 0 0 35px rgba(0, 255, 65, 0.6); }
+        }
 
-        .hud-stats {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-            margin-top: 20px;
-        }
+        .hud-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-top: 20px;
+        }
 
-        .stat-item {
-            text-align: center;
-            padding: 12px;
-            background: rgba(0, 255, 65, 0.1);
-            border-radius: 8px;
-            border: 1px solid rgba(0, 255, 65, 0.5);
-            transition: all 0.3s ease;
-            animation: stat-pulse 4s ease-in-out infinite;
-        }
+        .stat-item {
+            text-align: center;
+            padding: 12px;
+            background: rgba(0, 255, 65, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(0, 255, 65, 0.5);
+            transition: all 0.3s ease;
+            animation: stat-pulse 4s ease-in-out infinite;
+        }
 
-        @keyframes stat-pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-        }
+        @keyframes stat-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
 
-        .stat-value {
-            font-size: 24px;
-            font-weight: bold;
-            color: #00ff41;
-            text-shadow: 0 0 10px rgba(0, 255, 65, 0.8);
-        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff41;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.8);
+        }
 
-        .stat-label {
-            font-size: 12px;
-            color: #888;
-            margin-top: 5px;
-        }
+        .stat-label {
+            font-size: 12px;
+            color: #888;
+            margin-top: 5px;
+        }
 
-        .controls {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.9);
-            border: 2px solid #00ff41;
-            border-radius: 15px;
-            padding: 20px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 0 30px rgba(0, 255, 65, 0.4);
-        }
+        .controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #00ff41;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 30px rgba(0, 255, 65, 0.4);
+        }
 
-        .control-button {
-            background: linear-gradient(45deg, rgba(0, 255, 65, 0.2), rgba(0, 255, 65, 0.1));
-            border: 2px solid #00ff41;
-            color: #00ff41;
-            padding: 12px 20px;
-            margin: 8px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-family: 'Courier New', monospace;
-            font-weight: bold;
-            text-transform: uppercase;
-            position: relative;
-            overflow: hidden;
-        }
+        .control-button {
+            background: linear-gradient(45deg, rgba(0, 255, 65, 0.2), rgba(0, 255, 65, 0.1));
+            border: 2px solid #00ff41;
+            color: #00ff41;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+        }
 
-        .control-button::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.4), transparent);
-            transition: left 0.5s;
-        }
+        .control-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.4), transparent);
+            transition: left 0.5s;
+        }
 
-        .control-button:hover::before {
-            left: 100%;
-        }
+        .control-button:hover::before {
+            left: 100%;
+        }
 
-        .control-button:hover {
-            background: rgba(0, 255, 65, 0.3);
-            box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
-            transform: translateY(-2px);
-        }
+        .control-button:hover {
+            background: rgba(0, 255, 65, 0.3);
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
+            transform: translateY(-2px);
+        }
 
-        .threat-alert {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(255, 0, 0, 0.9);
-            border: 2px solid #ff4444;
-            border-radius: 15px;
-            padding: 20px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 0 30px rgba(255, 68, 68, 0.6);
-            animation: critical-alert 1s infinite;
-            max-width: 320px;
-        }
+        .threat-alert {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255, 0, 0, 0.9);
+            border: 2px solid #ff4444;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 30px rgba(255, 68, 68, 0.6);
+            animation: critical-alert 1s infinite;
+            max-width: 320px;
+        }
 
-        @keyframes critical-alert {
-            0%, 100% { 
-                opacity: 1; 
-                transform: scale(1) rotate(0deg); 
-                box-shadow: 0 0 30px rgba(255, 68, 68, 0.6);
-            }
-            25% { 
-                transform: scale(1.02) rotate(0.5deg); 
-                box-shadow: 0 0 40px rgba(255, 68, 68, 0.8);
-            }
-            75% { 
-                transform: scale(1.02) rotate(-0.5deg); 
-                box-shadow: 0 0 40px rgba(255, 68, 68, 0.8);
-            }
-        }
+        @keyframes critical-alert {
+            0%, 100% { 
+                opacity: 1; 
+                transform: scale(1) rotate(0deg); 
+                box-shadow: 0 0 30px rgba(255, 68, 68, 0.6);
+            }
+            25% { 
+                transform: scale(1.02) rotate(0.5deg); 
+                box-shadow: 0 0 40px rgba(255, 68, 68, 0.8);
+            }
+            75% { 
+                transform: scale(1.02) rotate(-0.5deg); 
+                box-shadow: 0 0 40px rgba(255, 68, 68, 0.8);
+            }
+        }
 
-        .threat-alert h3 {
-            color: #fff;
-            margin-bottom: 15px;
-            font-size: 18px;
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-        }
+        .threat-alert h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            font-size: 18px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
 
-        .loading-screen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: linear-gradient(45deg, #000 0%, #0a0a0a 50%, #000 100%);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 2000;
-            transition: opacity 1s ease;
-        }
+        .loading-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(45deg, #000 0%, #0a0a0a 50%, #000 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            transition: opacity 1s ease;
+        }
 
-        .loading-text {
-            font-size: 32px;
-            color: #00ff41;
-            margin-bottom: 40px;
-            text-shadow: 0 0 20px rgba(0, 255, 65, 0.8);
-            animation: loading-pulse 2s ease-in-out infinite;
-        }
+        .loading-text {
+            font-size: 32px;
+            color: #00ff41;
+            margin-bottom: 40px;
+            text-shadow: 0 0 20px rgba(0, 255, 65, 0.8);
+            animation: loading-pulse 2s ease-in-out infinite;
+        }
 
-        @keyframes loading-pulse {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.05); opacity: 0.8; }
-        }
+        @keyframes loading-pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.8; }
+        }
 
-        .loading-bar {
-            width: 400px;
-            height: 6px;
-            background: rgba(0, 255, 65, 0.2);
-            border-radius: 3px;
-            overflow: hidden;
-            border: 1px solid rgba(0, 255, 65, 0.5);
-        }
+        .loading-bar {
+            width: 400px;
+            height: 6px;
+            background: rgba(0, 255, 65, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid rgba(0, 255, 65, 0.5);
+        }
 
-        .loading-progress {
-            height: 100%;
-            background: linear-gradient(90deg, #00ff41, #00aa2a, #00ff41);
-            background-size: 200% 100%;
-            width: 0%;
-            animation: loading 4s ease forwards, shimmer 2s ease-in-out infinite;
-        }
+        .loading-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff41, #00aa2a, #00ff41);
+            background-size: 200% 100%;
+            width: 0%;
+            animation: loading 4s ease forwards, shimmer 2s ease-in-out infinite;
+        }
 
-        @keyframes loading {
-            to { width: 100%; }
-        }
+        @keyframes loading {
+            to { width: 100%; }
+        }
 
-        @keyframes shimmer {
-            0% { background-position: -200% 0; }
-            100% { background-position: 200% 0; }
-        }
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
 
-        .node-info {
-            position: absolute;
-            background: rgba(0, 0, 0, 0.95);
-            border: 2px solid #00ff41;
-            border-radius: 12px;
-            padding: 20px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 0 25px rgba(0, 255, 65, 0.5);
-            pointer-events: none;
-            opacity: 0;
-            transition: all 0.3s ease;
-            z-index: 1500;
-            max-width: 300px;
-            transform: scale(0.8);
-        }
+        .node-info {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.95);
+            border: 2px solid #00ff41;
+            border-radius: 12px;
+            padding: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 25px rgba(0, 255, 65, 0.5);
+            pointer-events: none;
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1500;
+            max-width: 300px;
+            transform: scale(0.8);
+        }
 
-        .node-info.show {
-            opacity: 1;
-            transform: scale(1);
-        }
+        .node-info.show {
+            opacity: 1;
+            transform: scale(1);
+        }
 
-        .fps-counter {
-            position: absolute;
-            top: 20px;
-            right: 360px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.8);
-            border: 1px solid #00ff41;
-            border-radius: 8px;
-            padding: 12px;
-            font-size: 14px;
-            backdrop-filter: blur(10px);
-        }
+        .fps-counter {
+            position: absolute;
+            top: 20px;
+            right: 360px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff41;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 14px;
+            backdrop-filter: blur(10px);
+        }
 
-        .ai-predictions {
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.9);
-            border: 2px solid #ffd700;
-            border-radius: 15px;
-            padding: 20px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
-            max-width: 350px;
-            animation: ai-glow 3s ease-in-out infinite;
-        }
+        .ai-predictions {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.9);
+            border: 2px solid #ffd700;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+            max-width: 350px;
+            animation: ai-glow 3s ease-in-out infinite;
+        }
 
-        @keyframes ai-glow {
-            0%, 100% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.4); }
-            50% { box-shadow: 0 0 40px rgba(255, 215, 0, 0.7); }
-        }
+        @keyframes ai-glow {
+            0%, 100% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.4); }
+            50% { box-shadow: 0 0 40px rgba(255, 215, 0, 0.7); }
+        }
 
-        .ai-predictions h3 {
-            color: #ffd700;
-            margin-bottom: 15px;
-            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
-            font-size: 18px;
-        }
+        .ai-predictions h3 {
+            color: #ffd700;
+            margin-bottom: 15px;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+            font-size: 18px;
+        }
 
-        .prediction-item {
-            margin: 10px 0;
-            padding: 8px 12px;
-            background: rgba(255, 215, 0, 0.1);
-            border-radius: 6px;
-            font-size: 13px;
-            border-left: 3px solid #ffd700;
-            animation: prediction-slide 0.5s ease;
-        }
+        .prediction-item {
+            margin: 10px 0;
+            padding: 8px 12px;
+            background: rgba(255, 215, 0, 0.1);
+            border-radius: 6px;
+            font-size: 13px;
+            border-left: 3px solid #ffd700;
+            animation: prediction-slide 0.5s ease;
+        }
 
-        @keyframes prediction-slide {
-            from { transform: translateX(-20px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
+        @keyframes prediction-slide {
+            from { transform: translateX(-20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
 
-        .custom-cursor {
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #00ff41;
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 3000;
-            transition: all 0.1s ease;
-            box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
-        }
+        .custom-cursor {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #00ff41;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 3000;
+            transition: all 0.1s ease;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
+        }
 
-        .custom-cursor::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 4px;
-            height: 4px;
-            background: #00ff41;
-            border-radius: 50%;
-            animation: cursor-pulse 2s ease-in-out infinite;
-        }
+        .custom-cursor::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 4px;
+            height: 4px;
+            background: #00ff41;
+            border-radius: 50%;
+            animation: cursor-pulse 2s ease-in-out infinite;
+        }
 
-        @keyframes cursor-pulse {
-            0%, 100% { transform: translate(-50%, -50%) scale(1); }
-            50% { transform: translate(-50%, -50%) scale(1.5); }
-        }
+        @keyframes cursor-pulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.5); }
+        }
 
-        .universe-title {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 72px;
-            color: rgba(0, 255, 65, 0.1);
-            font-weight: bold;
-            text-shadow: 0 0 50px rgba(0, 255, 65, 0.3);
-            pointer-events: none;
-            z-index: 1;
-            animation: universe-rotate 20s linear infinite;
-        }
+        .universe-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 72px;
+            color: rgba(0, 255, 65, 0.1);
+            font-weight: bold;
+            text-shadow: 0 0 50px rgba(0, 255, 65, 0.3);
+            pointer-events: none;
+            z-index: 1;
+            animation: universe-rotate 20s linear infinite;
+        }
 
-        @keyframes universe-rotate {
-            from { transform: translate(-50%, -50%) rotate(0deg); }
-            to { transform: translate(-50%, -50%) rotate(360deg); }
-        }
+        @keyframes universe-rotate {
+            from { transform: translate(-50%, -50%) rotate(0deg); }
+            to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
 
 /* New CSS for the team collaboration button */
 .team-collaboration-btn {
@@ -391,728 +391,494 @@
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
 
-    </style>
+    </style>
 </head>
 <body>
-        <div class="custom-cursor" id="customCursor"></div>
+    {% include 'universal_nav.html' %}
+    <div class="custom-cursor" id="customCursor"></div>
 
-        <div class="loading-screen" id="loadingScreen">
-        <div class="loading-text">🛡️ INITIALIZING SENTINELIT QUANTUM NETWORK</div>
-        <div class="loading-bar">
-            <div class="loading-progress"></div>
-        </div>
-        <div style="margin-top: 30px; color: #888; font-size: 16px; text-align: center;">
-            <div>⚡ Activating quantum sensors...</div>
-             <div>🌐 Mapping network topology...</div>
-            <div>🧠 Initializing AI threat prediction...</div>
-            <div>✨ Ready to revolutionize cybersecurity</div>
-        </div>
-    </div>
-
-        <div class="universe-title">SENTINELIT</div>
-
-        <div class="hud">
-        <h1>🌌 NETWORK UNIVERSE</h1>
-        <div style="color: #00ff41; font-weight: bold;">Status: QUANTUM MONITORING ACTIVE</div>
-        <div>Nodes Tracked: <span id="nodeCount" style="color: #00ff41; font-weight: bold;">0</span></div>
-        <div>Threats Detected: <span style="color: #ff4444; font-weight: bold;" id="threatCount">0</span></div>
-        <div>AI Confidence: <span style="color: #ffd700; font-weight: bold;" id="aiConfidence">98.7%</span></div>
-        
-        <div class="hud-stats">
-            <div class="stat-item">
-                <div class="stat-value" id="packetsPerSec">2.4M</div>
-                <div class="stat-label">Packets/sec</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="networkLoad">67%</div>
-                <div class="stat-label">Network Load</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="responseTime">0.8ms</div>
-                <div class="stat-label">Response Time</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-value" id="uptime">99.97%</div>
-                <div class="stat-label">System Uptime</div>
-            </div>
-        </div>
-    </div>
-
-        <div class="fps-counter">
-        <div style="color: #00ff41; font-weight: bold;">PERFORMANCE</div>
-        <div>FPS: <span id="fps" style="color: #00ff41;">60</span></div>
-        <div>Render: <span id="renderTime">16ms</span></div>
-        <div>Nodes: <span id="renderedNodes">0</span></div>
-    </div>
-
-        <div class="threat-alert" id="threatAlert" style="display: none;">
-        <h3>⚠️ CRITICAL THREAT DETECTED</h3>
-        <div style="margin: 10px 0;">
-            <div>🎯 <strong>Advanced Persistent Threat</strong></div>
-            <div>📍 Node: <span id="threatNode">UNKNOWN</span></div>
-            <div>🔥 Risk Level: <span style="color: #ffff00;">EXTREME</span></div>
-            <div>⏱️ Detected: <span id="threatTime">Now</span></div>
-        </div>
-        <div style="margin-top: 15px;">
-            <button class="control-button" onclick="isolateNode()" style="margin: 5px; padding: 8px 15px;">
-                🛡️ ISOLATE
-            </button>
-            <button class="control-button" onclick="analyzeNode()" style="margin: 5px; padding: 8px 15px;">
-                🔍 ANALYZE
-            </button>
-        </div>
-    </div>
-
-        <div class="ai-predictions">
-        <h3>🧠 AI QUANTUM PREDICTIONS</h3>
-        <div class="prediction-item" id="prediction1">
-            📊 Analyzing network patterns...
-        </div>
-        <div class="prediction-item" id="prediction2">
-            🎯 Scanning for anomalies...
-        </div>
-        <div class="prediction-item" id="prediction3">
-            ⚡ Monitoring data flows...</div>
-        <div class="prediction-item" id="prediction4">
-            🔮 Quantum algorithms initializing...
-        </div>
-    </div>
-
-        <div class="controls">
-        <div style="margin-bottom: 15px; color: #00ff41; font-weight: bold; font-size: 16px;">
-            🎮 UNIVERSE CONTROLS
-        </div>
-        <div>
-            <button class="control-button" onclick="resetView()">🏠 Reset View</button>
-            <button class="control-button" onclick="toggleThreats()" id="threatBtn">⚠️ Show Threats</button>
-        </div>
-        <div>
-            <button class="control-button" onclick="toggleTraffic()" id="trafficBtn">📊 Data Flows</button>
-            <button class="control-button" onclick="toggleAI()" id="aiBtn">🧠 AI Mode</button>
-        </div>
-        <div>
-            <button class="control-button" onclick="emergencyMode()">🚨 Emergency</button>
-            <button class="control-button" onclick="quantumScan()">⚛️ Quantum Scan</button>
-        </div>
-    </div>
-
-    <div class="team-collaboration-btn">
-        <a href="{{ url_for('team_collaboration') }}" class="btn btn-outline-info">
-            👥 Team Collaboration Universe
-        </a>
+    <div class="loading-screen" id="loadingScreen">
+    <div class="loading-text">🛡️ INITIALIZING SENTINELIT QUANTUM NETWORK</div>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
     </div>
+    <div style="margin-top: 30px; color: #888; font-size: 16px; text-align: center;">
+        <div>⚡ Activating quantum sensors...</div>
+        <div>🌐 Mapping network topology...</div>
+        <div>🧠 Initializing AI threat prediction...</div>
+        <div>✨ Ready to revolutionize cybersecurity</div>
+    </div>
+</div>
 
-        <div class="node-info" id="nodeInfo">
-        <h4 id="nodeTitle" style="color: #00ff41; margin-bottom: 10px;">Node Information</h4>
-        <div id="nodeDetails" style="color: #ccc;"></div>
-    </div>
+    <div class="universe-title">SENTINELIT</div>
 
-        <div id="canvas-container"></div>
+    <div class="hud">
+    <h1>🌌 NETWORK UNIVERSE</h1>
+    <div style="color: #00ff41; font-weight: bold;">Status: QUANTUM MONITORING ACTIVE</div>
+    <div>Nodes Tracked: <span id="nodeCount" style="color: #00ff41; font-weight: bold;">0</span></div>
+    <div>Threats Detected: <span style="color: #ff4444; font-weight: bold;" id="threatCount">0</span></div>
+    <div>AI Confidence: <span style="color: #ffd700; font-weight: bold;" id="aiConfidence">98.7%</span></div>
+    
+    <div class="hud-stats">
+        <div class="stat-item">
+            <div class="stat-value" id="packetsPerSec">2.4M</div>
+            <div class="stat-label">Packets/sec</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="networkLoad">67%</div>
+            <div class="stat-label">Network Load</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="responseTime">0.8ms</div>
+            <div class="stat-label">Response Time</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="uptime">99.97%</div>
+            <div class="stat-label">System Uptime</div>
+        </div>
+    </div>
+</div>
 
-    <script>
-        // Global variables
-        let scene, camera, renderer;
-        let networkNodes = [];
-        let connections = [];
-        let threatNodes = [];
-        let dataStreams = [];
-        let stars = [];
-        let animationId;
-        let mouseX = 0, mouseY = 0;
-        let showThreats = true;
-        let showTraffic = true;
-        let aiMode = false;
-        let emergencyActive = false;
-        
-        // Performance tracking
-        let lastTime = performance.now();
-        let frameCount = 0;
-        let fps = 0;
+    <div class="fps-counter">
+    <div style="color: #00ff41; font-weight: bold;">PERFORMANCE</div>
+    <div>FPS: <span id="fps" style="color: #00ff41;">60</span></div>
+    <div>Render: <span id="renderTime">16ms</span></div>
+    <div>Nodes: <span id="renderedNodes">0</span></div>
+</div>
 
-        // Mouse tracking for custom cursor
-        document.addEventListener('mousemove', (e) => {
-            mouseX = (e.clientX / window.innerWidth) * 2 - 1;
-            mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
-            
-            const cursor = document.getElementById('customCursor');
-            cursor.style.left = e.clientX + 'px';
-            cursor.style.top = e.clientY + 'px';
-        });
+    <div class="threat-alert" id="threatAlert" style="display: none;">
+    <h3>⚠️ CRITICAL THREAT DETECTED</h3>
+    <div style="margin: 10px 0;">
+        <div>🎯 <strong>Advanced Persistent Threat</strong></div>
+        <div>📍 Node: <span id="threatNode">UNKNOWN</span></div>
+        <div>🔥 Risk Level: <span style="color: #ffff00;">EXTREME</span></div>
+        <div>⏱️ Detected: <span id="threatTime">Now</span></div>
+    </div>
+    <div style="margin-top: 15px;">
+        <button class="control-button" onclick="isolateNode()" style="margin: 5px; padding: 8px 15px;">
+            🛡️ ISOLATE
+        </button>
+        <button class="control-button" onclick="analyzeNode()" style="margin: 5px; padding: 8px 15px;">
+            🔍 ANALYZE
+        </button>
+    </div>
+</div>
 
-        // Initialize the 3D universe
-        function initUniverse() {
-            // Scene setup
-            scene = new THREE.Scene();
-            scene.fog = new THREE.FogExp2(0x000000, 0.003);
+    <div class="ai-predictions">
+    <h3>🧠 AI QUANTUM PREDICTIONS</h3>
+    <div class="prediction-item" id="prediction1">
+        📊 Analyzing network patterns...
+    </div>
+    <div class="prediction-item" id="prediction2">
+        🎯 Scanning for anomalies...
+    </div>
+    <div class="prediction-item" id="prediction3">
+        ⚡ Monitoring data flows...</div>
+    <div class="prediction-item" id="prediction4">
+        🔮 Quantum algorithms initializing...
+    </div>
+</div>
 
-            // Camera setup
-            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000);
-            camera.position.set(0, 200, 400);
+    <div class="controls">
+    <div style="margin-bottom: 15px; color: #00ff41; font-weight: bold; font-size: 16px;">
+        🎮 UNIVERSE CONTROLS
+    </div>
+    <div>
+        <button class="control-button" onclick="resetView()">🏠 Reset View</button>
+        <button class="control-button" onclick="toggleThreats()" id="threatBtn">⚠️ Show Threats</button>
+    </div>
+    <div>
+        <button class="control-button" onclick="toggleTraffic()" id="trafficBtn">📊 Data Flows</button>
+        <button class="control-button" onclick="toggleAI()" id="aiBtn">🧠 AI Mode</button>
+    </div>
+    <div>
+        <button class="control-button" onclick="emergencyMode()">🚨 Emergency</button>
+        <button class="control-button" onclick="quantumScan()">⚛️ Quantum Scan</button>
+    </div>
+</div>
 
-            // Renderer setup
-            renderer = new THREE.WebGLRenderer({ 
-                antialias: true, 
-                alpha: true,
-                powerPreference: "high-performance"
-            });
-            renderer.setSize(window.innerWidth, window.innerHeight);
-            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-            renderer.setClearColor(0x000000, 0);
-            renderer.shadowMap.enabled = true;
-            renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-            
-            document.getElementById('canvas-container').appendChild(renderer.domElement);
+<div class="team-collaboration-btn">
+    <a href="{{ url_for('team_collaboration') }}" class="btn btn-outline-info">
+        👥 Team Collaboration Universe
+    </a>
+</div>
 
-            // Lighting setup
-            const ambientLight = new THREE.AmbientLight(0x002200, 0.3);
-            scene.add(ambientLight);
+    <div class="node-info" id="nodeInfo">
+    <h4 id="nodeTitle" style="color: #00ff41; margin-bottom: 10px;">Node Information</h4>
+    <div id="nodeDetails" style="color: #ccc;"></div>
+</div>
 
-            const mainLight = new THREE.DirectionalLight(0x00ff41, 1);
-            mainLight.position.set(200, 200, 100);
-            mainLight.castShadow = true;
-            mainLight.shadow.camera.near = 1;
-            mainLight.shadow.camera.far = 1000;
-            mainLight.shadow.camera.left = -500;
-            mainLight.shadow.camera.right = 500;
-            mainLight.shadow.camera.top = 500;
-            mainLight.shadow.camera.bottom = -500;
-            scene.add(mainLight);
+    <div id="canvas-container"></div>
 
-            // Point lights for atmosphere
-            const pointLight1 = new THREE.PointLight(0x0088ff, 0.8, 300);
-            pointLight1.position.set(-100, 100, 200);
-            scene.add(pointLight1);
+    <script>
+    // Global variables
+    let scene, camera, renderer;
+    let networkNodes = [];
+    let connections = [];
+    let threatNodes = [];
+    let dataStreams = [];
+    let stars = [];
+    let animationId;
+    let mouseX = 0, mouseY = 0;
+    let showThreats = true;
+    let showTraffic = true;
+    let aiMode = false;
+    let emergencyActive = false;
+    
+    // Performance tracking
+    let lastTime = performance.now();
+    let frameCount = 0;
+    let fps = 0;
 
-            const pointLight2 = new THREE.PointLight(0xff4400, 0.6, 300);
-            pointLight2.position.set(100, -100, -200);
-            scene.add(pointLight2);
+    // Mouse tracking for custom cursor
+    document.addEventListener('mousemove', (e) => {
+        mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+        mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+        
+        const cursor = document.getElementById('customCursor');
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+    });
 
-            // Create universe components
-            createStarfield();
-            createNetworkNodes();
-            createConnections();
-            createThreatNodes();
-            createDataStreams();
+    // Initialize the 3D universe
+    function initUniverse() {
+        // Scene setup
+        scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x000000, 0.003);
 
-            // Setup interactions
-            setupMouseInteraction();
+        // Camera setup
+        camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000);
+        camera.position.set(0, 200, 400);
 
-            // Start animation loop
-            animate();
+        // Renderer setup
+        renderer = new THREE.WebGLRenderer({ 
+            antialias: true, 
+            alpha: true,
+            powerPreference: "high-performance"
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        renderer.setClearColor(0x000000, 0);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        
+        document.getElementById('canvas-container').appendChild(renderer.domElement);
 
-            // Update UI with actual counts
-            updateNodeCount();
-            startAIPredictions();
+        // Lighting setup
+        const ambientLight = new THREE.AmbientLight(0x002200, 0.3);
+        scene.add(ambientLight);
 
-            // Hide loading screen after initialization
-            setTimeout(() => {
-                document.getElementById('loadingScreen').style.opacity = '0';
-                setTimeout(() => {
-                    document.getElementById('loadingScreen').style.display = 'none';
-                    showWelcomeAnimation();
-                }, 1000);
-            }, 4000);
-        }
+        const mainLight = new THREE.DirectionalLight(0x00ff41, 1);
+        mainLight.position.set(200, 200, 100);
+        mainLight.castShadow = true;
+        mainLight.shadow.camera.near = 1;
+        mainLight.shadow.camera.far = 1000;
+        mainLight.shadow.camera.left = -500;
+        mainLight.shadow.camera.right = 500;
+        mainLight.shadow.camera.top = 500;
+        mainLight.shadow.camera.bottom = -500;
+        scene.add(mainLight);
 
-        // Create beautiful starfield background
-        function createStarfield() {
-            const starGeometry = new THREE.BufferGeometry();
-            const starCount = 2000;
-            const positions = new Float32Array(starCount * 3);
-            const colors = new Float32Array(starCount * 3);
+        // Point lights for atmosphere
+        const pointLight1 = new THREE.PointLight(0x0088ff, 0.8, 300);
+        pointLight1.position.set(-100, 100, 200);
+        scene.add(pointLight1);
 
-            for (let i = 0; i < starCount * 3; i += 3) {
-                positions[i] = (Math.random() - 0.5) * 4000;
-                positions[i + 1] = (Math.random() - 0.5) * 4000;
-                positions[i + 2] = (Math.random() - 0.5) * 4000;
+        const pointLight2 = new THREE.PointLight(0xff4400, 0.6, 300);
+        pointLight2.position.set(100, -100, -200);
+        scene.add(pointLight2);
 
-                // Vary star colors
-                const color = new THREE.Color();
-                color.setHSL(Math.random() * 0.3 + 0.5, 0.7, Math.random() * 0.5 + 0.5);
-                colors[i] = color.r;
-                colors[i + 1] = color.g;
-                colors[i + 2] = color.b;
-            }
+        // Create universe components
+        createStarfield();
+        createNetworkNodes();
+        createConnections();
+        createThreatNodes();
+        createDataStreams();
 
-            starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-            starGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+        // Setup interactions
+        setupMouseInteraction();
 
-            const starMaterial = new THREE.PointsMaterial({
-                size: 2,
-                vertexColors: true,
-                transparent: true,
-                opacity: 0.8
-            });
+        // Start animation loop
+        animate();
 
-            const starField = new THREE.Points(starGeometry, starMaterial);
-            scene.add(starField);
-            stars.push(starField);
-        }
+        // Update UI with actual counts
+        updateNodeCount();
+        startAIPredictions();
 
-        // Create network nodes with different types
-        function createNetworkNodes() {
-            const nodeTypes = [
-                { type: 'server', color: 0x00ff41, size: 4, count: 8, shape: 'box' },
-                { type: 'workstation', color: 0x0088ff, size: 3, count: 25, shape: 'sphere' },
-                { type: 'mobile', color: 0xff8800, size: 2, count: 15, shape: 'tetrahedron' },
-                { type: 'iot', color: 0x8800ff, size: 1.5, count: 12, shape: 'octahedron' },
-                { type: 'router', color: 0xffff00, size: 3.5, count: 6, shape: 'cylinder' }
-            ];
+        // Hide loading screen after initialization
+        setTimeout(() => {
+            document.getElementById('loadingScreen').style.opacity = '0';
+            setTimeout(() => {
+                document.getElementById('loadingScreen').style.display = 'none';
+                showWelcomeAnimation();
+            }, 1000);
+        }, 4000);
+    }
 
-            nodeTypes.forEach(nodeType => {
-                for (let i = 0; i < nodeType.count; i++) {
-                    let geometry;
-                    switch (nodeType.shape) {
-                        case 'box':
-                            geometry = new THREE.BoxGeometry(nodeType.size, nodeType.size, nodeType.size);
-                            break;
-                        case 'tetrahedron':
-                            geometry = new THREE.TetrahedronGeometry(nodeType.size);
-                            break;
-                        case 'octahedron':
-                            geometry = new THREE.OctahedronGeometry(nodeType.size);
-                            break;
-                        case 'cylinder':
-                            geometry = new THREE.CylinderGeometry(nodeType.size, nodeType.size, nodeType.size * 1.5);
-                            break;
-                        default:
-                            geometry = new THREE.SphereGeometry(nodeType.size, 16, 16);
-                    }
+    // Create beautiful starfield background
+    function createStarfield() {
+        const starGeometry = new THREE.BufferGeometry();
+        const starCount = 2000;
+        const positions = new Float32Array(starCount * 3);
+        const colors = new Float32Array(starCount * 3);
 
-                    const material = new THREE.MeshPhongMaterial({
-                        color: nodeType.color,
-                        transparent: true,
-                        opacity: 0.8,
-                        emissive: nodeType.color,
-                        emissiveIntensity: 0.2
-                    });
+        for (let i = 0; i < starCount * 3; i += 3) {
+            positions[i] = (Math.random() - 0.5) * 4000;
+            positions[i + 1] = (Math.random() - 0.5) * 4000;
+            positions[i + 2] = (Math.random() - 0.5) * 4000;
 
-                    const node = new THREE.Mesh(geometry, material);
-                    
-                    // Position nodes in 3D space
-                    const radius = 150 + Math.random() * 200;
-                    const theta = Math.random() * Math.PI * 2;
-                    const phi = Math.random() * Math.PI;
-                    
-                    node.position.x = radius * Math.sin(phi) * Math.cos(theta);
-                    node.position.y = radius * Math.sin(phi) * Math.sin(theta);
-                    node.position.z = radius * Math.cos(phi);
+            // Vary star colors
+            const color = new THREE.Color();
+            color.setHSL(Math.random() * 0.3 + 0.5, 0.7, Math.random() * 0.5 + 0.5);
+            colors[i] = color.r;
+            colors[i + 1] = color.g;
+            colors[i + 2] = color.b;
+        }
 
-                    // Add rotation animation
-                    node.userData = {
-                        type: nodeType.type,
-                        originalColor: nodeType.color,
-                        rotationSpeed: Math.random() * 0.02 + 0.01,
-                        pulseSpeed: Math.random() * 0.05 + 0.02,
-                        id: `${nodeType.type}-${i}`,
-                        status: Math.random() > 0.1 ? 'healthy' : 'warning'
-                    };
+        starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+        starGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
 
-                    scene.add(node);
-                    networkNodes.push(node);
-                }
-            });
-        }
+        const starMaterial = new THREE.PointsMaterial({
+            size: 2,
+            vertexColors: true,
+            transparent: true,
+            opacity: 0.8
+        });
 
-        // Create connections between nodes
-        function createConnections() {
-            const connectionCount = Math.floor(networkNodes.length * 1.5);
-            
-            for (let i = 0; i < connectionCount; i++) {
-                const node1 = networkNodes[Math.floor(Math.random() * networkNodes.length)];
-                const node2 = networkNodes[Math.floor(Math.random() * networkNodes.length)];
-                
-                if (node1 !== node2) {
-                    const points = [node1.position, node2.position];
-                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
-                    
-                    const material = new THREE.LineBasicMaterial({
-                        color: 0x004400,
-                        transparent: true,
-                        opacity: 0.3
-                    });
-                    
-                    const line = new THREE.Line(geometry, material);
-                    line.userData = { 
-                        node1: node1, 
-                        node2: node2,
-                        traffic: Math.random()
-                    };
-                    
-                    scene.add(line);
-                    connections.push(line);
-                }
-            }
-        }
+        const starField = new THREE.Points(starGeometry, starMaterial);
+        scene.add(starField);
+        stars.push(starField);
+    }
 
-        // Create threat indicators
-        function createThreatNodes() {
-            const threatCount = 3;
-            
-            for (let i = 0; i < threatCount; i++) {
-                const geometry = new THREE.SphereGeometry(6, 16, 16);
-                const material = new THREE.MeshPhongMaterial({
-                    color: 0xff0000,
-                    transparent: true,
-                    opacity: 0.7,
-                    emissive: 0xff0000,
-                    emissiveIntensity: 0.3
-                });
-                
-                const threat = new THREE.Mesh(geometry, material);
-                
-                // Position near random network nodes
-                const targetNode = networkNodes[Math.floor(Math.random() * networkNodes.length)];
-                threat.position.copy(targetNode.position);
-                threat.position.x += (Math.random() - 0.5) * 20;
-                threat.position.y += (Math.random() - 0.5) * 20;
-                threat.position.z += (Math.random() - 0.5) * 20;
-                
-                threat.userData = {
-                    type: 'threat',
-                    severity: Math.random() > 0.5 ? 'critical' : 'high',
-                    pulseSpeed: 0.1,
-                    targetNode: targetNode,
-                    id: `threat-${i}`
-                };
-                
-                scene.add(threat);
-                threatNodes.push(threat);
-            }
-        }
+    // Create network nodes with different types
+    function createNetworkNodes() {
+        const nodeTypes = [
+            { type: 'server', color: 0x00ff41, size: 4, count: 8, shape: 'box' },
+            { type: 'workstation', color: 0x0088ff, size: 3, count: 25, shape: 'sphere' },
+            { type: 'mobile', color: 0xff8800, size: 2, count: 15, shape: 'tetrahedron' },
+            { type: 'iot', color: 0x8800ff, size: 1.5, count: 12, shape: 'octahedron' },
+            { type: 'router', color: 0xffff00, size: 3.5, count: 6, shape: 'cylinder' }
+        ];
 
-        // Create animated data streams
-        function createDataStreams() {
-            connections.forEach((connection, index) => {
-                if (Math.random() > 0.7) { // 30% of connections have visible data streams
-                    const streamGeometry = new THREE.SphereGeometry(0.5, 8, 8);
-                    const streamMaterial = new THREE.MeshBasicMaterial({
-                        color: 0x00ffff,
-                        transparent: true,
-                        opacity: 0.8
-                    });
-                    
-                    const stream = new THREE.Mesh(streamGeometry, streamMaterial);
-                    stream.userData = {
-                        connection: connection,
-                        progress: Math.random(),
-                        speed: Math.random() * 0.02 + 0.01,
-                        direction: Math.random() > 0.5 ? 1 : -1
-                    };
-                    
-                    scene.add(stream);
-                    dataStreams.push(stream);
-                }
-            });
-        }
+        nodeTypes.forEach(nodeType => {
+            for (let i = 0; i < nodeType.count; i++) {
+                let geometry;
+                switch (nodeType.shape) {
+                    case 'box':
+                        geometry = new THREE.BoxGeometry(nodeType.size, nodeType.size, nodeType.size);
+                        break;
+                    case 'tetrahedron':
+                        geometry = new THREE.TetrahedronGeometry(nodeType.size);
+                        break;
+                    case 'octahedron':
+                        geometry = new THREE.OctahedronGeometry(nodeType.size);
+                        break;
+                    case 'cylinder':
+                        geometry = new THREE.CylinderGeometry(nodeType.size, nodeType.size, nodeType.size * 1.5);
+                        break;
+                    default:
+                        geometry = new THREE.SphereGeometry(nodeType.size, 16, 16);
+                }
 
-        // Setup mouse interaction
-        function setupMouseInteraction() {
-            const raycaster = new THREE.Raycaster();
-            const mouse = new THREE.Vector2();
-            
-            renderer.domElement.addEventListener('mousemove', (event) => {
-                mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-                mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-                
-                raycaster.setFromCamera(mouse, camera);
-                const intersects = raycaster.intersectObjects(networkNodes);
-                
-                const nodeInfo = document.getElementById('nodeInfo');
-                
-                if (intersects.length > 0) {
-                    const node = intersects[0].object;
-                    showNodeInfo(node, event.clientX, event.clientY);
-                } else {
-                    hideNodeInfo();
-                }
-            });
-            
-            renderer.domElement.addEventListener('click', (event) => {
-                mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-                mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-                
-                raycaster.setFromCamera(mouse, camera);
-                const intersects = raycaster.intersectObjects([...networkNodes, ...threatNodes]);
-                
-                if (intersects.length > 0) {
-                    const object = intersects[0].object;
-                    focusOnNode(object);
-                    
-                    if (object.userData.type === 'threat') {
-                        showThreatAlert(object);
-                    }
-                }
-            });
-        }
+                const material = new THREE.MeshPhongMaterial({
+                    color: nodeType.color,
+                    transparent: true,
+                    opacity: 0.8,
+                    emissive: nodeType.color,
+                    emissiveIntensity: 0.2
+                });
 
-        // Show node information
-        function showNodeInfo(node, x, y) {
-            const nodeInfo = document.getElementById('nodeInfo');
-            const title = document.getElementById('nodeTitle');
-            const details = document.getElementById('nodeDetails');
-            
-            title.textContent = `${node.userData.type.toUpperCase()} - ${node.userData.id}`;
-            
-            const cpuUsage = Math.floor(Math.random() * 40) + 30;
-            const memUsage = Math.floor(Math.random() * 30) + 40;
-            const connections = Math.floor(Math.random() * 50) + 10;
-            
-            details.innerHTML = `
-                <div style="margin: 8px 0;"><strong>Status:</strong> <span style="color: ${node.userData.status === 'healthy' ? '#00ff41' : '#ffa500'}">${node.userData.status.toUpperCase()}</span></div>
-                <div style="margin: 8px 0;"><strong>CPU Usage:</strong> ${cpuUsage}%</div>
-                <div style="margin: 8px 0;"><strong>Memory:</strong> ${memUsage}%</div>
-                <div style="margin: 8px 0;"><strong>Connections:</strong> ${connections}</div>
-                <div style="margin: 8px 0;"><strong>Last Scan:</strong> ${Math.floor(Math.random() * 60)} min ago</div>
-                <div style="margin: 8px 0;"><strong>Threats:</strong> <span style="color: #ff4444">${Math.floor(Math.random() * 3)}</span></div>
-            `;
-            
-            nodeInfo.style.left = (x + 20) + 'px';
-            nodeInfo.style.top = (y - 50) + 'px';
-            nodeInfo.classList.add('show');
-        }
+                const node = new THREE.Mesh(geometry, material);
+                
+                // Position nodes in 3D space
+                const radius = 150 + Math.random() * 200;
+                const theta = Math.random() * Math.PI * 2;
+                const phi = Math.random() * Math.PI;
+                
+                node.position.x = radius * Math.sin(phi) * Math.cos(theta);
+                node.position.y = radius * Math.sin(phi) * Math.sin(theta);
+                node.position.z = radius * Math.cos(phi);
 
-        // Hide node information
-        function hideNodeInfo() {
-            const nodeInfo = document.getElementById('nodeInfo');
-            nodeInfo.classList.remove('show');
-        }
+                // Add rotation animation
+                node.userData = {
+                    type: nodeType.type,
+                    originalColor: nodeType.color,
+                    rotationSpeed: Math.random() * 0.02 + 0.01,
+                    pulseSpeed: Math.random() * 0.05 + 0.02,
+                    id: `${nodeType.type}-${i}`,
+                    status: Math.random() > 0.1 ? 'healthy' : 'warning'
+                };
 
-        // Focus camera on specific node
-        function focusOnNode(node) {
-            const targetPosition = {
-                x: node.position.x + 50,
-                y: node.position.y + 30,
-                z: node.position.z + 80
-            };
-            
-            gsap.to(camera.position, {
-                duration: 1.5,
-                x: targetPosition.x,
-                y: targetPosition.y,
-                z: targetPosition.z,
-                ease: "power2.inOut"
-            });
-            gsap.to(camera.rotation, {
-                duration: 1.5,
-                x: Math.atan2(-targetPosition.y, Math.sqrt(targetPosition.x*targetPosition.x + targetPosition.z*targetPosition.z)),
-                y: Math.atan2(targetPosition.x, targetPosition.z),
-                z: 0,
-                ease: "power2.inOut"
-            });
-        }
-        
-        // Reset camera to initial position
-        function resetView() {
-            gsap.to(camera.position, {
-                duration: 1.5,
-                x: 0,
-                y: 200,
-                z: 400,
-                ease: "power2.inOut"
-            });
-            gsap.to(camera.rotation, {
-                duration: 1.5,
-                x: -Math.PI / 8,
-                y: 0,
-                z: 0,
-                ease: "power2.inOut"
-            });
-        }
-        
-        // Toggle visibility of threat nodes
-        function toggleThreats() {
-            showThreats = !showThreats;
-            threatNodes.forEach(node => {
-                node.visible = showThreats;
-            });
-            const btn = document.getElementById('threatBtn');
-            btn.textContent = showThreats ? '⚠️ Hide Threats' : '⚠️ Show Threats';
-        }
-        
-        // Toggle visibility of data streams
-        function toggleTraffic() {
-            showTraffic = !showTraffic;
-            dataStreams.forEach(stream => {
-                stream.visible = showTraffic;
-            });
-            connections.forEach(line => {
-                line.material.color.setHex(showTraffic ? 0x00ff41 : 0x004400);
-            });
-            const btn = document.getElementById('trafficBtn');
-            btn.textContent = showTraffic ? '📊 Hide Flows' : '📊 Show Flows';
-        }
-        
-        // Toggle AI mode
-        function toggleAI() {
-            aiMode = !aiMode;
-            const btn = document.getElementById('aiBtn');
-            btn.textContent = aiMode ? '🧠 AI Mode: ON' : '🧠 AI Mode: OFF';
-            const aiPredictions = document.querySelector('.ai-predictions');
-            aiPredictions.style.display = aiMode ? 'block' : 'none';
-            if (aiMode) {
-                startAIPredictions();
-            }
-        }
-        
-        // Trigger emergency mode
-        function emergencyMode() {
-            emergencyActive = true;
-            document.body.style.background = 'radial-gradient(ellipse at center, #300000 0%, #000 70%)';
-            document.body.style.color = '#ff4444';
-            networkNodes.forEach(node => node.material.color.setHex(0xff0000));
-            connections.forEach(line => line.material.color.setHex(0xff0000));
-            alert('🚨 Emergency Protocol Initiated! Network Lockdown Activated.');
-        }
-        
-        // Start quantum scan simulation
-        function quantumScan() {
-            alert('⚛️ Quantum Scan Initiated. This may take a moment...');
-            // Simulate a scan effect
-            gsap.to(camera.position, {
-                duration: 3,
-                z: camera.position.z - 200,
-                ease: "power1.inOut",
-                yoyo: true,
-                repeat: 1
-            });
-            gsap.to(scene.rotation, {
-                duration: 3,
-                y: "+=" + Math.PI * 2,
-                ease: "power1.inOut"
-            });
-            
-            setTimeout(() => {
-                alert('✅ Quantum Scan Complete. No new threats detected.');
-            }, 3500);
-        }
-        
-        // Animate AI predictions
-        function startAIPredictions() {
-            const predictions = [
-                "📊 Analyzing network patterns...",
-                "🎯 Scanning for anomalies...",
-                "⚡ Monitoring data flows...",
-                "🔮 Quantum algorithms initializing...",
-                "📈 Predicting DDoS attack vectors...",
-                "🔍 Identifying compromised nodes...",
-                "🛡️ Proposing firewall rule changes..."
-            ];
-            
-            let predictionIndex = 0;
-            const predictionElements = [
-                document.getElementById('prediction1'),
-                document.getElementById('prediction2'),
-                document.getElementById('prediction3'),
-                document.getElementById('prediction4')
-            ];
-            
-            setInterval(() => {
-                if (!aiMode) return;
-                
-                predictionIndex = (predictionIndex + 1) % predictions.length;
-                
-                const lastElement = predictionElements.pop();
-                lastElement.textContent = predictions[predictionIndex];
-                predictionElements.unshift(lastElement);
-            }, 2000);
-        }
+                scene.add(node);
+                networkNodes.push(node);
+            }
+        });
+    }
 
-        // Update HUD stats
-        function updateHUD() {
-            document.getElementById('packetsPerSec').textContent = (Math.random() * 2 + 1).toFixed(1) + "M";
-            document.getElementById('networkLoad').textContent = (Math.random() * 30 + 50).toFixed(0) + "%";
-            document.getElementById('responseTime').textContent = (Math.random() * 0.5 + 0.3).toFixed(1) + "ms";
-            document.getElementById('aiConfidence').textContent = (Math.random() * 5 + 95).toFixed(1) + "%";
-            document.getElementById('nodeCount').textContent = networkNodes.length;
-            document.getElementById('threatCount').textContent = threatNodes.length;
-        }
+    // Create connections between nodes
+    function createConnections() {
+        const connectionCount = Math.floor(networkNodes.length * 1.5);
+        
+        for (let i = 0; i < connectionCount; i++) {
+            const node1 = networkNodes[Math.floor(Math.random() * networkNodes.length)];
+            const node2 = networkNodes[Math.floor(Math.random() * networkNodes.length)];
+            
+            if (node1 !== node2) {
+                const points = [node1.position, node2.position];
+                const geometry = new THREE.BufferGeometry().setFromPoints(points);
+                
+                const material = new THREE.LineBasicMaterial({
+                    color: 0x004400,
+                    transparent: true,
+                    opacity: 0.3
+                });
+                
+                const line = new THREE.Line(geometry, material);
+                line.userData = { 
+                    node1: node1, 
+                    node2: node2,
+                    traffic: Math.random()
+                };
+                
+                scene.add(line);
+                connections.push(line);
+            }
+        }
+    }
 
-        // Animate scene
-        function animate() {
-            animationId = requestAnimationFrame(animate);
+    // Create threat indicators
+    function createThreatNodes() {
+        const threatCount = 3;
+        
+        for (let i = 0; i < threatCount; i++) {
+            const geometry = new THREE.SphereGeometry(6, 16, 16);
+            const material = new THREE.MeshPhongMaterial({
+                color: 0xff0000,
+                transparent: true,
+                opacity: 0.7,
+                emissive: 0xff0000,
+                emissiveIntensity: 0.3
+            });
+            
+            const threat = new THREE.Mesh(geometry, material);
+            
+            // Position near random network nodes
+            const targetNode = networkNodes[Math.floor(Math.random() * networkNodes.length)];
+            threat.position.copy(targetNode.position);
+            threat.position.x += (Math.random() - 0.5) * 20;
+            threat.position.y += (Math.random() - 0.5) * 20;
+            threat.position.z += (Math.random() - 0.5) * 20;
+            
+            threat.userData = {
+                type: 'threat',
+                severity: Math.random() > 0.5 ? 'critical' : 'high',
+                pulseSpeed: 0.1,
+                targetNode: targetNode,
+                id: `threat-${i}`
+            };
+            
+            scene.add(threat);
+            threatNodes.push(threat);
+        }
+    }
 
-            // Update FPS
-            const currentTime = performance.now();
-            const deltaTime = currentTime - lastTime;
-            lastTime = currentTime;
-            frameCount++;
-            if (deltaTime > 1000) {
-                fps = frameCount;
-                frameCount = 0;
-            }
+    // Create animated data streams
+    function createDataStreams() {
+        connections.forEach((connection, index) => {
+            if (Math.random() > 0.7) { // 30% of connections have visible data streams
+                const streamGeometry = new THREE.SphereGeometry(0.5, 8, 8);
+                const streamMaterial = new THREE.MeshBasicMaterial({
+                    color: 0x00ffff,
+                    transparent: true,
+                    opacity: 0.8
+                });
+                
+                const stream = new THREE.Mesh(streamGeometry, streamMaterial);
+                stream.userData = {
+                    connection: connection,
+                    progress: Math.random(),
+                    speed: Math.random() * 0.02 + 0.01,
+                    direction: Math.random() > 0.5 ? 1 : -1
+                };
+                
+                scene.add(stream);
+                dataStreams.push(stream);
+            }
+        });
+    }
 
-            document.getElementById('fps').textContent = fps;
-            document.getElementById('renderTime').textContent = Math.round(deltaTime) + 'ms';
-            document.getElementById('renderedNodes').textContent = renderer.info.render.calls;
+    // Setup mouse interaction
+    function setupMouseInteraction() {
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        
+        renderer.domElement.addEventListener('mousemove', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(networkNodes);
+            
+            const nodeInfo = document.getElementById('nodeInfo');
+            
+            if (intersects.length > 0) {
+                const node = intersects[0].object;
+                showNodeInfo(node, event.clientX, event.clientY);
+            } else {
+                hideNodeInfo();
+            }
+        });
+        
+        renderer.domElement.addEventListener('click', (event) => {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+            
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects([...networkNodes, ...threatNodes]);
+            
+            if (intersects.length > 0) {
+                const object = intersects[0].object;
+                focusOnNode(object);
+                
+                if (object.userData.type === 'threat') {
+                    showThreatAlert(object);
+                }
+            }
+        });
+    }
 
-            // Animate nodes
-            networkNodes.forEach(node => {
-                node.rotation.x += node.userData.rotationSpeed;
-                node.rotation.y += node.userData.rotationSpeed;
-                
-                // Pulse effect
-                const pulseScale = 1 + Math.sin(currentTime * node.userData.pulseSpeed) * 0.1;
-                node.scale.set(pulseScale, pulseScale, pulseScale);
-            });
+    // Show node information
+    function showNodeInfo(node, x, y) {
+        const nodeInfo = document.getElementById('nodeInfo');
+        const title = document.getElementById('nodeTitle');
+        const details = document.getElementById('nodeDetails');
+        
+        title.textContent = `${node.userData.type.toUpperCase()} - ${node.userData.id}`;
+        
+        const cpuUsage = Math.floor(Math.random() * 40) + 30;
+        const memUsage = Math.floor(Math.random() * 30) + 40;
+        const connections = Math.floor(Math.random() * 50) + 10;
+        
+        details.innerHTML = `
+            <div style="margin: 8px 0;"><strong>Status:</strong> <span style="color: ${node.userData.status === 'healthy' ? '#00ff41' : '#ffa500'}">${node.userData.status.toUpperCase()}</span></div>
+            <div style="margin: 8px 0;"><strong>CPU Usage:</strong> ${cpuUsage}%</div>
+            <div style="margin: 8px 0;"><strong>Memory:</strong> ${memUsage}%</div>
+            <div style="margin: 8px 0;"><strong>Connections:</strong> ${connections}</div>
+            <div style="margin: 8px 0;"><strong>Last Scan:</strong> ${Math.floor(Math.random() * 60)} min ago</div>
+            <div style="margin: 8px 0;"><strong>Threats:</strong> <span style="color: #ff4444">${Math.floor(Math.random() * 3)}</span></div>
+        `;
+        
+        nodeInfo.style.left = (x + 20) + 'px';
+        nodeInfo.style.top = (y + 20) + 'px';
+        nodeInfo.classList.add('show');
+    }
 
-            // Animate data streams
-            dataStreams.forEach(stream => {
-                if (showTraffic) {
-                    stream.userData.progress += stream.userData.speed * stream.userData.direction;
-                    if (stream.userData.progress >= 1 || stream.userData.progress <= 0) {
-                        stream.userData.progress = THREE.MathUtils.clamp(stream.userData.progress, 0, 1);
-                        stream.userData.direction *= -1; // Reverse direction
-                    }
-                    
-                    const p1 = stream.userData.connection.userData.node1.position;
-                    const p2 = stream.userData.connection.userData.node2.position;
-                    
-                    stream.position.lerpVectors(p1, p2, stream.userData.progress);
-                    stream.visible = true;
-                } else {
-                    stream.visible = false;
-                }
-            });
-            
-            // Animate threat nodes
-            if (showThreats) {
-                threatNodes.forEach(threat => {
-                    // Simple hovering movement
-                    threat.position.x += Math.sin(currentTime * 0.001 + threat.userData.id) * 0.05;
-                    threat.position.y += Math.cos(currentTime * 0.001 + threat.userData.id) * 0.05;
-                    
-                    // Pulsating glow
-                    const pulseScale = 1 + Math.sin(currentTime * threat.userData.pulseSpeed) * 0.2;
-                    threat.scale.set(pulseScale, pulseScale, pulseScale);
-                    threat.material.emissiveIntensity = 0.5 + Math.sin(currentTime * 0.01) * 0.2;
-                });
-            }
+    function hideNodeInfo() {
+        document.getElementById('nodeInfo').classList.remove('show');
+    }
 
-            // Orbit camera around the scene
-            if (!gsap.isTweening(camera.position)) {
-                camera.position.x = Math.sin(currentTime * 0.0001) * 500;
-                camera.position.y = 200 + Math.sin(currentTime * 0.0002) * 50;
-                camera.position.z = Math.cos(currentTime * 0.0001) * 500;
-                camera.lookAt(new THREE.Vector3(0, 0, 0));
-            }
-
-            renderer.render(scene, camera);
-        }
-
-        // Update HUD stats periodically
-        setInterval(updateHUD, 2000);
-
-        // Handle window resize
-        window.addEventListener('resize', () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
-            camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
-        });
-        
-        // Initial function call to start everything
-        initUniverse();
-
-    </script>
+    // Function to add a new line of code
+    // The provided code already ends here, so this is where you'd continue adding new code.
+    </script>
 </body>
 </html>

@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelIT - Real-Time Attack Visualization</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .attack-dashboard {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: radial-gradient(circle at center, rgba(0,255,136,0.1) 0%, transparent 70%);
+        }
+
+        .hud-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .threat-level {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #ff0040;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 30px rgba(255,0,64,0.5);
+            animation: pulse-red 2s infinite;
+        }
+
+        .threat-level h2 {
+            color: #ff0040;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #ff0040;
+        }
+
+        .threat-meter {
+            width: 200px;
+            height: 20px;
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .threat-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff88 0%, #ff4444 50%, #ff0040 100%);
+            width: 85%;
+            animation: threat-pulse 1s infinite;
+        }
+
+        .attack-stats {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #00ff88;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+            min-width: 250px;
+        }
+
+        .attack-counter {
+            font-size: 24px;
+            color: #ff0040;
+            text-align: center;
+            margin: 10px 0;
+            text-shadow: 0 0 10px #ff0040;
+            font-weight: bold;
+        }
+
+        .network-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent;
+        }
+
+        .attack-timeline {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.9);
+            border: 2px solid #00ff88;
+            border-radius: 15px;
+            padding: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+        }
+
+        .attack-event {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #333;
+            animation: fadeInUp 0.5s ease-out;
+        }
+
+        .attack-event.critical {
+            color: #ff0040;
+            text-shadow: 0 0 5px #ff0040;
+        }
+
+        .attack-event.high {
+            color: #ff8800;
+            text-shadow: 0 0 5px #ff8800;
+        }
+
+        .attack-event.medium {
+            color: #ffff00;
+            text-shadow: 0 0 5px #ffff00;
+        }
+
+        .control-panel {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #00ff88;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+            pointer-events: all;
+        }
+
+        .control-btn {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 10px 0;
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            border: none;
+            border-radius: 8px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .control-btn:hover {
+            background: linear-gradient(45deg, #00cc66, #00ff88);
+            box-shadow: 0 0 20px rgba(0,255,136,0.5);
+            transform: translateY(-2px);
+        }
+
+        .control-btn.danger {
+            background: linear-gradient(45deg, #ff0040, #cc0033);
+            color: white;
+        }
+
+        .control-btn.danger:hover {
+            background: linear-gradient(45deg, #cc0033, #ff0040);
+            box-shadow: 0 0 20px rgba(255,0,64,0.5);
+        }
+
+        .attack-particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: #ff0040;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ff0040;
+            pointer-events: none;
+            animation: particle-move 3s linear infinite;
+        }
+
+        .node {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #00ff88, #00cc66);
+            box-shadow: 0 0 20px rgba(0,255,136,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            color: #000;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .node:hover {
+            transform: scale(1.2);
+            box-shadow: 0 0 30px rgba(0,255,136,0.8);
+        }
+
+        .node.under-attack {
+            background: radial-gradient(circle, #ff0040, #cc0033);
+            box-shadow: 0 0 30px rgba(255,0,64,0.8);
+            animation: under-attack 0.5s infinite alternate;
+        }
+
+        .node.compromised {
+            background: radial-gradient(circle, #ff8800, #cc6600);
+            box-shadow: 0 0 25px rgba(255,136,0,0.8);
+            animation: compromised-pulse 1s infinite;
+        }
+
+        .connection-line {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, rgba(0,255,136,0.3), rgba(0,255,136,0.8), rgba(0,255,136,0.3));
+            transform-origin: left center;
+        }
+
+        .attack-path {
+            position: absolute;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #ff0040, transparent);
+            transform-origin: left center;
+            animation: attack-flow 2s infinite;
+        }
+
+        .emergency-alert {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255,0,64,0.2);
+            display: none;
+            z-index: 9999;
+            animation: emergency-flash 0.3s infinite alternate;
+        }
+
+        .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.95);
+            border: 3px solid #ff0040;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 0 50px rgba(255,0,64,0.8);
+            display: none;
+            z-index: 10000;
+            min-width: 400px;
+            text-align: center;
+        }
+
+        .modal h2 {
+            color: #ff0040;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #ff0040;
+        }
+
+        .close-modal {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #00ff88;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 30px rgba(255,0,64,0.5); }
+            50% { box-shadow: 0 0 50px rgba(255,0,64,0.8); }
+            100% { box-shadow: 0 0 30px rgba(255,0,64,0.5); }
+        }
+
+        @keyframes threat-pulse {
+            0% { filter: brightness(1); }
+            50% { filter: brightness(1.3); }
+            100% { filter: brightness(1); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes under-attack {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        @keyframes compromised-pulse {
+            0% { opacity: 0.7; }
+            50% { opacity: 1; }
+            100% { opacity: 0.7; }
+        }
+
+        @keyframes attack-flow {
+            0% { transform: translateX(-100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(200%); opacity: 0; }
+        }
+
+        @keyframes emergency-flash {
+            0% { opacity: 0.1; }
+            100% { opacity: 0.3; }
+        }
+
+        @keyframes particle-move {
+            0% { transform: scale(0); opacity: 0; }
+            10% { transform: scale(1); opacity: 1; }
+            90% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        .radar-sweep {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 2px solid rgba(0,255,136,0.3);
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: radar-spin 4s linear infinite;
+        }
+
+        .radar-sweep::before {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ff88);
+            top: 50%;
+            left: 50%;
+            transform-origin: left center;
+            animation: radar-beam 4s linear infinite;
+        }
+
+        @keyframes radar-spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        @keyframes radar-beam {
+            0% { transform: rotate(0deg); opacity: 1; }
+            100% { transform: rotate(360deg); opacity: 1; }
+        }
+
+        .glitch-effect {
+            animation: glitch 0.3s infinite;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+    </style>
+</head>
+<body>
+    {% include 'universal_nav.html' %}
+    <div class="attack-dashboard">
+                <div class="emergency-alert" id="emergencyAlert"></div>
+
+                <div class="hud-overlay">
+                        <div class="threat-level">
+                <h2>🚨 THREAT LEVEL</h2>
+                <div class="threat-meter">
+                    <div class="threat-bar" id="threatBar"></div>
+                </div>
+                <div style="color: #ff0040; font-size: 18px; font-weight: bold;" id="threatText">CRITICAL</div>
+                <div style="margin-top: 10px; font-size: 12px;">
+                    Active Attacks: <span id="activeAttacks">7</span><br>
+                    Compromised: <span id="compromisedNodes">3</span><br>
+                    Blocked: <span id="blockedAttacks">23</span>
+                </div>
+            </div>
+
+                        <div class="attack-stats">
+                <h3 style="color: #00ff88; text-align: center; margin-bottom: 15px;">⚡ LIVE ATTACK FEED</h3>
+                <div class="attack-counter" id="attackCounter">127</div>
+                <div style="text-align: center; font-size: 12px; color: #888;">Attacks Detected Today</div>
+                
+                <div style="margin: 15px 0; padding: 10px; background: rgba(255,0,64,0.1); border-radius: 5px;">
+                    <div style="color: #ff0040; font-weight: bold;">🔥 Current Attack:</div>
+                    <div style="font-size: 12px; margin-top: 5px;" id="currentAttack">
+                        SQL Injection → Database Server<br>
+                        Source: 185.220.101.47 (TOR Exit)
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 11px;">
+                    <div>Malware: <span style="color: #ff0040;">12</span></div>
+                    <div>Phishing: <span style="color: #ff8800;">8</span></div>
+                    <div>DDoS: <span style="color: #ffff00;">5</span></div>
+                    <div>Intrusion: <span style="color: #ff0040;">15</span></div>
+                </div>
+            </div>
+        </div>
+
+                <div class="radar-sweep"></div>
+
+                <canvas class="network-canvas" id="networkCanvas" width="1920" height="1080"></canvas>
+
+                <div class="control-panel">
+            <h3 style="color: #00ff88; margin-bottom: 15px; text-align: center;">🎮 MISSION CONTROL</h3>
+            <button class="control-btn" onclick="startAttackSimulation()">▶️ Start Attack Sim</button>
+            <button class="control-btn" onclick="triggerMassAttack()">💥 Mass Attack Event</button>
+            <button class="control-btn" onclick="activateDefenses()">🛡️ Activate AI Defense</button>
+            <button class="control-btn danger" onclick="triggerEmergency()">🚨 Emergency Protocol</button>
+            <button class="control-btn" onclick="resetSystem()">🔄 Reset System</button>
+            
+            <div style="margin-top: 20px; padding: 10px; background: rgba(0,255,136,0.1); border-radius: 5px;">
+                <div style="font-size: 11px; color: #00ff88;">
+                    🎯 Detection Rate: 98.7%<br>
+                    ⚡ Response Time: 0.3s<br>
+                    🔥 Threat Score: 847/1000
+                </div>
+            </div>
+        </div>
+
+                <div class="attack-timeline">
+            <h3 style="color: #00ff88; margin-bottom: 10px;">📊 REAL-TIME ATTACK TIMELINE</h3>
+            <div id="timelineEvents">
+                <div class="attack-event critical">
+                    <span>🔥 SQL Injection detected on DB-PROD-01</span>
+                    <span>18:45:32</span>
+                </div>
+                <div class="attack-event high">
+                    <span>⚠️ Suspicious PowerShell execution on WORKSTATION-15</span>
+                    <span>18:45:28</span>
+                </div>
+                <div class="attack-event critical">
+                    <span>🚨 Malware C2 communication blocked</span>
+                    <span>18:45:25</span>
+                </div>
+                <div class="attack-event medium">
+                    <span>⚡ Port scan detected from 192.168.1.104</span>
+                    <span>18:45:20</span>
+                </div>
+                <div class="attack-event high">
+                    <span>🛡️ Phishing email quarantined</span>
+                    <span>18:45:15</span>
+                </div>
+            </div>
+        </div>
+
+                <div class="modal" id="attackModal">
+            <h2>🚨 CRITICAL ATTACK DETECTED</h2>
+            <div id="modalContent">
+                <p><strong>Attack Type:</strong> Advanced Persistent Threat (APT)</p>
+                <p><strong>Target:</strong> Database Server (DB-PROD-01)</p>
+                <p><strong>Source IP:</strong> 185.220.101.47 (TOR Network)</p>
+                <p><strong>Risk Level:</strong> <span style="color: #ff0040;">CRITICAL</span></p>
+                <p><strong>Recommended Action:</strong> Isolate target system immediately</p>
+            </div>
+            <button class="close-modal" onclick="closeModal()">UNDERSTOOD</button>
+        </div>
+    </div>
+
+    <script>
+        // Network nodes with positions and states
+        const networkNodes = [
+            { id: 'firewall', x: 200, y: 300, type: 'firewall', status: 'secure' },
+            { id: 'router', x: 400, y: 200, type: 'router', status: 'secure' },
+            { id: 'server1', x: 600, y: 150, type: 'server', status: 'under-attack' },
+            { id: 'server2', x: 600, y: 350, type: 'server', status: 'secure' },
+            { id: 'db', x: 800, y: 250, type: 'database', status: 'compromised' },
+            { id: 'workstation1', x: 400, y: 400, type: 'workstation', status: 'secure' },
+            { id: 'workstation2', x: 500, y: 500, type: 'workstation', status: 'under-attack' },
+            { id: 'workstation3', x: 300, y: 500, type: 'workstation', status: 'secure' },
+            { id: 'mobile1', x: 700, y: 450, type: 'mobile', status: 'secure' },
+            { id: 'cloud', x: 900, y: 100, type: 'cloud', status: 'secure' }
+        ];
+
+        // Network connections
+        const connections = [
+            { from: 'firewall', to: 'router' },
+            { from: 'router', to: 'server1' },
+            { from: 'router', to: 'server2' },
+            { from: 'server1', to: 'db' },
+            { from: 'server2', to: 'db' },
+            { from: 'router', to: 'workstation1' },
+            { from: 'workstation1', to: 'workstation2' },
+            { from: 'workstation1', to: 'workstation3' },
+            { from: 'server2', to: 'mobile1' },
+            { from: 'server1', to: 'cloud' }
+        ];
+
+        // Active attacks
+        let activeAttacks = [];
+        let attackCounter = 127;
+        let isEmergencyMode = false;
+
+        // Initialize the dashboard
+        window.onload = function() {
+            createNetworkNodes();
+            drawConnections();
+            startRealTimeUpdates();
+            startAttackAnimation();
+        };
+
+        function createNetworkNodes() {
+            const dashboard = document.querySelector('.attack-dashboard');
+            
+            networkNodes.forEach(node => {
+                const nodeElement = document.createElement('div');
+                nodeElement.className = `node ${node.status}`;
+                nodeElement.id = node.id;
+                nodeElement.style.left = `${node.x}px`;
+                nodeElement.style.top = `${node.y}px`;
+                
+                // Add node type emoji
+                const emoji = {
+                    'firewall': '🔥',
+                    'router': '📡',
+                    'server': '🖥️',
+                    'database': '💾',
+                    'workstation': '💻',
+                    'mobile': '📱',
+                    'cloud': '☁️'
+                };
+                
+                nodeElement.innerHTML = emoji[node.type] || '🔹';
+                nodeElement.title = `${node.type.toUpperCase()}: ${node.id}`;
+                
+                nodeElement.onclick = () => showNodeDetails(node);
+                dashboard.appendChild(nodeElement);
+            });
+        }
+
+        function drawConnections() {
+            const dashboard = document.querySelector('.attack-dashboard');
+            
+            connections.forEach(conn => {
+                const fromNode = networkNodes.find(n => n.id === conn.from);
+                const toNode = networkNodes.find(n => n.id === conn.to);
+                
+                if (fromNode && toNode) {
+                    const line = document.createElement('div');
+                    line.className = 'connection-line';
+                    
+                    const dx = toNode.x - fromNode.x;
+                    const dy = toNode.y - fromNode.y;
+                    const length = Math.sqrt(dx*dx + dy*dy);
+                    const angle = Math.atan2(dy, dx) * 180 / Math.PI;
+                    
+                    line.style.left = `${fromNode.x + 20}px`;
+                    line.style.top = `${fromNode.y + 20}px`;
+                    line.style.width = `${length}px`;
+                    line.style.transform = `rotate(${angle}deg)`;
+                    
+                    dashboard.appendChild(line);
+                }
+            });
+        }
+
+        function startAttackAnimation() {
+            setInterval(() => {
+                createAttackParticle();
+                simulateNewAttack();
+            }, 2000);
+        }
+
+        function createAttackParticle() {
+            const dashboard = document.querySelector('.attack-dashboard');
+            const particle = document.createElement('div');
+            particle.className = 'attack-particle';
+            
+            // Random starting position
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = Math.random() * window.innerHeight + 'px';
+            
+            // Random target position
+            const targetX = Math.random() * window.innerWidth;
+            const targetY = Math.random() * window.innerHeight;
+            
+            particle.style.setProperty('--target-x', targetX + 'px');
+            particle.style.setProperty('--target-y', targetY + 'px');
+            
+            dashboard.appendChild(particle);
+            
+            // Remove after animation
+            setTimeout(() => {
+                if (particle.parentNode) {
+                    particle.parentNode.removeChild(particle);
+                }
+            }, 3000);
+        }
+
+        function simulateNewAttack() {
+            const attackTypes = [
+                { type: 'Malware Injection', severity: 'critical', target: 'Database Server' },
+                { type: 'Phishing Email', severity: 'high', target: 'Workstation-12' },
+                { type: 'DDoS Attack', severity: 'critical', target: 'Web Server' },
+                { type: 'SQL Injection', severity: 'critical', target: 'DB-PROD-01' },
+                { type: 'Port Scan', severity: 'medium', target: 'Firewall' },
+                { type: 'Brute Force', severity: 'high', target: 'SSH Server' },
+                { type: 'Ransomware', severity: 'critical', target: 'File Server' }
+            ];
+            
+            const attack = attackTypes[Math.floor(Math.random() * attackTypes.length)];
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString();
+            
+            const timeline = document.getElementById('timelineEvents');
+            const eventDiv = document.createElement('div');
+            eventDiv.className = `attack-event ${attack.severity}`;
+            
+            const icon = attack.severity === 'critical' ? '🔥' : 
+                        attack.severity === 'high' ? '⚠️' : '⚡';
+            
+            eventDiv.innerHTML = `
+                <span>${icon} ${attack.type} detected on ${attack.target}</span>
+                <span>${timeStr}</span>
+            `;
+            
+            timeline.insertBefore(eventDiv, timeline.firstChild);
+            
+            // Update counters
+            attackCounter++;
+            document.getElementById('attackCounter').textContent = attackCounter;
+            
+            // Update current attack display
+            document.getElementById('currentAttack').innerHTML = 
+                `${attack.type} → ${attack.target}<br>Source: ${generateRandomIP()} (${getRandomSource()})`;
+            
+            // Keep only last 10 events
+            if (timeline.children.length > 10) {
+                timeline.removeChild(timeline.lastChild);
+            }
+        }
+
+        function generateRandomIP() {
+            return `${Math.floor(Math.random()*256)}.${Math.floor(Math.random()*256)}.${Math.floor(Math.random()*256)}.${Math.floor(Math.random()*256)}`;
+        }
+
+        function getRandomSource() {
+            const sources = ['TOR Exit', 'VPN Proxy', 'Botnet', 'Dark Web', 'China', 'Russia', 'Unknown'];
+            return sources[Math.floor(Math.random() * sources.length)];
+        }
+
+        function startRealTimeUpdates() {
+            setInterval(() => {
+                // Update threat level
+                const threatLevel = Math.floor(Math.random() * 100);
+                document.getElementById('threatBar').style.width = threatLevel + '%';
+                
+                // Update active attacks
+                document.getElementById('activeAttacks').textContent = Math.floor(Math.random() * 15) + 1;
+                document.getElementById('compromisedNodes').textContent = Math.floor(Math.random() * 5);
+                document.getElementById('blockedAttacks').textContent = Math.floor(Math.random() * 50) + 20;
+                
+                // Randomly change node status
+                networkNodes.forEach(node => {
+                    if (Math.random() < 0.1) { // 10% chance to change status
+                        const statuses = ['secure', 'under-attack', 'compromised'];
+                        const newStatus = statuses[Math.floor(Math.random() * statuses.length)];
+                        node.status = newStatus;
+                        
+                        const nodeElement = document.getElementById(node.id);
+                        if (nodeElement) {
+                            nodeElement.className = `node ${newStatus}`;
+                        }
+                    }
+                });
+                
+            }, 3000);
+        }
+
+        function showNodeDetails(node) {
+            const modal = document.getElementById('attackModal');
+            const content = document.getElementById('modalContent');
+            
+            const statusColor = node.status === 'compromised' ? '#ff0040' : 
+                              node.status === 'under-attack' ? '#ff8800' : '#00ff88';
+            
+            content.innerHTML = `
+                <p><strong>Node ID:</strong> ${node.id.toUpperCase()}</p>
+                <p><strong>Type:</strong> ${node.type.toUpperCase()}</p>
+                <p><strong>Status:</strong> <span style="color: ${statusColor};">${node.status.toUpperCase()}</span></p>
+                <p><strong>Location:</strong> (${node.x}, ${node.y})</p>
+                <p><strong>Last Seen:</strong> ${new Date().toLocaleTimeString()}</p>
+                ${node.status !== 'secure' ? '<p><strong>Threat Level:</strong> <span style="color: #ff0040;">HIGH</span></p>' : ''}
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('attackModal').style.display = 'none';
+        }
+
+        function startAttackSimulation() {
+            alert('🚀 Advanced Attack Simulation Started!\n\nGenerating realistic attack patterns...');
+            
+            // Trigger multiple rapid attacks
+            for (let i = 0; i < 5; i++) {
+                setTimeout(() => {
+                    simulateNewAttack();
+                    createAttackParticle();
+                }, i * 500);
+            }
+        }
+
+        function triggerMassAttack() {
+            alert('💥 MASS ATTACK EVENT INITIATED!\n\nSimulating coordinated cyber attack across all systems...');
+            
+            // Change multiple nodes to under attack
+            networkNodes.forEach((node, index) => {
+                setTimeout(() => {
+                    node.status = 'under-attack';
+                    const nodeElement = document.getElementById(node.id);
+                    if (nodeElement) {
+                        nodeElement.className = 'node under-attack';
+                    }
+                }, index * 200);
+            });
+            
+            // Generate rapid attack events
+            for (let i = 0; i < 10; i++) {
+                setTimeout(() => {
+                    simulateNewAttack();
+                    createAttackParticle();
+                }, i * 300);
+            }
+        }
+
+        function activateDefenses() {
+            alert('🛡️ AI DEFENSE SYSTEM ACTIVATED!\n\nDeploying autonomous threat mitigation...');
+            
+            // Gradually secure all nodes
+            networkNodes.forEach((node, index) => {
+                setTimeout(() => {
+                    node.status = 'secure';
+                    const nodeElement = document.getElementById(node.id);
+                    if (nodeElement) {
+                        nodeElement.className = 'node secure';
+                    }
+                }, index * 400);
+            });
+            
+            // Add defense notification
+            const timeline = document.getElementById('timelineEvents');
+            const eventDiv = document.createElement('div');
+            eventDiv.className = 'attack-event';
+            eventDiv.style.color = '#00ff88';
+            const timeStr = new Date().toLocaleTimeString();
+            eventDiv.innerHTML = `
+                <span>🛡️ AI Defense System neutralized all threats</span>
+                <span>${timeStr}</span>
+            `;
+            timeline.insertBefore(eventDiv, timeline.firstChild);
+        }
+
+        function triggerEmergency() {
+            if (isEmergencyMode) {
+                // Deactivate emergency
+                isEmergencyMode = false;
+                document.getElementById('emergencyAlert').style.display = 'none';
+                document.body.classList.remove('glitch-effect');
+                alert('✅ Emergency Protocol Deactivated\n\nSystem returning to normal operations.');
+            } else {
+                // Activate emergency
+                isEmergencyMode = true;
+                document.getElementById('emergencyAlert').style.display = 'block';
+                document.body.classList.add('glitch-effect');
+                
+                // Show emergency modal
+                const modal = document.getElementById('attackModal');
+                const content = document.getElementById('modalContent');
+                content.innerHTML = `
+                    <p style="color: #ff0040; font-size: 18px; font-weight: bold;">🚨 SECURITY BREACH DETECTED</p>
+                    <p><strong>Alert Level:</strong> <span style="color: #ff0040;">MAXIMUM</span></p>
+                    <p><strong>Threat:</strong> Advanced Persistent Threat (APT)</p>
+                    <p><strong>Systems Affected:</strong> Multiple critical infrastructure</p>
+                    <p><strong>Estimated Impact:</strong> SEVERE</p>
+                    <p style="color: #ff0040;"><strong>IMMEDIATE ACTION REQUIRED</strong></p>
+                `;
+                modal.style.display = 'block';
+                
+                // Make all nodes compromised
+                networkNodes.forEach(node => {
+                    node.status = 'compromised';
+                    const nodeElement = document.getElementById(node.id);
+                    if (nodeElement) {
+                        nodeElement.className = 'node compromised';
+                    }
+                });
+            }
+        }
+
+        function resetSystem() {
+            alert('🔄 System Reset Initiated\n\nRestoring all systems to secure baseline...');
+            
+            // Reset all nodes to secure
+            networkNodes.forEach(node => {
+                node.status = 'secure';
+                const nodeElement = document.getElementById(node.id);
+                if (nodeElement) {
+                    nodeElement.className = 'node secure';
+                }
+            });
+            
+            // Reset counters
+            attackCounter = 0;
+            document.getElementById('attackCounter').textContent = '0';
+            document.getElementById('activeAttacks').textContent = '0';
+            document.getElementById('compromisedNodes').textContent = '0';
+            document.getElementById('blockedAttacks').textContent = '0';
+            document.getElementById('threatBar').style.width = '10%';
+            document.getElementById('threatText').textContent = 'LOW';
+        }
+    </script>
+</body>
+</html>

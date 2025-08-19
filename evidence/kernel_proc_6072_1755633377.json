@@ -1,0 +1,5592 @@
+{
+  "pid": 6072,
+  "name": "CrossDeviceService.exe",
+  "exe": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+  "cmdline": [
+    "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe"
+  ],
+  "username": "BIGZULU\\zxola",
+  "create_time": 1755080212.9161067,
+  "maps": [
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\l_intl.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\locale.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_1252.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\C_437.NLS",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\ICU\\timezoneTypes.res",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\crypt32.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\Sorting\\SortDefault.nls",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\cversions.2.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\$Extend\\$Deleted\\00070000000B94C8531BB6D7",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\cversions.2.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000009.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\ProgramData\\Microsoft\\Windows\\Caches\\cversions.2.db",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Testably.Abstractions.FileSystem.Interface.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Continuity.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\ICU\\windowsZones.res",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\Windows.Web.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\en-US\\KernelBase.dll.mui",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\ICU\\zoneinfo64.res",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\Globalization\\ICU\\icudtl.dat",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\InstallService.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Encodings.Web.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Encodings.Web.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Encodings.Web.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Encodings.Web.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Sockets.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Sockets.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Sockets.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Sockets.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Sockets.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NetworkInformation.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NetworkInformation.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NetworkInformation.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NetworkInformation.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NetworkInformation.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Threading.Channels.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Threading.Channels.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Threading.Channels.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Threading.Channels.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Threading.Channels.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.RegularExpressions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.RegularExpressions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.RegularExpressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.RegularExpressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.RegularExpressions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WindowsUdk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WindowsUdk.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WindowsUdk.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WindowsUdk.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WindowsUdk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Newtonsoft.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Security.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Security.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Security.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Security.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Security.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\ConnectedDevicesDevKit.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\ConnectedDevicesDevKit.Projection.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\ConnectedDevicesDevKit.Projection.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\ConnectedDevicesDevKit.Projection.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\ConnectedDevicesDevKit.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Streaming.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Streaming.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Streaming.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Streaming.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Streaming.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Rest.ClientRuntime.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Rest.ClientRuntime.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Rest.ClientRuntime.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Rest.ClientRuntime.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Rest.ClientRuntime.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Json.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Json.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Json.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Text.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteControl.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteControl.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteControl.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteControl.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteControl.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Clipboard.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Clipboard.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Clipboard.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Clipboard.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Clipboard.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Continuity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Continuity.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Continuity.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Continuity.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Continuity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.ConnectedDevicesExperience.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.ConnectedDevicesExperience.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.ConnectedDevicesExperience.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.ConnectedDevicesExperience.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.ConnectedDevicesExperience.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Share.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Share.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Share.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Share.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Share.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteSnipping.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteSnipping.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteSnipping.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteSnipping.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.RemoteSnipping.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Settings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Settings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Settings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Settings.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Settings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.Core.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Files.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Auth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.SDK.NET.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\DataStructures.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\DataStructures.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\DataStructures.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\DataStructures.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Share.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Share.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Share.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Share.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Share.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Requests.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Requests.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Requests.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Requests.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Onboarding.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Onboarding.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Onboarding.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Onboarding.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Onboarding.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Diagnostics.DiagnosticSource.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Diagnostics.DiagnosticSource.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Diagnostics.DiagnosticSource.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Diagnostics.DiagnosticSource.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Diagnostics.DiagnosticSource.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WinRT.Runtime.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WinRT.Runtime.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WinRT.Runtime.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WinRT.Runtime.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\WinRT.Runtime.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.Uri.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.Uri.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.Uri.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.Uri.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Private.Uri.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.WinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.Concurrent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.Concurrent.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.Concurrent.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.Concurrent.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.Concurrent.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDeviceService.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.EventBasedAsync.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.EventBasedAsync.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.EventBasedAsync.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.EventBasedAsync.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Memory.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Memory.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Memory.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Memory.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Memory.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Pipelines.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Pipelines.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Pipelines.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Pipelines.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Pipelines.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Hashing.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Hashing.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Hashing.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.Hashing.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.SystemEvents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.SystemEvents.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.SystemEvents.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.SystemEvents.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.Projection.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.Projection.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.Projection.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Streaming.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Primitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Primitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Files.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Files.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Files.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Files.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\LibNanoAPI.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\LibNanoAPI.Projection.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\LibNanoAPI.Projection.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\LibNanoAPI.Projection.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\LibNanoAPI.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Memory.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Memory.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Memory.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Memory.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Caching.Memory.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.ServicesClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.ServicesClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.ServicesClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.ServicesClient.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.ServicesClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.Apps.TraceLogging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.Apps.TraceLogging.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.Apps.TraceLogging.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Windows.Apps.TraceLogging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Shims.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Shims.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Shims.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Shims.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Shims.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\TestableIO.System.IO.Abstractions.Wrappers.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Common.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Common.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Common.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.Protocol.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.Protocol.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.Protocol.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.Protocol.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\YourPhone.YPP.PlatformSdk.Protocol.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Settings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Settings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Settings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Settings.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Settings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Devices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Devices.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Devices.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Devices.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Devices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\LibNanoAPI.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.RetailInfo.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.UserProfile.DiagnosticsSettings.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Principal.Windows.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Principal.Windows.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Principal.Windows.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Principal.Windows.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Principal.Windows.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NameResolution.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NameResolution.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NameResolution.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NameResolution.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.NameResolution.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\NapiNSP.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winrnr.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\clrjit.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\clrjit.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\clrjit.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\coreclr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nlansp_c.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.Registry.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.Registry.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.Registry.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.Registry.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Win32.Registry.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ObjectModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ObjectModel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ObjectModel.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ObjectModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.DependencyInjection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CryptoWinRT.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.PlatformDiagnosticsAndUsageDataSettings.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.Store.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Hosting.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Claims.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Claims.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Claims.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Claims.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshunix.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\msvcp140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wpnapps.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Runtime.InteropServices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Runtime.InteropServices.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Runtime.InteropServices.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Runtime.InteropServices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Security.Authentication.Web.Core.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mssprxy.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.NonGeneric.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.NonGeneric.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.NonGeneric.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Collections.NonGeneric.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.Json.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.Json.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wosc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostpolicy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostpolicy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostpolicy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostpolicy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostpolicy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostfxr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostfxr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostfxr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostfxr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25071.54.0_x64__8wekyb3d8bbwe\\hostfxr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.Projection.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.Projection.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.Projection.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Core.Projection.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Platform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Platform.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Platform.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Platform.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Platform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Platform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Platform.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Platform.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Platform.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Devices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Devices.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Devices.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\CrossDevice.Contracts.Devices.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Cryptography.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Cryptography.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Cryptography.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Cryptography.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Security.Cryptography.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.Expressions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Http.Polly.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Http.Polly.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Http.Polly.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Http.Polly.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Primitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Primitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Primitives.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Net.Http.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Polly.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.Primitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.Primitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.ComponentModel.Primitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.FileSystem.Watcher.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.FileSystem.Watcher.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.FileSystem.Watcher.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.IO.FileSystem.Watcher.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\System.Linq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Json.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Json.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.Json.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.WExp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.WExp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.WExp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.WExp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\SharedUtilities.WExp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Diagnostics.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Physical.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dusmapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FlightSettings.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\CorePrivacySettingsStore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.FileExplorer.Common.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Management.Workplace.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Networking.Connectivity.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Storage.ApplicationData.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.ApplicationModel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\DiagnosticDataSettings.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mpr.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncryptsslp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryClient.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.StateRepositoryCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Web.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\vaultcli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140_1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140_1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\microsoft.vclibs.140.00.uwpdesktop_14.0.33728.0_x64__8wekyb3d8bbwe\\vcruntime140_1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.System.Profile.SystemId.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mfsensorgroup.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreCommonProxyStub.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\srvcli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\iertutil.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Configuration.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Configuration.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25071.33.0_x64__cw5n1h2txyewy\\Microsoft.Extensions.Logging.Configuration.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\BthRadioMedia.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Radios.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\npmproxy.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\FWPUCLNT.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wshbth.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\twinapi.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\AppXDeploymentClient.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\UserMgrProxy.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mobilenetworking.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wlanapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winhttp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rasadhlp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Clipc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\Windows.Devices.Bluetooth.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dhcpcsvc6.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\usermgrcli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp110_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\policymanager.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winnsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wtsapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\uxtheme.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\icu.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\propsys.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rmclient.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\windows.storage.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\netutils.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\IPHLPAPI.DLL",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dnsapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\schannel.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rsaenh.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel.appcore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sspicli.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\mswsock.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\userenv.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\wldp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cryptsp.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntasn1.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ncrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\devobj.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\cfgmgr32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\dpapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\winsta.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\umpdc.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcrypt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\profapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\bcryptprimitives.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcp_win.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\WinTypes.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\crypt32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ucrtbase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\KernelBase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\win32u.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32full.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\combase.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\rpcrt4.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\gdi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\oleaut32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\advapi32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ws2_32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shlwapi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msvcrt.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\imm32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ole32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\sechost.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\nsi.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\user32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\shell32.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\SHCore.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "wc"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\clbcatq.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\msctf.dll",
+      "perms": "?"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "rw"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "r"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "xr"
+    },
+    {
+      "path": "C:\\Windows\\System32\\ntdll.dll",
+      "perms": "?"
+    }
+  ]
+}

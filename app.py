@@ -340,6 +340,21 @@ def login():
 def team_collaboration():
     return render_template('team_collaboration.html')
 
+@app.route('/network_universe')
+@login_required  
+def network_universe():
+    return render_template('network_universe.html')
+
+@app.route('/attack_visualization') 
+@login_required
+def attack_visualization():
+    return render_template('attack_visualization.html')
+
+@app.route('/ar_mobile')
+@login_required  
+def ar_mobile():
+    return render_template('ar_mobile.html')  # We'll build this next
+
 @app.route('/logout')
 @login_required
 def logout():

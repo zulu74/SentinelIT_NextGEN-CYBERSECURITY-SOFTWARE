@@ -30,3 +30,7 @@
 {"level": "INFO", "message": "Password reset requested by staff ID 001", "ts": "2025-08-17T13:14:42.196650+00:00"}
 {"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-17T15:33:00.597212+00:00"}
 {"level": "INFO", "message": "Password reset requested by staff ID 001", "ts": "2025-08-17T15:33:00.607623+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-19T11:55:22.369742+00:00"}
+{"level": "INFO", "message": "Unauthorized login detected for staff ID 105", "ts": "2025-08-19T11:55:22.377803+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-19T19:49:10.150642+00:00"}
+{"level": "INFO", "message": "Access attempt blocked: Invalid staff clearance level", "ts": "2025-08-19T19:49:10.162907+00:00"}
