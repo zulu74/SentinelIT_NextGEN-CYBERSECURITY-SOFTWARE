@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelIT - User Management</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e8e8e8;
+            font-family: 'Courier New', monospace;
+            min-height: 100vh;
+        }
+        
+        .navbar {
+            background: rgba(0,0,0,0.9) !important;
+            border-bottom: 2px solid #00ff41;
+        }
+        
+        .card {
+            background: rgba(15, 15, 35, 0.9);
+            border: 1px solid #00ff41;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+        }
+        
+        .card-header {
+            background: rgba(0, 255, 65, 0.1);
+            border-bottom: 1px solid #00ff41;
+        }
+        
+        .table-dark {
+            background: rgba(20, 20, 40, 0.9);
+        }
+        
+        .btn-outline-success {
+            border-color: #00ff41;
+            color: #00ff41;
+        }
+        
+        .btn-outline-success:hover {
+            background-color: #00ff41;
+            color: #000;
+        }
+        
+        .btn-outline-danger {
+            border-color: #ff4444;
+            color: #ff4444;
+        }
+        
+        .btn-outline-danger:hover {
+            background-color: #ff4444;
+            color: #fff;
+        }
+        
+        .btn-outline-warning {
+            border-color: #ffc107;
+            color: #ffc107;
+        }
+        
+        .btn-outline-warning:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+        
+        .badge {
+            font-size: 0.8em;
+        }
+        
+        .modal-content {
+            background: rgba(15, 15, 35, 0.95);
+            border: 1px solid #00ff41;
+        }
+        
+        .modal-header {
+            border-bottom: 1px solid #00ff41;
+        }
+        
+        .modal-footer {
+            border-top: 1px solid #00ff41;
+        }
+        
+        .form-control {
+            background: rgba(30, 30, 50, 0.8);
+            border: 1px solid #555;
+            color: #e8e8e8;
+        }
+        
+        .form-control:focus {
+            background: rgba(30, 30, 50, 0.9);
+            border-color: #00ff41;
+            color: #e8e8e8;
+            box-shadow: 0 0 0 0.2rem rgba(0, 255, 65, 0.25);
+        }
+        
+        .form-select {
+            background: rgba(30, 30, 50, 0.8);
+            border: 1px solid #555;
+            color: #e8e8e8;
+        }
+        
+        .form-select:focus {
+            border-color: #00ff41;
+            box-shadow: 0 0 0 0.2rem rgba(0, 255, 65, 0.25);
+        }
+        
+        .navbar-brand, .nav-link {
+            color: #00ff41 !important;
+        }
+        
+        .status-active { color: #00ff41; }
+        .status-inactive { color: #ff4444; }
+        .status-investigating { color: #ffc107; }
+        
+        .stats-card {
+            background: rgba(0, 255, 65, 0.1);
+            border-left: 4px solid #00ff41;
+        }
+        
+        .metric-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00ff41;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('dashboard') }}">
+                <i class="fas fa-shield-alt me-2"></i>SentinelIT - User Management
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('dashboard') }}">
+                    <i class="fas fa-tachometer-alt"></i> Dashboard
+                </a>
+                <a class="nav-link" href="{{ url_for('security_modules') }}">
+                    <i class="fas fa-shield-alt"></i> Security
+                </a>
+                <a class="nav-link" href="{{ url_for('threat_logs') }}">
+                    <i class="fas fa-exclamation-triangle"></i> Threats
+                </a>
+                <a class="nav-link" href="{{ url_for('logout') }}">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <!-- Page Header -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2><i class="fas fa-users text-primary"></i> User Management Console</h2>
+                <p class="text-muted">Manage SentinelIT users, roles, and security profiles</p>
+            </div>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card stats-card">
+                    <div class="card-body text-center">
+                        <h5>Total Users</h5>
+                        <div class="metric-number">{{ stats.total_users }}</div>
+                        <small class="text-muted">System-wide</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stats-card">
+                    <div class="card-body text-center">
+                        <h5>Active Users</h5>
+                        <div class="metric-number text-success">{{ stats.active_users }}</div>
+                        <small class="text-muted">Currently online</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stats-card">
+                    <div class="card-body text-center">
+                        <h5>Investigating</h5>
+                        <div class="metric-number text-warning">{{ stats.investigating_users }}</div>
+                        <small class="text-muted">Active investigations</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card stats-card">
+                    <div class="card-body text-center">
+                        <h5>Threats Blocked</h5>
+                        <div class="metric-number text-danger">{{ stats.threats_blocked }}</div>
+                        <small class="text-muted">This month</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- User Management Section -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5><i class="fas fa-users"></i> System Users</h5>
+                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#addUserModal">
+                    <i class="fas fa-user-plus"></i> Add New User
+                </button>
+            </div>
+            <div class="card-body">
+                <!-- Alert Area -->
+                <div id="alertArea"></div>
+                
+                <!-- Users Table -->
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-user"></i> User</th>
+                                <th><i class="fas fa-envelope"></i> Email</th>
+                                <th><i class="fas fa-shield-alt"></i> Role</th>
+                                <th><i class="fas fa-building"></i> Department</th>
+                                <th><i class="fas fa-desktop"></i> Endpoints</th>
+                                <th><i class="fas fa-exclamation-triangle"></i> Threats</th>
+                                <th><i class="fas fa-clock"></i> Last Seen</th>
+                                <th><i class="fas fa-toggle-on"></i> Status</th>
+                                <th><i class="fas fa-cogs"></i> Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="usersTableBody">
+                            {% for user in users %}
+                            <tr id="user-{{ user.id }}">
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar-circle me-2 bg-{% if user.role == 'admin' %}danger{% else %}primary{% endif %}">
+                                            {{ user.email[0].upper() }}
+                                        </div>
+                                        <strong>{{ user.email.split('@')[0].title() }}</strong>
+                                    </div>
+                                </td>
+                                <td>{{ user.email }}</td>
+                                <td>
+                                    <span class="badge bg-{% if user.role == 'admin' %}danger{% else %}primary{% endif %}">
+                                        {% if user.role == 'admin' %}
+                                            <i class="fas fa-crown"></i> ADMIN
+                                        {% else %}
+                                            <i class="fas fa-user"></i> USER
+                                        {% endif %}
+                                    </span>
+                                </td>
+                                <td>{{ user.department }}</td>
+                                <td>
+                                    <span class="badge bg-info">{{ user.endpoints_count }}</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-{% if user.threats_detected > 10 %}danger{% elif user.threats_detected > 5 %}warning{% else %}success{% endif %}">
+                                        {{ user.threats_detected }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if user.last_seen %}
+                                        <small>{{ user.last_seen.strftime('%Y-%m-%d %H:%M') }}</small>
+                                    {% else %}
+                                        <small class="text-muted">Never</small>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <span class="status-{{ user.status }}">
+                                        <i class="fas fa-circle"></i> {{ user.status.title() }}
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="btn-group btn-group-sm">
+                                        <button class="btn btn-outline-warning" onclick="editUser({{ user.id }})">
+                                            <i class="fas fa-edit"></i>
+                                        </button>
+                                        <button class="btn btn-outline-info" onclick="viewUserDetails({{ user.id }})">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                        {% if user.role != 'admin' %}
+                                        <button class="btn btn-outline-danger" onclick="deleteUser({{ user.id }})">
+                                            <i class="fas fa-trash"></i>
+                                        </button>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add User Modal -->
+    <div class="modal fade" id="addUserModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-user-plus"></i> Add New User</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <form id="addUserForm">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Role</label>
+                            <select class="form-select" name="role" required>
+                                <option value="user">User</option>
+                                <option value="admin">Administrator</option>
+                                <option value="analyst">Security Analyst</option>
+                                <option value="operator">SOC Operator</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Department</label>
+                            <select class="form-select" name="department" required>
+                                <option value="IT Security">IT Security</option>
+                                <option value="Network Operations">Network Operations</option>
+                                <option value="Incident Response">Incident Response</option>
+                                <option value="Compliance">Compliance</option>
+                                <option value="Management">Management</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Security Profile</label>
+                            <select class="form-select" name="security_profile">
+                                <option value="standard">Standard</option>
+                                <option value="enterprise">Enterprise</option>
+                                <option value="high-security">High Security</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-outline-success">
+                            <i class="fas fa-plus"></i> Add User
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Details Modal -->
+    <div class="modal fade" id="userDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-user"></i> User Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="userDetailsContent">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add User Form Handler
+        document.getElementById('addUserForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            // Show loading state
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Adding...';
+            submitBtn.disabled = true;
+            
+            fetch('/add_user', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showAlert('success', data.message);
+                    document.getElementById('addUserModal').querySelector('.btn-close').click();
+                    this.reset();
+                    setTimeout(() => location.reload(), 1500);
+                } else {
+                    showAlert('danger', data.message);
+                }
+            })
+            .catch(error => {
+                showAlert('danger', 'Error adding user: ' + error.message);
+            })
+            .finally(() => {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            });
+        });
+        
+        function showAlert(type, message) {
+            const alertArea = document.getElementById('alertArea');
+            const alert = document.createElement('div');
+            alert.className = `alert alert-${type} alert-dismissible fade show`;
+            alert.innerHTML = `
+                <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-triangle'}"></i>
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            alertArea.appendChild(alert);
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                if (alert.parentNode) {
+                    alert.remove();
+                }
+            }, 5000);
+        }
+        
+        function editUser(userId) {
+            showAlert('info', `Edit functionality for user ${userId} - Coming soon!`);
+        }
+        
+        function viewUserDetails(userId) {
+            // Simulate user details
+            const userDetailsContent = document.getElementById('userDetailsContent');
+            userDetailsContent.innerHTML = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-info-circle"></i> Basic Information</h6>
+                        <p><strong>User ID:</strong> ${userId}</p>
+                        <p><strong>Account Created:</strong> ${new Date().toLocaleDateString()}</p>
+                        <p><strong>Security Level:</strong> Enterprise</p>
+                        <p><strong>Two-Factor Auth:</strong> <span class="badge bg-success">Enabled</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6><i class="fas fa-chart-bar"></i> Activity Stats</h6>
+                        <p><strong>Login Sessions:</strong> 142</p>
+                        <p><strong>Threats Handled:</strong> ${Math.floor(Math.random() * 50)}</p>
+                        <p><strong>Avg Session Time:</strong> 4.2 hours</p>
+                        <p><strong>Last Login:</strong> ${new Date().toLocaleString()}</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-12">
+                        <h6><i class="fas fa-history"></i> Recent Activity</h6>
+                        <ul class="list-unstyled">
+                            <li><small class="text-muted">${new Date(Date.now() - 300000).toLocaleString()}</small> - Accessed threat dashboard</li>
+                            <li><small class="text-muted">${new Date(Date.now() - 900000).toLocaleString()}</small> - Updated security profile</li>
+                            <li><small class="text-muted">${new Date(Date.now() - 1800000).toLocaleString()}</small> - Logged into system</li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            const modal = new bootstrap.Modal(document.getElementById('userDetailsModal'));
+            modal.show();
+        }
+        
+        function deleteUser(userId) {
+            if (confirm('Are you sure you want to delete this user? This action cannot be undone.')) {
+                showAlert('warning', `Delete functionality for user ${userId} - Coming soon!`);
+            }
+        }
+        
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add avatar circles style
+            const style = document.createElement('style');
+            style.textContent = `
+                .avatar-circle {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: bold;
+                    font-size: 14px;
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+rule SuspiciousKernelDriver
+{
+    meta:
+        author = "SentinelIT"
+        description = "Detects suspicious kernel-mode drivers"
+    strings:
+        $s1 = "malicious_driver.sys"
+        $s2 = "hooked_syscall"
+    condition:
+        any of ($s*)
+}
+
+rule HiddenProcess
+{
+    meta:
+        author = "SentinelIT"
+        description = "Detect hidden processes by unusual names"
+    strings:
+        $p1 = "stealthproc.exe"
+    condition:
+        any of ($p*)
+}
+
+rule MemoryInjection
+{
+    meta:
+        author = "SentinelIT"
+        description = "Detect memory injection attempts"
+    strings:
+        $m1 = "CreateRemoteThread"
+        $m2 = "VirtualAllocEx"
+    condition:
+        any of ($m*)
+}

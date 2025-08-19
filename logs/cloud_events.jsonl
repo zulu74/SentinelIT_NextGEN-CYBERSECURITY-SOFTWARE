@@ -1,0 +1,24 @@
+{"timestamp": "2025-08-16T13:31:36.977758", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T13:40:38.559300", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T13:48:27.798344", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T13:48:33.075889", "module": "PacketShield", "event_type": "module_start", "details": {"module": "PacketShield", "interface": "eth0"}}
+{"timestamp": "2025-08-16T13:57:39.388389", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T13:57:41.561524", "module": "KERNELWATCH", "event_type": "module_start", "details": {"module": "KERNELWATCH"}}
+{"timestamp": "2025-08-16T13:57:41.993824", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:42.412510", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:42.713084", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:42.777393", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:43.264711", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:43.519410", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:43.613740", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T13:57:43.917680", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\kernel32.dll"}}
+{"timestamp": "2025-08-16T13:57:44.520786", "module": "PacketShield", "event_type": "module_start", "details": {"module": "PacketShield", "interface": "wlan0"}}
+{"timestamp": "2025-08-16T13:57:44.654256", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\kernel32.dll"}}
+{"timestamp": "2025-08-16T13:57:44.378803", "module": "PacketShield", "event_type": "module_start", "details": {"module": "PacketShield", "interface": "eth0"}}
+{"timestamp": "2025-08-16T14:14:08.927174", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T14:14:10.492570", "module": "KERNELWATCH", "event_type": "module_start", "details": {"module": "KERNELWATCH"}}
+{"timestamp": "2025-08-16T14:14:10.550275", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T14:14:10.550337", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T14:14:10.550362", "module": "KERNELWATCH", "event_type": "kernel_module_alert", "details": {"pid": 132, "name": "wlanext.exe", "path": "C:\\Windows\\System32\\KernelBase.dll"}}
+{"timestamp": "2025-08-16T14:37:15.499777", "module": "USBWatch", "event_type": "module_start", "details": {"module": "USBWatch"}}
+{"timestamp": "2025-08-16T14:37:16.800557", "module": "KERNELWATCH", "event_type": "module_start", "details": {"module": "KERNELWATCH"}}

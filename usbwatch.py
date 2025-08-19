@@ -1,73 +1,91 @@
+#!/usr/bin/env python3
+"""
+usbwatch.py — USB Device Monitoring for SentinelIT
 
-import os
+Features:
+- Detects USB insertion/removal
+- Scans for suspicious files and YARA matches
+- Emits events to CloudWatch for logging and S3 sync
+- Threaded background monitoring
+"""
+
+import threading
 import time
+from pathlib import Path
+
+# Use your existing YARA scanning methods here
+try:
+    import yara
+    YARA_AVAILABLE = True
+except Exception:
+    yara = None
+    YARA_AVAILABLE = False
+
+# Replace actual USB detection with psutil or pyudev if on Linux
 import psutil
 
-scanned_drives = set()
+from cloudwatch import emit_event
 
-def scan_file(filepath):
-    # Simulated scan logic (replace with real AV or heuristic scan)
-    with open(filepath, 'rb') as f:
-        content = f.read()
-        if b"malicious" in content or filepath.lower().endswith("setup.exe"):
-            return True
-    return False
+SCAN_INTERVAL = 5  # seconds
+MONITORED_PATHS = ["D:\\", "E:\\"]  # Example mount points for Windows
 
-def alert_admin(message):
-    print(f"[USBWatch][ALERT] {message}")
+def scan_usb(mountpoint: str):
+    """
+    Simulated scan function for files in USB drive
+    """
+    suspicious_files = []
+    yara_matches = []
+
+    # Iterate files (simulate detection)
+    for f in Path(mountpoint).rglob("*.*"):
+        if "malware" in f.name.lower():
+            suspicious_files.append(f)
+            if YARA_AVAILABLE:
+                yara_matches.append({"file": str(f), "hits": ["FakeRule1"]})
+
+    return suspicious_files, yara_matches
 
 def monitor_usb():
-    print("[USBWatch] Monitoring for USB insertions...")
+    emit_event("USBWatch", "module_start", {"module": "USBWatch"})
+    print("[USBWatch] Monitoring USB devices...")
+
+    known_devices = set()
     while True:
-        try:
-            current_drives = {d.device for d in psutil.disk_partitions() if 'removable' in d.opts}
-            new_drives = current_drives - scanned_drives
+        for mount in MONITORED_PATHS:
+            if Path(mount).exists():
+                device_id = mount  # Simple simulation
+                if device_id not in known_devices:
+                    known_devices.add(device_id)
+                    emit_event("USBWatch", "usb_insert", {"device": device_id, "mountpoint": mount})
+                    suspicious_files, yara_matches = scan_usb(mount)
 
-            for drive in new_drives:
-                scanned_drives.add(drive)
-                print(f"[USBWatch] New USB detected: {drive}")
-                infected = False
-                for root, dirs, files in os.walk(drive):
-                    for file in files:
-                        filepath = os.path.join(root, file)
-                        try:
-                            if scan_file(filepath):
-                                alert_admin(f"Malicious file found: {filepath}")
-                                infected = True
-                        except Exception as e:
-                            print(f"[USBWatch] Error scanning {filepath}: {e}")
-                if not infected:
-                    print(f"[USBWatch] USB {drive} is clean and ready to use.")
-
-            time.sleep(10)
-        except KeyboardInterrupt:
-            print("[USBWatch] Monitoring interrupted by user.")
-            break
-
-if __name__ == "__main__":
-    monitor_usb()
-
-import time
-from datetime import datetime
-import random
-
-# Simulated USB insertions
-usb_events = [
-    {"device": "Kingston USB", "serial": "SN-4459X", "user": "Admin", "risk": "Low"},
-    {"device": "Sandisk Cruzer", "serial": "SN-9021Z", "user": "Analyst1", "risk": "Medium"},
-    {"device": "Unrecognized Device", "serial": "SN-???", "user": "Unknown", "risk": "High"},
-    {"device": "Lexar USB", "serial": "SN-7842L", "user": "Staff04", "risk": "Low"},
-]
+                    if suspicious_files or yara_matches:
+                        emit_event("USBWatch", "usb_suspicious", {
+                            "device": device_id,
+                            "mountpoint": mount,
+                            "heur_count": len(suspicious_files),
+                            "yara_count": len(yara_matches)
+                        })
+                        for yh in yara_matches:
+                            emit_event("USBWatch", "yara_usb_match", {
+                                "device": device_id,
+                                "file": yh.get("file"),
+                                "hits": yh.get("hits")
+                            })
+                    else:
+                        emit_event("USBWatch", "usb_clean", {"device": device_id, "mountpoint": mount})
+        time.sleep(SCAN_INTERVAL)
 
 def start():
-    print("[USBWATCH] Monitoring USB ports for activity...\n")
-    for _ in range(5):
-        event = random.choice(usb_events)
-        print(f"[USBWATCH] Device Detected: {event['device']} | Serial: {event['serial']} | User: {event['user']} | Risk Level: {event['risk']} | Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        if event["risk"] == "High":
-            print("[ALERT] High-risk USB device inserted. Initiating lockdown sequence and alert dispatch...\n")
-        time.sleep(4)
+    t = threading.Thread(target=monitor_usb, daemon=True)
+    t.start()
+
+def main():
+    start()
+    while True:
+        time.sleep(60)
 
 if __name__ == "__main__":
-    start()
+    main()
+
 

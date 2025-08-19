@@ -1,0 +1,13 @@
+{
+  "created": "2025-08-15T14:07:18.472059Z",
+  "entries": {
+    "C:\\Windows\\Boot\\EFI\\bootmgfw.efi": {
+      "sha256": "8c15458fa832863f51b9756cf6481c012e66c7f9be84574315a133c00a9e23af",
+      "size": 2830240
+    },
+    "C:\\Windows\\System32\\winload.efi": {
+      "sha256": "b03507be6eec6eb1034051f5e5e0869b3b80f9931baabce2d254dd8049cf9b0e",
+      "size": 3293848
+    }
+  }
+}

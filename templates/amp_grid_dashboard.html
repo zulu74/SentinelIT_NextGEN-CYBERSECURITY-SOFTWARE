@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelIT - Power Grid Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { 
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e8e8e8;
+            font-family: 'Courier New', monospace;
+            min-height: 100vh;
+        }
+        
+        .navbar {
+            background: rgba(0,0,0,0.9) !important;
+            border-bottom: 2px solid #00ff41;
+        }
+        
+        .card {
+            background: rgba(15, 15, 35, 0.9);
+            border: 1px solid #00ff41;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+        }
+        
+        .card-header {
+            background: rgba(0, 255, 65, 0.1);
+            border-bottom: 1px solid #00ff41;
+        }
+        
+        .grid-status {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .status-online { 
+            background: rgba(0, 255, 65, 0.2); 
+            border: 1px solid #00ff41;
+        }
+        
+        .status-offline { 
+            background: rgba(255, 0, 0, 0.2); 
+            border: 1px solid #ff4444;
+        }
+        
+        .metric-display {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #00ff41;
+            text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+        
+        .substation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .substation-card {
+            background: rgba(20, 20, 40, 0.8);
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .substation-card:hover {
+            border-color: #00ff41;
+            box-shadow: 0 0 15px rgba(0, 255, 65, 0.3);
+        }
+        
+        .substation-online {
+            border-left: 4px solid #00ff41;
+        }
+        
+        .substation-offline {
+            border-left: 4px solid #ff4444;
+        }
+        
+        .alert-item {
+            background: rgba(255, 193, 7, 0.1);
+            border-left: 4px solid #ffc107;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .alert-high {
+            border-left-color: #dc3545;
+            background: rgba(220, 53, 69, 0.1);
+        }
+        
+        .btn-outline-success {
+            border-color: #00ff41;
+            color: #00ff41;
+        }
+        
+        .btn-outline-success:hover {
+            background-color: #00ff41;
+            color: #000;
+        }
+        
+        .btn-outline-warning {
+            border-color: #ffc107;
+            color: #ffc107;
+        }
+        
+        .btn-outline-warning:hover {
+            background-color: #ffc107;
+            color: #000;
+        }
+        
+        .btn-outline-info {
+            border-color: #17a2b8;
+            color: #17a2b8;
+        }
+        
+        .btn-outline-info:hover {
+            background-color: #17a2b8;
+            color: #fff;
+        }
+        
+        .btn-outline-danger {
+            border-color: #dc3545;
+            color: #dc3545;
+        }
+        
+        .btn-outline-danger:hover {
+            background-color: #dc3545;
+            color: #fff;
+        }
+        
+        .navbar-brand {
+            color: #00ff41 !important;
+            font-weight: bold;
+        }
+        
+        .nav-link {
+            color: #e8e8e8 !important;
+        }
+        
+        .nav-link:hover {
+            color: #00ff41 !important;
+        }
+        
+        .text-success { color: #00ff41 !important; }
+        .text-danger { color: #ff4444 !important; }
+        .text-warning { color: #ffc107 !important; }
+        .text-info { color: #17a2b8 !important; }
+        
+        .bg-success { background-color: #00ff41 !important; color: #000 !important; }
+        .bg-danger { background-color: #ff4444 !important; }
+        .bg-warning { background-color: #ffc107 !important; color: #000 !important; }
+        .bg-info { background-color: #17a2b8 !important; }
+        
+        .grid-map {
+            background: rgba(10, 10, 30, 0.9);
+            border: 1px solid #00ff41;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .grid-visualization {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 5px;
+            margin-top: 15px;
+        }
+        
+        .grid-node {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .grid-node.online {
+            background: #00ff41;
+            color: #000;
+            box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+        }
+        
+        .grid-node.offline {
+            background: #ff4444;
+            color: #fff;
+            box-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+        }
+        
+        .grid-node:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('dashboard') }}">
+                <i class="fas fa-bolt me-2"></i>SentinelIT - Power Grid Monitor
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('dashboard') }}">
+                    <i class="fas fa-tachometer-alt"></i> Dashboard
+                </a>
+                <a class="nav-link" href="{{ url_for('security_modules') }}">
+                    <i class="fas fa-shield-alt"></i> Security Modules
+                </a>
+                <a class="nav-link" href="{{ url_for('threat_logs') }}">
+                    <i class="fas fa-exclamation-triangle"></i> Threats
+                </a>
+                <a class="nav-link" href="{{ url_for('logout') }}">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <!-- Page Header -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2><i class="fas fa-bolt text-warning"></i> Power Grid Monitoring System</h2>
+                <p class="text-muted">Real-time monitoring of electrical power distribution network</p>
+            </div>
+        </div>
+
+        <!-- Grid Overview Stats -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Total Substations</h5>
+                        <div class="metric-display">{{ grid_data.total_substations }}</div>
+                        <small class="text-muted">Network Coverage</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Online</h5>
+                        <div class="metric-display text-success">{{ grid_data.active_substations }}</div>
+                        <small class="text-muted">Operational Units</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Offline</h5>
+                        <div class="metric-display text-danger">{{ grid_data.offline_substations }}</div>
+                        <small class="text-muted">Requires Attention</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Grid Load</h5>
+                        <div class="metric-display text-warning">{{ "%.1f"|format(grid_data.grid_load) }}%</div>
+                        <small class="text-muted">Current Demand</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid Performance Metrics -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-chart-line"></i> Voltage Stability</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="metric-display text-success">{{ "%.1f"|format(grid_data.voltage_stability) }}%</div>
+                        <p class="text-muted">Normal operating range</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-success" style="width: {{ grid_data.voltage_stability }}%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-wave-square"></i> Frequency</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="metric-display">{{ "%.2f"|format(grid_data.frequency) }} Hz</div>
+                        <p class="text-muted">Target: 50.00 Hz</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-info" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-battery-three-quarters"></i> Power Factor</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="metric-display text-info">{{ "%.2f"|format(grid_data.power_factor) }}</div>
+                        <p class="text-muted">Excellent efficiency</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-warning" style="width: {{ (grid_data.power_factor * 100) }}%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Alerts and Controls -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-exclamation-triangle"></i> Recent Grid Alerts</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if grid_data.recent_alerts %}
+                            {% for alert in grid_data.recent_alerts %}
+                            <div class="alert-item {% if alert.severity == 'high' %}alert-high{% endif %}">
+                                <div class="d-flex justify-content-between">
+                                    <strong>{{ alert.substation }}</strong>
+                                    <span class="badge bg-{% if alert.severity == 'high' %}danger{% elif alert.severity == 'medium' %}warning{% else %}info{% endif %}">
+                                        {{ alert.severity.upper() }}
+                                    </span>
+                                </div>
+                                <p class="mb-1">{{ alert.alert }}</p>
+                                <small class="text-muted">{{ alert.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</small>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="text-center text-muted">
+                                <i class="fas fa-check-circle fa-3x mb-3"></i>
+                                <p>No recent alerts - Grid operating normally</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-cogs"></i> Grid Control Actions</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-success" onclick="performGridAction('load_balance')">
+                                <i class="fas fa-balance-scale"></i> Rebalance Load
+                            </button>
+                            <button class="btn btn-outline-warning" onclick="performGridAction('voltage_adjust')">
+                                <i class="fas fa-sliders-h"></i> Adjust Voltage
+                            </button>
+                            <button class="btn btn-outline-info" onclick="performGridAction('frequency_sync')">
+                                <i class="fas fa-sync"></i> Synchronize Frequency
+                            </button>
+                            <button class="btn btn-outline-danger" onclick="performGridAction('emergency_shutdown')">
+                                <i class="fas fa-power-off"></i> Emergency Isolation
+                            </button>
+                        </div>
+                        
+                        <div id="actionResult" class="mt-3"></div>
+                        
+                        <div class="mt-4">
+                            <h6><i class="fas fa-info-circle"></i> System Status</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <small class="text-muted">Last Update:</small><br>
+                                    <strong id="lastUpdate">{{ moment().format('HH:mm:ss') }}</strong>
+                                </div>
+                                <div class="col-6">
+                                    <small class="text-muted">Grid Operator:</small><br>
+                                    <strong>{{ current_user.email }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid Visualization Map -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="fas fa-map-marked-alt"></i> Grid Network Visualization</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted mb-3">Interactive grid topology - Click nodes for details</p>
+                        <div class="grid-visualization">
+                            {% for i in range(1, 46) %}
+                                {% set status = 'online' if i not in [12, 33] else 'offline' %}
+                                <div class="grid-node {{ status }}" 
+                                     onclick="showSubstationDetails({{ i }}, '{{ status }}')"
+                                     title="Substation {{ i }} - {{ status.title() }}">
+                                    {{ i }}
+                                </div>
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="mt-3">
+                            <small class="text-muted">
+                                <i class="fas fa-circle text-success"></i> Online
+                                <i class="fas fa-circle text-danger ms-3"></i> Offline
+                                <span class="ms-3">Click nodes for detailed information</span>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Substation Status Grid -->
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-list"></i> Detailed Substation Status</h5>
+                <div class="float-end">
+                    <button class="btn btn-sm btn-outline-success" onclick="refreshSubstations()">
+                        <i class="fas fa-sync-alt"></i> Refresh
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="substation-grid">
+                    {% for substation in grid_data.substations %}
+                    <div class="substation-card substation-{{ substation.status }}">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <strong>{{ substation.id }}</strong>
+                            <span class="badge bg-{% if substation.status == 'online' %}success{% else %}danger{% endif %}">
+                                <i class="fas fa-{% if substation.status == 'online' %}check{% else %}times{% endif %}"></i>
+                                {{ substation.status.upper() }}
+                            </span>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <small class="text-muted">Load</small><br>
+                                <strong class="{% if substation.load > 90 %}text-danger{% elif substation.load > 80 %}text-warning{% else %}text-success{% endif %}">
+                                    {{ "%.1f"|format(substation.load) }}%
+                                </strong>
+                                <div class="progress mt-1" style="height: 4px;">
+                                    <div class="progress-bar {% if substation.load > 90 %}bg-danger{% elif substation.load > 80 %}bg-warning{% else %}bg-success{% endif %}" 
+                                         style="width: {{ substation.load }}%"></div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">Voltage</small><br>
+                                <strong class="{% if substation.voltage < 215 or substation.voltage > 245 %}text-danger{% elif substation.voltage < 220 or substation.voltage > 240 %}text-warning{% else %}text-success{% endif %}">
+                                    {{ "%.1f"|format(substation.voltage) }}V
+                                </strong>
+                                <div class="progress mt-1" style="height: 4px;">
+                                    <div class="progress-bar {% if substation.voltage < 215 or substation.voltage > 245 %}bg-danger{% elif substation.voltage < 220 or substation.voltage > 240 %}bg-warning{% else %}bg-success{% endif %}" 
+                                         style="width: {{ ((substation.voltage - 200) / 50 * 100) if substation.voltage > 200 else 0 }}%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-center">
+                            <button class="btn btn-sm btn-outline-primary" onclick="manageSubstation('{{ substation.id }}')">
+                                <i class="fas fa-cog"></i> Manage
+                            </button>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row text-center">
+                            <div class="col-md-3">
+                                <h6><i class="fas fa-clock"></i> Last Sync</h6>
+                                <span id="lastSync">{{ moment().format('YYYY-MM-DD HH:mm:ss') }}</span>
+                            </div>
+                            <div class="col-md-3">
+                                <h6><i class="fas fa-database"></i> Data Points</h6>
+                                <span>{{ grid_data.substations|length * 24 }} per hour</span>
+                            </div>
+                            <div class="col-md-3">
+                                <h6><i class="fas fa-shield-alt"></i> Security Status</h6>
+                                <span class="text-success">PowerWatch Active</span>
+                            </div>
+                            <div class="col-md-3">
+                                <h6><i class="fas fa-user"></i> Grid Operator</h6>
+                                <span>{{ current_user.email }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Substation Details Modal -->
+    <div class="modal fade" id="substationModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header border-secondary">
+                    <h5 class="modal-title" id="substationModalTitle">Substation Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="substationModalBody">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+                <div class="modal-footer border-secondary">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-warning" onclick="restartSubstation()">
+                        <i class="fas fa-redo"></i> Restart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let currentSubstation = null;
+
+        function performGridAction(action) {
+            const resultDiv = document.getElementById('actionResult');
+            
+            const actions = {
+                'load_balance': {
+                    message: 'Load balancing initiated across 45 substations...',
+                    class: 'alert-success',
+                    icon: 'fas fa-check-circle'
+                },
+                'voltage_adjust': {
+                    message: 'Voltage regulation algorithms activated...',
+                    class: 'alert-warning',
+                    icon: 'fas fa-exclamation-circle'
+                },
+                'frequency_sync': {
+                    message: 'Grid frequency synchronization in progress...',
+                    class: 'alert-info',
+                    icon: 'fas fa-sync fa-spin'
+                },
+                'emergency_shutdown': {
+                    message: 'Emergency isolation protocols activated!',
+                    class: 'alert-danger',
+                    icon: 'fas fa-exclamation-triangle'
+                }
+            };
+            
+            const actionData = actions[action];
+            if (actionData) {
+                resultDiv.innerHTML = `
+                    <div class="alert ${actionData.class} alert-dismissible fade show" role="alert">
+                        <i class="${actionData.icon} me-2"></i>
+                        ${actionData.message}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                `;
+                
+                // Auto-dismiss after 5 seconds
+                setTimeout(() => {
+                    const alert = resultDiv.querySelector('.alert');
+                    if (alert) {
+                        alert.classList.remove('show');
+                        setTimeout(() => resultDiv.innerHTML = '', 300);
+                    }
+                }, 5000);
+            }
+        }
+
+        function showSubstationDetails(substationId, status) {
+            currentSubstation = substationId;
+            const modal = new bootstrap.Modal(document.getElementById('substationModal'));
+            
+            document.getElementById('substationModalTitle').innerHTML = `
+                <i class="fas fa-bolt"></i> Substation ${substationId}
+            `;
+            
+            const randomLoad = Math.random() * 40 + 60; // 60-100%
+            const randomVoltage = Math.random() * 25 + 220; // 220-245V
+            const randomTemp = Math.random() * 20 + 35; // 35-55°C
+            
+            document.getElementById('substationModalBody').innerHTML = `
+                <div class="row">
+                    <div class="col-6">
+                        <h6><i class="fas fa-info-circle"></i> Basic Info</h6>
+                        <p><strong>Status:</strong> <span class="badge bg-${status === 'online' ? 'success' : 'danger'}">${status.toUpperCase()}</span></p>
+                        <p><strong>Type:</strong> Distribution Substation</p>
+                        <p><strong>Capacity:</strong> 50 MVA</p>
+                        <p><strong>Voltage Level:</strong> 132/33 kV</p>
+                    </div>
+                    <div class="col-6">
+                        <h6><i class="fas fa-chart-bar"></i> Current Metrics</h6>
+                        <p><strong>Load:</strong> ${randomLoad.toFixed(1)}%</p>
+                        <p><strong>Voltage:</strong> ${randomVoltage.toFixed(1)}V</p>
+                        <p><strong>Temperature:</strong> ${randomTemp.toFixed(1)}°C</p>
+                        <p><strong>Last Update:</strong> ${new Date().toLocaleTimeString()}</p>
+                    </div>
+                </div>
+                <hr class="border-secondary">
+                <div class="row">
+                    <div class="col-12">
+                        <h6><i class="fas fa-history"></i> Recent Activity</h6>
+                        <ul class="list-unstyled">
+                            <li><small class="text-muted">${new Date(Date.now() - 300000).toLocaleTimeString()}</small> - Routine maintenance check completed</li>
+                            <li><small class="text-muted">${new Date(Date.now() - 1800000).toLocaleTimeString()}</small> - Load balancing adjustment applied</li>
+                            <li><small class="text-muted">${new Date(Date.now() - 3600000).toLocaleTimeString()}</small> - System status verified</li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            modal.show();
+        }
+
+        function manageSubstation(substationId) {
+            showSubstationDetails(substationId.split('-')[2], 'online');
+        }
+
+        function restartSubstation() {
+            if (currentSubstation) {
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-info mt-3';
+                alert.innerHTML = `
+                    <i class="fas fa-redo fa-spin me-2"></i>
+                    Restarting substation ${currentSubstation}... This may take 2-3 minutes.
+                `;
+                document.getElementById('substationModalBody').appendChild(alert);
+                
+                setTimeout(() => {
+                    alert.className = 'alert alert-success mt-3';
+                    alert.innerHTML = `
+                        <i class="fas fa-check-circle me-2"></i>
+                        Substation ${currentSubstation} restarted successfully!
+                    `;
+                }, 3000);
+            }
+        }
+
+        function refreshSubstations() {
+            // Show loading indicator
+            const refreshBtn = document.querySelector('button[onclick="refreshSubstations()"]');
+            const originalContent = refreshBtn.innerHTML;
+            refreshBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Refreshing...';
+            refreshBtn.disabled = true;
+            
+            // Simulate refresh
+            setTimeout(() => {
+                refreshBtn.innerHTML = originalContent;
+                refreshBtn.disabled = false;
+                
+                // Show success message
+                const alert = document.createElement('div');
+                alert.className = 'alert alert-success alert-dismissible fade show';
+                alert.innerHTML = `
+                    <i class="fas fa-check-circle me-2"></i>
+                    Substation data refreshed successfully!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                `;
+                document.querySelector('.card-body').insertBefore(alert, document.querySelector('.substation-grid'));
+                
+                // Auto-dismiss
+                setTimeout(() => alert.remove(), 3000);
+            }, 2000);
+        }
+
+        // Update timestamps every second
+        function updateTimestamps() {
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString();
+            document.getElementById('lastSync').textContent = new Date().toLocaleString();
+        }
+
+        setInterval(updateTimestamps, 1000);
+
+        // Auto-refresh page every 5 minutes for real-time updates
+        setInterval(() => {
+            location.reload();
+        }, 300000);
+
+        // Initialize tooltips
+        document.addEventListener('DOMContentLoaded', function() {
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[title]'));
+            tooltipTriggerList.map(function(tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+            
+            // Initialize the page
+            updateTimestamps();
+        });
+
+        // Real-time grid monitoring simulation
+        function simulateGridUpdates() {
+            // Simulate small changes in metrics
+            const loadElements = document.querySelectorAll('.metric-display');
+            loadElements.forEach(element => {
+                if (element.textContent.includes('%')) {
+                    const currentValue = parseFloat(element.textContent);
+                    const newValue = currentValue + (Math.random() - 0.5) * 2;
+                    element.textContent = newValue.toFixed(1) + '%';
+                }
+            });
+        }
+
+        // Simulate updates every 10 seconds
+        setInterval(simulateGridUpdates, 10000);
+
+        console.log('SentinelIT Power Grid Dashboard initialized successfully');
+    </script>
+</body>
+</html>

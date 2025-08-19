@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelIT - Multi-Analyst Collaboration Universe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .collaboration-space {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: radial-gradient(circle at center, rgba(0,255,136,0.1) 0%, transparent 70%);
+        }
+
+        .analyst-panel {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            border: 2px solid;
+            border-radius: 15px;
+            padding: 20px;
+            min-width: 300px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+            cursor: move;
+            transition: all 0.3s;
+        }
+
+        .analyst-panel:hover {
+            transform: scale(1.02);
+            z-index: 1000;
+        }
+
+        .analyst-1 { 
+            border-color: #00ff88; 
+            top: 50px; 
+            left: 50px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.5);
+        }
+        .analyst-2 { 
+            border-color: #ff0088; 
+            top: 100px; 
+            right: 50px;
+            box-shadow: 0 0 30px rgba(255,0,136,0.5);
+        }
+        .analyst-3 { 
+            border-color: #8800ff; 
+            bottom: 100px; 
+            left: 100px;
+            box-shadow: 0 0 30px rgba(136,0,255,0.5);
+        }
+        .analyst-4 { 
+            border-color: #ff8800; 
+            bottom: 50px; 
+            right: 100px;
+            box-shadow: 0 0 30px rgba(255,136,0,0.5);
+        }
+
+        .analyst-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .analyst-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            background: radial-gradient(circle, var(--analyst-color), var(--analyst-color-dark));
+            box-shadow: 0 0 15px var(--analyst-color);
+            animation: avatar-pulse 3s infinite ease-in-out;
+        }
+
+        .analyst-info h3 {
+            color: var(--analyst-color);
+            margin-bottom: 5px;
+        }
+
+        .analyst-status {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        .analyst-activity {
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .activity-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            font-size: 12px;
+            animation: fadeInUp 0.5s ease-out;
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .shared-workspace {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 400px;
+            background: rgba(0,0,0,0.95);
+            border: 3px solid #00ff88;
+            border-radius: 20px;
+            box-shadow: 0 0 50px rgba(0,255,136,0.4);
+            display: none;
+            z-index: 2000;
+        }
+
+        .workspace-header {
+            background: linear-gradient(90deg, #00ff88, #00cc66);
+            color: #000;
+            padding: 15px 20px;
+            border-radius: 17px 17px 0 0;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .workspace-content {
+            padding: 20px;
+            height: calc(100% - 60px);
+            overflow-y: auto;
+        }
+
+        .shared-cursor {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            pointer-events: none;
+            z-index: 10000;
+            transition: all 0.1s ease-out;
+        }
+
+        .cursor-1 { color: #00ff88; }
+        .cursor-2 { color: #ff0088; }
+        .cursor-3 { color: #8800ff; }
+        .cursor-4 { color: #ff8800; }
+
+        .communication-hub {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.9);
+            border: 2px solid #00ff88;
+            border-radius: 15px;
+            padding: 15px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+        }
+
+        .chat-messages {
+            max-height: 150px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+        }
+
+        .chat-message {
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.1);
+            animation: slideInRight 0.3s ease-out;
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid #00ff88;
+            border-radius: 5px;
+            padding: 10px;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(0,255,136,0.5);
+        }
+
+        .send-btn {
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .send-btn:hover {
+            box-shadow: 0 0 15px rgba(0,255,136,0.5);
+            transform: translateY(-2px);
+        }
+
+        .voice-controls {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+        }
+
+        .voice-btn {
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #00ff88;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            color: #00ff88;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .voice-btn:hover {
+            background: rgba(0,255,136,0.1);
+            box-shadow: 0 0 20px rgba(0,255,136,0.5);
+        }
+
+        .voice-btn.active {
+            background: rgba(0,255,136,0.2);
+            box-shadow: 0 0 30px rgba(0,255,136,0.8);
+            animation: pulse-voice 1s infinite;
+        }
+
+        .collaboration-stats {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            border: 2px solid #00ff88;
+            border-radius: 10px;
+            padding: 15px;
+            min-width: 200px;
+            box-shadow: 0 0 30px rgba(0,255,136,0.3);
+        }
+
+        .annotation {
+            position: absolute;
+            background: rgba(0,0,0,0.9);
+            border: 2px solid;
+            border-radius: 8px;
+            padding: 10px;
+            max-width: 200px;
+            font-size: 12px;
+            cursor: pointer;
+            z-index: 1500;
+        }
+
+        .annotation::before {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 20px;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 8px solid;
+            border-top-color: inherit;
+        }
+
+        .control-buttons {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .control-btn {
+            background: linear-gradient(45deg, #00ff88, #00cc66);
+            border: none;
+            border-radius: 8px;
+            padding: 12px 20px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .control-btn:hover {
+            background: linear-gradient(45deg, #00cc66, #00ff88);
+            box-shadow: 0 0 20px rgba(0,255,136,0.5);
+            transform: translateY(-2px);
+        }
+
+        .control-btn.danger {
+            background: linear-gradient(45deg, #ff0040, #cc0033);
+            color: white;
+        }
+
+        .control-btn.danger:hover {
+            background: linear-gradient(45deg, #cc0033, #ff0040);
+            box-shadow: 0 0 20px rgba(255,0,64,0.5);
+        }
+
+        .connection-line {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--line-color), transparent);
+            z-index: 100;
+            animation: data-flow 3s linear infinite;
+        }
+
+        @keyframes avatar-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes pulse-voice {
+            0% { box-shadow: 0 0 30px rgba(0,255,136,0.8); }
+            50% { box-shadow: 0 0 50px rgba(0,255,136,1); }
+            100% { box-shadow: 0 0 30px rgba(0,255,136,0.8); }
+        }
+
+        @keyframes data-flow {
+            0% { transform: translateX(-100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(200%); opacity: 0; }
+        }
+
+        .typing-indicator {
+            font-style: italic;
+            color: #888;
+            animation: typing-blink 1.5s infinite;
+        }
+
+        @keyframes typing-blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0.3; }
+        }
+
+        /* Analyst-specific color variables */
+        .analyst-1 { --analyst-color: #00ff88; --analyst-color-dark: #00cc66; }
+        .analyst-2 { --analyst-color: #ff0088; --analyst-color-dark: #cc0066; }
+        .analyst-3 { --analyst-color: #8800ff; --analyst-color-dark: #6600cc; }
+        .analyst-4 { --analyst-color: #ff8800; --analyst-color-dark: #cc6600; }
+    </style>
+</head>
+<body>
+    <div class="collaboration-space" id="collaborationSpace">
+        
+        <!-- Voice Communication Controls -->
+        <div class="voice-controls">
+            <button class="voice-btn" id="voiceMute" title="Toggle Microphone">🎤</button>
+            <button class="voice-btn" id="voiceDeafen" title="Toggle Speakers">🔊</button>
+            <button class="voice-btn" id="screenShare" title="Screen Share">📺</button>
+        </div>
+
+        <!-- Collaboration Statistics -->
+        <div class="collaboration-stats">
+            <h3 style="color: #00ff88; margin-bottom: 10px;">🤝 Team Status</h3>
+            <div style="font-size: 12px;">
+                <div>Active Analysts: <span id="activeAnalysts">4</span></div>
+                <div>Shared Sessions: <span id="sharedSessions">2</span></div>
+                <div>Voice Channels: <span id="voiceChannels">1</span></div>
+                <div>Annotations: <span id="annotationCount">7</span></div>
+            </div>
+            <div style="margin-top: 15px; padding: 10px; background: rgba(0,255,136,0.1); border-radius: 5px;">
+                <div style="color: #00ff88; font-weight: bold; margin-bottom: 5px;">Current Incident:</div>
+                <div style="font-size: 11px;" id="currentIncident">APT-29 Breach Response</div>
+                <div style="font-size: 10px; margin-top: 5px; color: #888;">Priority: CRITICAL</div>
+            </div>
+        </div>
+
+        <!-- Analyst Panels -->
+        <div class="analyst-panel analyst-1" id="analyst1" data-analyst="1">
+            <div class="analyst-header">
+                <div class="analyst-avatar">🛡️</div>
+                <div class="analyst-info">
+                    <h3>Alex Chen - Lead SOC</h3>
+                    <div class="analyst-status">🟢 Active • Investigating alerts</div>
+                </div>
+            </div>
+            <div class="analyst-activity" id="activity1">
+                <div class="activity-item">
+                    <span>🔍 Analyzing malware hash</span>
+                    <span>2 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>📊 Updated risk assessment</span>
+                    <span>5 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>🚨 Escalated to Tier 2</span>
+                    <span>8 min ago</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="analyst-panel analyst-2" id="analyst2" data-analyst="2">
+            <div class="analyst-header">
+                <div class="analyst-avatar">🔬</div>
+                <div class="analyst-info">
+                    <h3>Sarah Kumar - Forensics</h3>
+                    <div class="analyst-status">🟡 Busy • Deep analysis mode</div>
+                </div>
+            </div>
+            <div class="analyst-activity" id="activity2">
+                <div class="activity-item">
+                    <span>🧬 Memory dump analysis</span>
+                    <span>1 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>📁 Extracted IOCs</span>
+                    <span>4 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>🔐 Decrypted payload</span>
+                    <span>7 min ago</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="analyst-panel analyst-3" id="analyst3" data-analyst="3">
+            <div class="analyst-header">
+                <div class="analyst-avatar">⚡</div>
+                <div class="analyst-info">
+                    <h3>Marcus Wolf - Response</h3>
+                    <div class="analyst-status">🔴 Critical • Coordinating containment</div>
+                </div>
+            </div>
+            <div class="analyst-activity" id="activity3">
+                <div class="activity-item">
+                    <span>🚧 Isolated affected systems</span>
+                    <span>30 sec ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>📞 Contacted IT team</span>
+                    <span>3 min ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>🛡️ Deployed countermeasures</span>
+                    <span>6 min ago</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="analyst-panel analyst-4" id="analyst4" data-analyst="4">
+            <div class="analyst-header">
+                <div class="analyst-avatar">🎯</div>
+                <div class="analyst-info">
+                    <h3>Emma Torres - Threat Intel</h3>
+                    <div class="analyst-status">🟢 Active • Gathering intelligence</div>
+                </div>
+            </div>
+            <div class="analyst-activity" id="activity4">
+                <div class="activity-item">
+                    <span>🌐 Threat feed analysis</span>
+                    <span>45 sec ago</span>
+                </div>
+                <div class="activity-item">
+                    <span>📈 Attribution assessment</span>

@@ -1,0 +1,32 @@
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-15T16:20:11.204691+00:00"}
+{"level": "INFO", "message": "Unauthorized login detected for staff ID 105", "ts": "2025-08-15T16:20:11.233459+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-15T16:24:40.292848+00:00"}
+{"level": "INFO", "message": "Access attempt blocked: Invalid staff clearance level", "ts": "2025-08-15T16:24:40.324002+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-15T16:29:22.758549+00:00"}
+{"level": "INFO", "message": "Security alert: Silent duress trigger from reception", "ts": "2025-08-15T16:29:22.787015+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-15T16:50:54.593842+00:00"}
+{"level": "INFO", "message": "Password reset requested by staff ID 001", "ts": "2025-08-15T16:50:54.739279+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-15T20:36:19.116665+00:00"}
+{"level": "INFO", "message": "Helpdesk query: VPN not connecting", "ts": "2025-08-15T20:36:19.199479+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T12:37:39.304790+00:00"}
+{"level": "INFO", "message": "Security alert: Silent duress trigger from reception", "ts": "2025-08-16T12:37:39.313583+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T13:31:37.080426+00:00"}
+{"level": "INFO", "message": "Unauthorized login detected for staff ID 105", "ts": "2025-08-16T13:31:37.086582+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T13:40:38.637314+00:00"}
+{"level": "INFO", "message": "Access attempt blocked: Invalid staff clearance level", "ts": "2025-08-16T13:40:38.651186+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T13:48:27.867615+00:00"}
+{"level": "INFO", "message": "Helpdesk query: VPN not connecting", "ts": "2025-08-16T13:48:27.881900+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T13:57:39.388996+00:00"}
+{"level": "INFO", "message": "Unauthorized login detected for staff ID 105", "ts": "2025-08-16T13:57:39.397445+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T14:03:30.117227+00:00"}
+{"level": "INFO", "message": "Access attempt blocked: Invalid staff clearance level", "ts": "2025-08-16T14:03:30.129154+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T14:14:08.928799+00:00"}
+{"level": "INFO", "message": "Access attempt blocked: Invalid staff clearance level", "ts": "2025-08-16T14:14:08.938944+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T14:33:04.573602+00:00"}
+{"level": "INFO", "message": "Unauthorized login detected for staff ID 105", "ts": "2025-08-16T14:33:04.578600+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-16T14:37:15.506200+00:00"}
+{"level": "INFO", "message": "Helpdesk query: VPN not connecting", "ts": "2025-08-16T14:37:15.509504+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-17T13:14:42.189015+00:00"}
+{"level": "INFO", "message": "Password reset requested by staff ID 001", "ts": "2025-08-17T13:14:42.196650+00:00"}
+{"level": "INFO", "message": "PhantomStaff AI Helpdesk & Security Monitoring initialized.", "ts": "2025-08-17T15:33:00.597212+00:00"}
+{"level": "INFO", "message": "Password reset requested by staff ID 001", "ts": "2025-08-17T15:33:00.607623+00:00"}
